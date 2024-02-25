@@ -747,7 +747,17 @@
     
                 zk.sendMessage(group.id, { text: msg, mentions: membres });
 
-            }   else if (group.action == 'promote' && (await recupevents(group.id, "antipromote") == 'oui') ) {
+            } else if (group.action == 'add' && (await recupevents(group.id, "neowelcome") == 'oui')) {
+                let membres = group.participants;
+                for (let membre of membres) {
+                let msg = `@${membre.split("@")[0]} Bienvenue🙂 💙 : *Remplis les 3️⃣ Étapes en conditions dans la description*, puis après passe prendre ta première card de combat
+
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                             🔷𝗡Ξ𝗢24🏆🔝 \n`;
+     zk.sendMessage(group.id, { image: { url: "https://telegra.ph/file/7c2cb8ff44a0bc3338cdc.jpg" }, caption: msg, mentions: membres });
+                }
+                }  else if (group.action == 'promote' && (await recupevents(group.id, "antipromote") == 'oui') ) {
                 //  console.log(zk.user.id)
               if (group.author == metadata.owner || group.author  == conf.NUMERO_OWNER + '@s.whatsapp.net' || group.author == decodeJid(zk.user.id)  || group.author == group.participants[0]) { console.log('Cas de superUser je fais rien') ;return ;} ;
 
