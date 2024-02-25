@@ -28,7 +28,8 @@ const creerTableevents = async () => {
         welcome text DEFAULT 'non',
         goodbye text DEFAULT 'non',
         antipromote text DEFAULT 'non',
-        antidemote text DEFAULT 'non'
+        antidemote text DEFAULT 'non',
+        neowelcome text DEFAULT 'non'
       );
     `);
     console.log("La table 'events' a été créée avec succès.");
@@ -69,7 +70,24 @@ async function attribuerUnevaleur(jid, row, valeur) {
     }
 };
 
+async function insertData1() {
+  const client = await pool.connect();
 
+  try {
+    // Modifiez la définition de la table pour ajouter les colonnes r40, r41, et r42
+    await client.query(`
+      ALTER TABLE events
+      ADD COLUMN neowelcome TEXT DEFAULT 'non'
+      `);
+
+    console.log('Colonnes r37, r38, et r39 ajoutées avec succès');
+  } catch (error) {
+    console.error('Erreur lors de l\'ajout des colonnes r37, r38, et r39:', error);
+  } finally {
+    client.release();
+  }
+}
+  //insertData1()
 async function recupevents(jid, row) {
      const client = await pool.connect()
     try {
@@ -92,5 +110,6 @@ async function recupevents(jid, row) {
 
 module.exports = {
   attribuerUnevaleur,
+ // insertData1,
   recupevents,
 };
