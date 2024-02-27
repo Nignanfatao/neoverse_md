@@ -127,7 +127,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0e2cf90849b52ddcbb
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'northlily👤',
     categorie: 'NEOverse'
@@ -250,7 +250,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/6983ae39fdaecabba6
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 zokou(
   {
@@ -1002,7 +1002,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'northkiller👤',
     categorie: 'NEOverse'
@@ -1125,7 +1125,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 zokou(
   {
