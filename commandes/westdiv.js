@@ -505,7 +505,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/e7a089cd4c8b003513
     }
   });
 
-/*zokou(
+zokou(
   {
     nomCom: 'westlord16👤',
     categorie: 'NEOverse'
@@ -628,4 +628,4 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/4f2b9048e73dbb8ad1
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });*/
+  });
