@@ -128,7 +128,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/adcc175fdbbb640b47
   });
 
 
-zokou(
+/*zokou(
   {
     nomCom: 'centralcovid👤',
     categorie: 'NEOverse'
@@ -251,7 +251,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2d6e0cb68518359cd8
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 
 zokou(
@@ -380,7 +380,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/ba6008a4f780ee5b47
   });
  
 
-zokou(
+/*zokou(
   {
     nomCom: 'centraldark👤',
     categorie: 'NEOverse'
@@ -629,10 +629,10 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/f56553ddcb5c189c2f
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 
-/*zokou(
+zokou(
   {
     nomCom: 'centralyuki👤',
     categorie: 'NEOverse'
@@ -881,4 +881,4 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/bc697717deb94a4eb5
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });*/
+  });
