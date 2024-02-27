@@ -1,5 +1,5 @@
 const { zokou } = require('../framework/zokou');
-const { getData } = require('../bdd/eastdiv');
+const { getData } = require('../bdd/fichetest');
 
 
 zokou(
@@ -99,7 +99,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/5c45243eab76575302
 
         // Construct and execute the update query for each update
         if (colonneObjet && (signe === '+' || signe === '-' || signe === '=')) {
-            const query = `UPDATE eastdiv SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE fichetest SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour pour ${object}`);
