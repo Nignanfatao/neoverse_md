@@ -252,7 +252,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/9a7dacbf03cd0bce1e
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'eastaltheos👤',
     categorie: 'NEOverse'
@@ -375,7 +375,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a20053d0819eebc105
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 zokou(
   {
