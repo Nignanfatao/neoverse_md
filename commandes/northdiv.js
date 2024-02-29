@@ -877,7 +877,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/928d263729a916dcbf
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'northainz👤',
     categorie: 'NEOverse'
@@ -1000,7 +1000,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
 zokou(
   {
@@ -1053,7 +1053,37 @@ zokou(
                 const { Pool } = require('pg');
                 const pool = new Pool(proConfig);
                 const client = await pool.connect();
-
+              
+if (arg[0] === 'joueur:') {
+          let colonnesJoueur;
+          
+          switch (joueur) {
+    case "Ainz":
+      colonnesJoueur = {
+        pseudo: "e1",
+        division: "e2",
+        classe: "e3",
+        rang_exp: "e4",
+        golds: "e5",
+        neocoins: "e6",
+        gift_box: "e7",
+        coupons: "e8",
+        neopass: "e9",
+        talent: "e10",
+        note: "e11",
+        victoires: "e12",
+        defaites: "e13",
+        trophees: "e14",
+        tos: "e15",
+        awards: "e16",
+        cards: "e17",
+      };
+        break;
+          default:
+      console.log("Nom de joueur non reconnu.");
+              repondre(`joueur: ${joueur} non reconnu`);
+              return; 
+        };
                 let updates = []; // Tableau pour stocker les mises à jour à effectuer
 
                 for (let i = 2; i < arg.length; i += 3) {
