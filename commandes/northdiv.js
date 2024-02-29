@@ -1002,7 +1002,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
     }
   });*/
 
-zokou(
+     zokou(
   {
     nomCom: 'northainz👤',
     categorie: 'NEOverse'
@@ -1054,98 +1054,103 @@ zokou(
                 const pool = new Pool(proConfig);
                 const client = await pool.connect();
               
-if (arg[0] === 'joueur:') {
-          let colonnesJoueur;
-          
-          switch (joueur) {
-    case "Ainz":
-      colonnesJoueur = {
-        pseudo: "e1",
-        division: "e2",
-        classe: "e3",
-        rang_exp: "e4",
-        golds: "e5",
-        neocoins: "e6",
-        gift_box: "e7",
-        coupons: "e8",
-        neopass: "e9",
-        talent: "e10",
-        note: "e11",
-        victoires: "e12",
-        defaites: "e13",
-        trophees: "e14",
-        tos: "e15",
-        awards: "e16",
-        cards: "e17",
-      };
-        break;
-          default:
-      console.log("Nom de joueur non reconnu.");
-              repondre(`joueur: ${joueur} non reconnu`);
-              return; 
-        };
-                let updates = []; // Tableau pour stocker les mises à jour à effectuer
+                if (arg[0] === 'joueur:') {
+                    let colonnesJoueur;
+                    switch (joueur) {
+                        case "Ainz":
+                            colonnesJoueur = {
+                                pseudo: "e1",
+                                division: "e2",
+                                classe: "e3",
+                                rang_exp: "e4",
+                                golds: "e5",
+                                neocoins: "e6",
+                                gift_box: "e7",
+                                coupons: "e8",
+                                neopass: "e9",
+                                talent: "e10",
+                                note: "e11",
+                                victoires: "e12",
+                                defaites: "e13",
+                                trophees: "e14",
+                                tos: "e15",
+                                awards: "e16",
+                                cards: "e17",
+                            };
+                            break;
+                        default:
+                            console.log("Nom de joueur non reconnu.");
+                            repondre(`joueur: ${joueur} non reconnu`);
+                            return; 
+                    }
 
-                for (let i = 2; i < arg.length; i += 3) {
-                    let object = arg[i];
-                    let signe = arg[i + 1];
-                    let valeur = arg[i + 2];
-                    let texte = arg.slice(i + 2).join(' '); // Récupérer tout le texte restant
+                    let updates = []; // Tableau pour stocker les mises à jour à effectuer
 
-                    let colonneObjet = colonnesJoueur[object];
-                    let newValue;
+                    for (let i = 2; i < arg.length; i += 3) {
+                        let object = arg[i];
+                        let signe = arg[i + 1];
+                        let valeur = arg[i + 2];
+                        let texte = arg.slice(i + 2).join(' '); // Récupérer tout le texte restant
 
-                    if (signe === '+' || signe === '-') {
-                        // Mise à jour de la valeur en ajoutant ou soustrayant
-                        newValue = `${data[colonneObjet]} ${signe} ${valeur}`;
-                    } else if (signe === '=' || signe === '/' || signe === '|') {
-                        // Mise à jour de la valeur en remplaçant ou supprimant
-                        if (signe === '|') {
-                          const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
-                            const result = await client.query(querySelect);
-                            const oldValue = result.rows[0][colonneObjet];
-                            
-                            newValue = oldValue + texte;
-                        } else if (signe === '/') {
-                            const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
-                            const result = await client.query(querySelect);
-                            const oldValue = result.rows[0][colonneObjet];
-                            newValue = oldValue.replace(new RegExp(texte, 'g'), '').trim();
+                        let colonneObjet = colonnesJoueur[object];
+                        let newValue;
+
+                        if (signe === '+' || signe === '-') {
+                            // Mise à jour de la valeur en ajoutant ou soustrayant
+                            newValue = `${data[colonneObjet]} ${signe} ${valeur}`;
+                        } else if (signe === '=' || signe === '/' || signe === '|') {
+                            // Mise à jour de la valeur en remplaçant ou supprimant
+                            if (signe === '|') {
+                                // Ajout de texte
+                                const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                                const result = await client.query(querySelect);
+                                const oldValue = result.rows[0][colonneObjet];
+                                newValue = `${oldValue} ${texte}`;
+                            } else if (signe === '/') {
+                                // Suppression de texte
+                                const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                                const result = await client.query(querySelect);
+                                const oldValue = result.rows[0][colonneObjet];
+                                newValue = oldValue.replace(new RegExp(texte, 'g'), '').trim();
+                            } else {
+                                // Remplacement de texte
+                                newValue = texte;
+                            }
+                        } else {
+                            console.log("Signe invalide.");
+                            repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
+                            client.release();
+                            return;
                         }
-                    } else {
-                        console.log("Signe invalide.");
-                        repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
+
+                        // Ajouter la mise à jour au tableau
+                        updates.push({ colonneObjet, newValue });
+                    }
+
+                    try {
+                        for (const update of updates) {
+                            const queryUpdate = `UPDATE northdiv SET ${update.colonneObjet} = $1 WHERE id = 8`;
+                            await client.query(queryUpdate, [update.newValue]);
+                        }
+
+                        console.log(`Données du joueur ${joueur} mises à jour`);
+                        const messages = updates.map(update => `⚙ OBJECT: ${update.colonneObjet}\n💵 VALEUR: ${update.newValue}`).join('\n');
+                        await repondre(`Données du joueur mises à jour pour ${joueur}:\n${messages}`);
+                    } catch (error) {
+                        console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
+                    } finally {
                         client.release();
-                        return;
                     }
-
-                    // Ajouter la mise à jour au tableau
-                    updates.push({ colonneObjet, newValue });
+                } else {
+                    repondre('Seul les Membres de la NS ont le droit de modifier cette fiche');
                 }
-
-                try {
-                    for (const update of updates) {
-                        const queryUpdate = `UPDATE northdiv SET ${update.colonneObjet} = $1 WHERE id = 8`;
-                        await client.query(queryUpdate, [update.newValue]);
-                    }
-
-                    console.log(`Données du joueur ${joueur} mises à jour`);
-                    const messages = updates.map(update => `⚙ OBJECT: ${update.colonneObjet}\n💵 VALEUR: ${update.newValue}`).join('\n');
-                    await repondre(`Données du joueur mises à jour pour ${joueur}:\n${messages}`);
-                } catch (error) {
-                    console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
-                } finally {
-                    client.release();
-                }
-            } else {
-                repondre('Seul les Membres de la NS ont le droit de modifier cette fiche');
             }
         }
     } catch (error) {
         console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
 }
-);
+);       
 
 /*zokou(
   {
