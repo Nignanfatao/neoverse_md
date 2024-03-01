@@ -259,6 +259,202 @@ Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueur
 
 zokou(
     {
+        nomCom: 'saison',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (arg[0] = 'NBA🏀'); {
+            const lien = 'https://telegra.ph/file/74b24368196d19f87e460.jpg';
+            const msg = `*𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 NBA🏀*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+Lors de la saison NBA, les équipes sont séparées en deux Conférences...la conférence WEST🔴 et la conférence EAST🔵 . Les 8 premiers de chaques conferences joueront les PLAYOFFS mais dans un debut nous allons faire un championnat combiné 🔴WEST/EAST🔵 et les 8 premiers seront aux playoffs les. 
+
+*𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗠𝗔𝗧𝗖𝗛𝗦🏀*
+Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueurs ont 10 matchs maximum la saison mais vous devez affronter tous les joueurs de votre division et vous ne pouvez pas affronter le même adversaire plus de 2 fois la partie de la saison et la ligue organisera des matchs pour certains joueurs en forme. 
+
+⚽Pour 5 matchs:  5.000.000 $
+⚽Pour 5 victoires: 25.000.000 $ + 10 NBC⭕
+⚽Pour 10 matchs: 10.000.000 $ + 5 NBC⭕
+⚽Pour 10 victoires: 50.000.000 $ + 50 NBC⭕
+
+*𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝗦𝗮𝗶𝘀𝗼𝗻🏀🎁*
+🎖️Top 1: +100M$ + 70 NBC⭕+100🔷+50🎟️
+🥈 Top 3: 50M$ + 30 NBC⭕+50🔷+20🎟️
+🥉 Top 6: 20M$ + 10 NBC⭕+20🔷+10🎟️
+🏆Finals: 100M$ + 90 NBC⭕+100🔷+50🎟️
+
+*⚠️Récompenses avec minimum 5 matchs*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                     *NBA2K🏀NE⭕*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'saison',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (arg[0] = 'Elysium💠')  {
+            const lien = 'https://telegra.ph/file/bdd957fe4f3c12dfdeb66.jpg';
+            const msg = `*💠Elysium Season PASS💠*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+L'épisode D'elysium aura lieu de 19h à 22h GMT+1, les participants devront s'enregistrer à l'avance dans la journée pour participer. L'enregistrement coûte 2 NC🔷 et c'est uniquement pour les joueurs classés(ALL STARS, NBA et UF). la journée dure généralement 20 tours, les nouveaux joueurs pourront rejoindre seulement à partir de 5 tours passés avec pause de 5mins en cas de retard. 
+
+*💠RÈGLEMENT DES LIEUX*
+Les joueurs ne peuvent pas être partout à la Fois, afin d'éviter la divulgation d'informations d'activités. *⚠️donc une fois que vous voyagez vous devez quitter le groupe où vous êtes vers le nouveau Lieu que vous Pouvez Facilement Rejoindre à Travers la Communauté .* ‼️Si vous vous faites retirer de force alors 5🔷 pour revenir. 
+
+*💠MISSIONS ET FREE PLAY*
+Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque et trouver les ressources. Mais néanmoins vous pouvez aller rencontrer des PNJ qui vous proposeront des missions et quêtes *💠Lancer la mission XP* et un PNJ ne peut avoir que 2 à 3 quêtes disponibles avant de renouveler.
+
+🥉 *Normale*: +100.000💠+10🌟 
+🥈 *Difficile*: +300.000💠 +20🌟
+🥇 *Extreme*: +500.000💠+30🌟
+
+💠Vous gagnez des PC selon l'activité que vous faites +5 PC et vous gagnez des SP🌟 par rapport à vos achats et votre style de vie, après 3 tours vous perdez -20%😃 moral à moins de 20%😟 vous devenez imprécis et incapable de réussir vos actions, vous attirez même la malchance. 
+
+⚠️Si vous êtes mort où arrêté c'est GAME OVER❌et vous perdez -10🌟 journée est terminée, vous allez seulement pouvoir revenir le prochain épisode. 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                                 *💠Processing...*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'records🏆',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
+            const msg = `. 
+           ══════༺༻═══
+            ⚜️`\`\`\ 𝐋𝐈𝐕𝐑𝐄𝐒 𝐃'𝐇𝐈𝐒𝐓𝐎𝐈𝐑𝐄 `\`\`\⚜️
+           ═════ ༺༻═══
+Voici les pantheons du Nouveau monde, le livre des performances mémorables et légendaires  du nouveau monde ! ceux qui ont écrit leurs noms dans parmi les Astres et les plus grands à tout jamais dans le nouveau monde. 
+
+*🔸#Champions 🏆*
+*🔸#MNVP🌟*
+*🔸#TOS⭐* 
+*🔸#Awards 💫*
+ ══════༺༻═══
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                  *🔶𝗡Ξ𝗢💫*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'champions🏆',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
+            const msg = `. 
+                    
+                 ══════༺༻═══
+                         🏆```𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒```🏆
+                 ══════༺༻═══
+                  
+Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO et GRAND SLAM. 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+🔸🔴NEO KÏNGS⚜️🇨🇬:       🏆 
+🔸🔵ABA L. KÏNGS⚜️🇸🇳:   🏆
+🔸🟠Gentleman🇸🇳:              🏆
+🔸🔴Tecraso Marc🇨🇲:         🏆
+🔸🔴Lily KÏNGS⚜️🇨🇬:         🏆🏆🏆
+🔸🔴Damian KÏNGS⚜️🇨🇬 : 🏆🏆
+🔸🔵Vanitas KÏNGS⚜️🇸🇳:  🏆
+
+
+
+
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+De nouveaux Guerriers viendront chercher le titre de "CHAMPION" afin graver leurs noms à tout jamais parmi les immortels dans la légende du nouveau monde RP. Are you the NEXT KING? 👑
+                    ══════༺༻═══
+                          
+                                🔶𝗡Ξ𝗢💫`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'mnvp🌟',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
+            const msg = `. 
+                   ══════༺༻═══
+      💫 `\`\`\𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑`\`\`\ 💫
+                      ═════ ༺༻═══
+
+Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de la saison régulière, les TOP1🏆
+*⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🏆 *LEGENDS🥇*: ⭐⭐⭐ (Niveau Extrême) 
+🔸Lily KÏNGS⚜️🇨🇬:                  2🌟
+🔸Damian KÏNGS⚜️🇨🇬:          4🌟
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🏆 *ELITES🥈*: ⭐⭐ (Niveau moyen) 
+🔸Adam GENESIS🇨🇮:              1🌟
+🔸Vanitas KÏNGS⚜️🇸🇳:          1🌟
+🔸Grimm Tempest🇨🇲:             1🌟
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🏆 *NOVICES🥉*: ⭐(Niveau facile) 
+🔸Hajime NEXUS🇨🇲:                1🌟
+🔸Kemael🇨🇮:                             1🌟
+🔸White KÏNGS⚜️🇨🇮:              1🌟 
+🔸Abdiel🇹🇬:                               1🌟
+
+
+
+        
+
+                                🔶𝗡Ξ𝗢🌟
+                     ══════༺༻═══`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
         nomCom: '',
         categorie: 'NEOverse'
     },
@@ -266,7 +462,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = '';
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
@@ -283,7 +479,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = '';
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
@@ -300,7 +496,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = '';
+            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
