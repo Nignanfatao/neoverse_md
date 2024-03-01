@@ -877,7 +877,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/928d263729a916dcbf
     }
   });
 
-/*zokou(
+zokou(
   {
     nomCom: 'northainz👤',
     categorie: 'NEOverse'
@@ -1000,9 +1000,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });*/
+  });
 
-     zokou(
+    /* zokou(
   {
     nomCom: 'northainz👤',
     categorie: 'NEOverse'
@@ -1150,7 +1150,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
         console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
 }
-);       
+); */      
 
 /*zokou(
   {
