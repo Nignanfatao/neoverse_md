@@ -332,7 +332,37 @@ zokou(
 
         if (arg[0] === '')  {
             //const lien = '';
-            const msg = ``;
+            const msg = `𝗡𝗘𝗢🔷MULTIVERSE ARENA🆚𝗩𝗘𝗥𝗦𝗨𝗦🎮*       
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔷   *Joueur 1*: 🫀:100%  🌀:100% ❤️:100%            
+                                   ~  *🆚*  ~
+🔷  *Joueur 2*: 🫀:100%  🌀:100% ❤️:100%:.                            
+ ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+ *🌍𝐀𝐫𝐞̀𝐧𝐞*: 
+ *🚫𝐇𝐚𝐧𝐝𝐢𝐜𝐚𝐩𝐞*: Boost 1 fois chaques 2 tours! 
+ *⚖️𝐒𝐭𝐚𝐭𝐬*: 
+ *🏞️ 𝐀𝐢𝐫 𝐝𝐞 𝐜𝐨𝐦𝐛𝐚𝐭*: 50m max
+ *🦶🏼𝐃𝐢𝐬𝐭𝐚𝐧𝐜𝐞 𝐢𝐧𝐢𝐭𝐢𝐚𝐥𝐞*📌: 5m
+ *⌚𝐋𝐚𝐭𝐞𝐧𝐜𝐞*: 6mins+ 1⚠️
+ *⭕𝐏𝐨𝐫𝐭𝐞́𝐞*:  10m
+ *🌍𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐧𝐞𝐦𝐞𝐧𝐭*: 
+ ░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+(‼️Règles de duels dans la description‼️) 
+
+*🆚TAG TEAM*: 
+Pour les combats d'équipes vous pouvez aligner jusqu'à 3 cards max qui peuvent switcher  sans limites. Un va et l'autre vient mais si on vous lance une technique celui qui vient encaissera, au corps à corps celui qui vient peut directement venir avec un coups si vous attaquez où venir contrer le coups de l'adversaire pour protéger celui qui va. 
+
+🆚 *CONDITIONS DE VICTOIRES*:
+▪Easy,Negs diff✅: 2-0, +30
+▪ Mid Diff✅: 1-0, 50%🫀, - 100%❤️
+▪High Extreme Diff✅: 2-1 - 60%PV❤️
+✅ *Bon pavé*: immersion, dialogue, jeu de rôle 
+*⚠️Les Boost et déplacements offensifs  ne sont pas pris en compte, seulement les esquives et actions défensives*
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+  *⚠️Vous avez 8️⃣ tours max pour finir votre Adversaire! Sinon la victoire sera donnée par décision selon celui qui a dominer le combat où qui a été le plus à l'offensive !*`;
             //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
