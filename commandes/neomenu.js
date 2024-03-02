@@ -2,7 +2,7 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
     {
-        nomCom: 'menu',
+        nomCom: 'menu_',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -15,12 +15,12 @@ zokou(
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 Bienvenue dans le menu principal de NEOverse🔷,Pour tout savoir sur l'univers NEO🙂:
 
-👉🏻 #Guide Saison🔷
-👉🏻 #Records🏆
-👉🏻 #Calendrier🔷
-👉🏻 #Rankings🔷
-👉🏻 #Draft🔷
-👉🏻 #Évènements🎉
+👉🏻 +Guide Saison🔷
+👉🏻 +Records🏆
+👉🏻 +Calendrier🔷
+👉🏻 +Rankings🔷
+👉🏻 +Draft🔷
+👉🏻 +Évènements🎉
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -348,10 +348,10 @@ zokou(
            ═════ ༺༻═══
 Voici les pantheons du Nouveau monde, le livre des performances mémorables et légendaires  du nouveau monde ! ceux qui ont écrit leurs noms dans parmi les Astres et les plus grands à tout jamais dans le nouveau monde. 
 
-*🔸#Champions 🏆*
-*🔸#MNVP🌟*
-*🔸#TOS⭐* 
-*🔸#Awards 💫*
+*🔸+Champions 🏆*
+*🔸+MNVP🌟*
+*🔸+TOS⭐* 
+*🔸+Awards 💫*
  ══════༺༻═══
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -375,7 +375,7 @@ zokou(
             const msg = `. 
                     
                  ══════༺༻═══
-                         🏆```𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒```🏆
+                         🏆`\`\`\𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒`\`\`\🏆
                  ══════༺༻═══
                   
 Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO et GRAND SLAM. 
@@ -659,8 +659,8 @@ zokou(
 Au cas où deux où plusieurs Divisions sont intéressées par un même joueur c'est *le bras de fer* où *Les enchères⚖️* la division qui propose plus gagne ! Mais pour se positionner aux enchères vous devez d'abord placer la moitié de la somme du choix et les prix proposés partent de 20.000🧭, donc de 20 en 20.
 *⚠️Si une division décide de faire un transfert en fin de saison, donc pas de Draft sur ce tour.*
 
-*#Extra Draft🔷* (👈🏼) 
-*#Welcome💙* (👈🏼 Rookies) 
+*+Extra Draft🔷* (👈🏼) 
+*+Welcome💙* (👈🏼 Rookies) 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                 *🔷NSL🏆🔝*`;
