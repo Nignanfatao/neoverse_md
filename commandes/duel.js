@@ -324,7 +324,7 @@ zokou(
 
 zokou(
     {
-        nomCom: 'DUEL',
+        nomCom: 'duel',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -371,7 +371,7 @@ Pour les combats d'équipes vous pouvez aligner jusqu'à 3 cards max qui peuvent
 
 zokou(
     {
-        nomCom: 'pavé',
+        nomCom: 'pave',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
