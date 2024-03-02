@@ -117,7 +117,7 @@ zokou(
                     }
 
                     // Ajouter la mise à jour au tableau
-                    updates.push({ colonnesJoueur, newValue });
+                    updates.push({ colonneObjet, newValue });
                 }
 
                 try {
