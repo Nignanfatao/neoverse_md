@@ -89,7 +89,7 @@ zokou(
                             const result = await client.query(querySelect);
                             const oldValue = result.rows[0][colonneObjet];
                             
-                        newValue = `${oldValue} ${signe} ${valeur}`;
+                        newValue = ${oldValue} ${signe} ${valeur};
                     } else if (signe === '=' || signe === 'add' || signe === 'supp') {
                         // Mise à jour de la valeur en remplaçant ou supprimant
                         if (signe === 'add') {
@@ -117,7 +117,7 @@ zokou(
                     }
 
                     // Ajouter la mise à jour au tableau
-                    updates.push({ colonneObjet, newValue });
+                    updates.push({ colonnesJoueur, newValue });
                 }
 
                 try {
