@@ -33,7 +33,7 @@ Bienvenue dans le menu principal de NEOverse🔷,Pour tout savoir sur l'univers 
 
 zokou(
     {
-        nomCom: 'Guide',
+        nomCom: 'guide',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -75,7 +75,7 @@ Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même
 
 zokou(
     {
-        nomCom: 'Recompenses',
+        nomCom: 'recompenses',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -125,7 +125,7 @@ Weekly ranking, TOW💙, Team of the week:
 
 zokou(
     {
-        nomCom: 'tournois',
+        nomCom: 'tournois🏆',   
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -220,7 +220,7 @@ Statuettes de Prix récompensant les meilleurs NEO players selon les critères d
 
 zokou(
     {
-        nomCom: 'Saison',
+        nomCom: 'saison',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -496,15 +496,45 @@ Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été d
 
 zokou(
     {
-        nomCom: '',
+        nomCom: 'awards💫',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
-            const msg = ``;
+            const lien = 'https://telegra.ph/file/7d380c5771ac6388f5879.jpg';
+            const msg = `. 
+                   ══════༺༻═══
+                      💫 `\`\`\𝐆𝐎𝐋𝐃𝐄𝐍 𝐀𝐖𝐀𝐑𝐃𝐒`\`\`\ 💫
+                      ═════ ༺༻═══
+Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS du Nouveau monde RP💫.Venez écrire votre nom dans le panthéon ultime du nouveau monde. 
+*⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+💫 *The BEST🏆*
+🔸Lily KÏNGS⚜️🇨🇬:                  2🏆
+🔸Damian KÏNGS⚜️🇨🇬:          3🏆
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+💫 *The SIGMA🗿*
+🔸Lily KÏNGS⚜️🇨🇬:                  1🗿
+🔸Damian KÏNGS⚜️🇨🇬:          1🗿
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+💫 *NEO TROPHY🎗️*
+🔸Lily KÏNGS⚜️🇨🇬:                   3🎗️
+🔸Damian KÏNGS⚜️🇨🇬:           2🎗️ 
+🔸White KÏNGS⚜️🇨🇮:              1🎗️ 
+🔸Lord  KÏNGS⚜️🇹🇬:               1🎗️ 
+
+
+
+        
+
+                 🔶𝗡Ξ𝗢💫GOLDEN AWARDS
+                     ══════༺༻═══`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -513,15 +543,41 @@ zokou(
 
 zokou(
     {
-        nomCom: '',
+        nomCom: 'calendrier🔷',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
-            const msg = ``;
+            const lien = 'https://telegra.ph/file/b72688931621648efe227.jpg';
+            const msg = `*🔷CALENDRIER📅*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔷Nous évoluons avec des saisons altérées mixtes ! Donc si c'est la saison NBA nous aurons une semaine de matchs NBA plus une semaine de combats ALL STARS. C'est donc un mixte entre le mois NBA et le Mois UF,Elysium et ALL STARS ne bougeront pas ce qui fait que nous auront 2 semaines pour chaques jeux... Si c'est la semaine UF pas de ALL STARS et NBA cette semaine. 
+
+
+🔹 *Lundi*: versus🆚⚽🏀/🎙️
+🔹 *Mardi*: versus🆚⚽🏀/Élysium💠
+🔹 *Mercredi*: Versus🆚/⚽🏀
+🔹 *Jeudi*: versus🆚⚽🏀/Élysium💠/🎙️
+░░░░░░░░░░░░░░░░░░░
+
+🔹 *Vendredi*: Versus🆚/⚽🏀/🏆/🎉
+🔹 *Samedi*: Versus🆚⚽🏀/Élysium💠/🏆
+🔹 *Dimanche*: versus🆚⚽🏀/Élysium💠/🏆
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🆚 *Versus All stars*: Duels 
+🚫 *🎙️Media Day*: Événements Communauté
+💠 *Episode D'elysium* : de 19h UTC+1 à 22h max
+⚽ *UF Match Day*: journée de Matchs, UEFA 
+🏀 *NBA Matchs*: journée de saison NBA
+🏆 *Tournois*: Jours des tournois
+*🎉NEOversary Friday*: Jours de festival 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                    *🔷NSL🏆🔝*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -529,6 +585,155 @@ zokou(
 );
 
 zokou(
+    {
+        nomCom: 'rankings🔷',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/bfd52371074158ab34a18.jpg';
+            const msg = `*𝗥𝗔𝗡𝗞𝗜𝗡𝗚S🔰 𝗡𝗘𝗢🏆*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🥇 *HOF 🌠* : Special Grade S+ ⭐⭐⭐
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔹 *TOS🌟*: 6🏆
+🔹 *Trophées*: 3🏆
+🔹 *Nombre de victoires*: +100✅
+🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
+
+
+🥈 *LEGENDE✨* : Grade S ⭐⭐
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔹 *TOS🌟*: 3🏆
+🔹 *Trophées*: 1🏆
+🔹 *Nombre de victoires*: 100✅ 
+🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
+
+🥈 *SUPERSTAR💫* : Grade A ⭐
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔹 *TOS🌟*: 1🏆
+🔹 *Nombre de victoires*: 70✅ 
+🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
+
+
+🥈 *RISING STAR🌟* : Grade B 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔹 *Nombre de victoires*: 40✅
+🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
+
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                          *🔷NSL🏆🔝*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'draft🔷',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/bfd52371074158ab34a18.jpg';
+            const msg = `*🎓𝗗𝗲𝗿𝗼𝘂𝗹𝗲𝗺𝗲𝗻𝘁 𝗱𝗲 𝗹𝗮 𝗱𝗿𝗮𝗳𝘁*
+🔷Lors de la Draft les meilleures divisions ont les meilleurs  privilèges de Draft selon leurs classement sur le divisions Ranking. Donc une division qui a le choix paye la moitié 50%. 
+
+💎 Best choix: 800.000🧭 (1st Division choix) 
+🥇 Bon choix: 500.000🧭(2nd Division choix)  
+🥈 Moyen choix: 250.000🧭  
+🥉 Pire choix: 100.000🧭 
+
+*🔷NB:* ⚠️Si une division veut drafter un joueur qui n'est pas de leurs positions au classement, ils doivent payer aussi le choix de la division qui est censée avoir le joueur de 50% si il n'ya pas de *bras de fer⚖️*
+Au cas où deux où plusieurs Divisions sont intéressées par un même joueur c'est *le bras de fer* où *Les enchères⚖️* la division qui propose plus gagne ! Mais pour se positionner aux enchères vous devez d'abord placer la moitié de la somme du choix et les prix proposés partent de 20.000🧭, donc de 20 en 20.
+*⚠️Si une division décide de faire un transfert en fin de saison, donc pas de Draft sur ce tour.*
+
+*#Extra Draft🔷* (👈🏼) 
+*#Welcome💙* (👈🏼 Rookies) 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                *🔷NSL🏆🔝*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'extra',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (arg[0] === 'draft🔷')  {
+            const lien = 'https://telegra.ph/file/bfd52371074158ab34a18.jpg';
+            const msg = `🔷Afin de rendre la Draft plus équitable les Divisions ayant moins de joueurs actifs ont la priorité sur la Draft. Donc doivent impérativement Drafter et les Divisions ayant le plus de joueurs actifs allons de 4 à 5 sur une saison avec plus de 3/5 combats peuvent passer le tour où sont moins prioritaires afin que toutes les divisions aient au moins 4 joueurs actifs sûrs et au fur et à mesure des nouvelles drafts les joueurs vont se fideliser. Une division qui passe un tour est prioritaire sur la Draft du prochain tour. 
+
+🔷Maintenant les Divisions peuvent décider de Drafter où non ! Ne pas Drafter permets aussi d'économiser de l'argent et de la place, car le quota pour une division est de 10 joueurs actifs par Divisions avant d'augmenter après avoir équilibrer entre les divisions.
+*⚠️Si un joueur est viré(ce qui permettra à la Division de récupérer la moitié de la somme dépensée)d'une division pour inactivité non justifiée si il veut revenir il doit recommencer à zéro donc en Rookie et après avoir refait ses preuves une nouvelle division peut le drafter où alors il retourne dans sa division d'origine*
+
+*🔷𝗧𝗿𝗮𝗱𝗲*(TRANSFERT🫱🏽‍🫲🏻) 
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+Les divisions peuvent faire des transferts de joueurs en fin de saison. Cela se fait par Échange entre deux joueurs pour 50% des frais où un transfert pour 100% de frais. La somme sera déversée à la Division qui vends le joueur.
+*Joueur TOS🌟*: 1.000.000🧭 + 300.000🧭 ind
+*Joueur TOP 6🏆*: 500.000🧭 + 100.000🧭 ind
+*Joueur en dessous*: 100.000🧭
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                      *🔷NSL🏆🔝*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'evenements🎉',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/c138f52648b66df87e951.jpg';
+            const msg = `*🥳ÉVÉNEMENTS NEO🎊🪄🎁*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+NEOverse a au total 2 Événements où festivals notables que nous célébrons... C'est le moment parfait pour obtenir des récompenses spéciales🎉😄. 
+
+*🌟💙NEOVersary🎉🎆🎊*
+C'est le festival de l'anniversaire de NEOverse avec pour jour iconique le *NEO FRIDAY* car le vendredi est un jour spécial pour NEOverse vu que la communauté est née un vendredi. 🎊Ce Festival debute deux fois la saison et dure du Vendredi à Dimanche lorsque nous atteignons *5️⃣0️⃣* et *1️⃣0️⃣0️⃣* matchs classés la saison. 
+
+😄🎊: Pendant le NEOversary:
+ 🔷🛒Tous les articles à la boutique sont en promotion de -30%🥳 de réduction sur le prix pour les joueurs à 5 matchs minimum. 
+🔷Les joueurs à 5 matchs+ minimum reçoivent une box🎁 de 500.000🧭+20NC🔷. 
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+L'autre événement majeur c'est les NEO GOLDEN AWARDS💫, chaques 26-28 du mois, mais il y'a aussi le QUIZZ FESTIVAL❓🥳. Un mini tournois de 8 participants qui s'affrontent en éliminations directes sur deux manches le premier à 2-0 passe au tour suivant. La récompense finale est de 500.000🧭 et +30 NC🔷. 
+
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                                
+                                *🔷NSL🏆🔝*`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+/*zokou(
     {
         nomCom: '',
         categorie: 'NEOverse'
@@ -543,38 +748,5 @@ zokou(
    
         }
     }
-);
+);*/
 
-zokou(
-    {
-        nomCom: '',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (!arg || arg.length === 0)  {
-            const lien = '';
-            const msg = ``;
-            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
-        }
-    }
-);
-
-zokou(
-    {
-        nomCom: '',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (!arg || arg.length === 0)  {
-            const lien = '';
-            const msg = ``;
-            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
-        }
-    }
-);
