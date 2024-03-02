@@ -82,12 +82,13 @@ zokou(
 
                     let colonneObjet = colonnesJoueur[object];
                     let newValue;
+                  let oldValue;
 
                     if (signe === '+' || signe === '-') {
                         // Mise à jour de la valeur en ajoutant ou soustrayant
                       const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
                             const result = await client.query(querySelect);
-                            const oldValue = result.rows[0][colonneObjet];
+                            oldValue = result.rows[0][colonneObjet];
                             
                         newValue = `${oldValue} ${signe} ${valeur}`;
                     } else if (signe === '=' || signe === 'add' || signe === 'supp') {
@@ -117,7 +118,7 @@ zokou(
                     }
 
                     // Ajouter la mise à jour au tableau
-                    updates.push({ colonneObjet, newValue });
+                    updates.push({ colonneObjet, newValue, oldValue });
                 }
 
                 try {
@@ -128,7 +129,8 @@ zokou(
                         const queryUpdate = `UPDATE northdiv SET ${update.colonneObjet} = $1 WHERE id = 8`;
                         await client.query(queryUpdate, [update.newValue]);
                         else (signe === ('+' || '-')) {
-                        
+                         const query = `UPDATE northdiv SET ${update.colonneObjet} = ${update.oldValue} ${signe} ${valeur} WHERE id = 8`;
+            await client.query(query);
                     }
 
                     await client.query('COMMIT'); // Fin de la transaction
