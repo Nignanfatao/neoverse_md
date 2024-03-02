@@ -101,7 +101,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (arg[0] === 'ZT')  {
-            //const lien = '';
+           // const lien = '';
             const msg = `🚸DISTRICT: *RUNTOWN*🚧 niv🥈
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔ 
 ☢️: *Tout le district est radioactif à cause d'un gaz toxique généré par les spores des plantes GAÏA🪻* 
@@ -169,11 +169,12 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                              💠ΞLYSIUM2162`;
-            //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
     }
 );
+
 
 zokou(
     {
@@ -184,7 +185,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (arg[0] === 'NM')  {
-            //const lien = '';
+           // const lien = '';
             const msg = `🥉 ZONE 1: *LIBERTY RAVEN🚧♻️*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -252,11 +253,12 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                             💠ΞLYSIUM2162`;
-            //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
     }
 );
+
 
 zokou(
     {
@@ -267,7 +269,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (arg[0] === 'DT')  {
-            //const lien = '';
+           // const lien = '';
             const msg = `DISTRICT: *㊗️𝗔𝗦𝗜𝗔 𝗧𝗢𝗪𝗡🏮*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -315,11 +317,12 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                💠ΞLYSIUM2162`;
-            //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
     }
 );
+
 
 
 zokou(
@@ -330,8 +333,8 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === '')  {
-            //const lien = '';
+        if (!arg || arg.length === 0)  {
+           // const lien = '';
             const msg = `𝗡𝗘𝗢🔷MULTIVERSE ARENA🆚𝗩𝗘𝗥𝗦𝗨𝗦🎮*       
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -363,11 +366,12 @@ Pour les combats d'équipes vous pouvez aligner jusqu'à 3 cards max qui peuvent
 
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
   *⚠️Vous avez 8️⃣ tours max pour finir votre Adversaire! Sinon la victoire sera donnée par décision selon celui qui a dominer le combat où qui a été le plus à l'offensive !*`;
-            //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
     }
 );
+
 
 zokou(
     {
@@ -377,9 +381,9 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === '')  {
-            //const lien = '';
-            const msg =` .                     *🔷𝗣𝗔𝗩𝗘 𝗗𝗘 𝗝𝗘𝗨🎮*
+        if (!arg || arg.length === 0)  {
+           // const lien = '';
+            const msg = ` .                     *🔷𝗣𝗔𝗩𝗘 𝗗𝗘 𝗝𝗘𝗨🎮*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                          *Distance*: 5m
@@ -392,11 +396,12 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                  *🔷BRING THE PASSION🔥🏆🔝*`;
-            //zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
         }
     }
 );
+
 
 /*zokou(
     {
