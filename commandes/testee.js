@@ -1,3 +1,5 @@
+const { zokou } = require('../framework/zokou');
+const { getData } = require('../bdd/northdiv');
 zokou(
   {
     nomCom: 'northainz👤',
