@@ -74,7 +74,7 @@ zokou(
 
                 let updates = []; // Tableau pour stocker les mises à jour à effectuer
 
-                for (let i = 0; i < arg.length; i += 1) {
+                for (let i = 0; i < arg.length; i += 3) {
                     let object = arg[i];
                     let signe = arg[i + 1];
                     let valeur = arg[i + 2];
