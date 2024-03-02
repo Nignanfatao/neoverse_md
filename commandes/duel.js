@@ -88,20 +88,8 @@ zokou(
 💋: *Territoire EXOTICS*`;
            // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
-        }
-    }
-);
-
-zokou(
-    {
-        nomCom: 'map',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (arg[0] === 'ZT')  {
-           // const lien = '';
+        } else if (arg[0] === 'ZT')  {
+        // const lien = '';
             const msg = `🚸DISTRICT: *RUNTOWN*🚧 niv🥈
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔ 
 ☢️: *Tout le district est radioactif à cause d'un gaz toxique généré par les spores des plantes GAÏA🪻* 
@@ -171,21 +159,8 @@ zokou(
                              💠ΞLYSIUM2162`;
            // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
-        }
-    }
-);
-
-
-zokou(
-    {
-        nomCom: 'map',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (arg[0] === 'NM')  {
-           // const lien = '';
+        } else if (arg[0] === 'NM')  {
+    // const lien = '';
             const msg = `🥉 ZONE 1: *LIBERTY RAVEN🚧♻️*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -255,21 +230,8 @@ zokou(
                             💠ΞLYSIUM2162`;
            // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
-        }
-    }
-);
-
-
-zokou(
-    {
-        nomCom: 'map',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (arg[0] === 'DT')  {
-           // const lien = '';
+        } else if (arg[0] === 'DT')  {
+     // const lien = '';
             const msg = `DISTRICT: *㊗️𝗔𝗦𝗜𝗔 𝗧𝗢𝗪𝗡🏮*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -319,6 +281,8 @@ zokou(
                                💠ΞLYSIUM2162`;
            // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    repondre(msg);
+        } else {
+            repondre('map introuvable');
         }
     }
 );
