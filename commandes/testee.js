@@ -14,11 +14,29 @@ zokou(
         if (!arg || arg.length === 0) {
             // Affichage des données de l'utilisateur
             const mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-            ...
-            *🎴Cards(20 max)*: ${data.e17} 
-            ░░░░░░░░░░░░░░░░░░░
-            ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+◇ *Pseudo👤*: ${data.e1}
+◇ *Division🛡️*: ${data.e2}
+◇ *Classe🏆*: ${data.e3}
+◇ *Rang XP🔰*: ${data.e4}
+◇ *Golds🧭*: ${data.e5}🧭
+◇ *NΞOcoins🔹*: ${data.e6}🔷
+◇ *Gift Box🎁*: ${data.e7}🎁
+◇ *Coupons🎟*: ${data.e8}🎟
+◇ *NΞO PASS🔸*: ${data.e9}🔸
+*❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
+ *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
+ *📊Note Saison passée: ${data.e11}⏫*
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+*✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+*🎴Cards(20 max)*: ${data.e17} 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+    *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
             zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
         } else {
             const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -56,7 +74,7 @@ zokou(
 
                 let updates = []; // Tableau pour stocker les mises à jour à effectuer
 
-                for (let i = 2; i < arg.length; i += 3) {
+                for (let i = 0; i < arg.length; i += 1) {
                     let object = arg[i];
                     let signe = arg[i + 1];
                     let valeur = arg[i + 2];
@@ -77,11 +95,13 @@ zokou(
                             const oldValue = result.rows[0][colonneObjet];
                             newValue = `${oldValue} ${texte}`;
                         } else if (signe === 'supp') {
-                            // Suppression de texte
-                            const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
-                            const result = await client.query(querySelect);
-                            const oldValue = result.rows[0][colonneObjet];
-                            newValue = oldValue.replace(new RegExp(texte, 'g'), '').trim();
+                // Suppression de texte
+                const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                const result = await client.query(querySelect);
+                const oldValue = result.rows[0][colonneObjet];
+                // Créer une expression régulière pour correspondre au texte avec des espaces autour
+                const regex = new RegExp(`\\b${texte}\\b`, 'g');
+                newValue = oldValue.replace(regex, '').trim(); 
                         } else {
                             // Remplacement de texte
                             newValue = texte;
