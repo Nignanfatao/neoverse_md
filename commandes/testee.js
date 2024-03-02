@@ -106,7 +106,7 @@ zokou(
                 // Créer une expression régulière pour correspondre au texte avec des espaces autour
                 const regex = new RegExp(`\\b${texte}\\b`, 'g');
                 newValue = oldValue.replace(regex, '').trim(); 
-                        } else if (singe === '=') {
+                        } else if (signe === '=') {
                             // Remplacement de texte
                             newValue = texte;
                         }
