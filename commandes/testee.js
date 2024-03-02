@@ -37,7 +37,7 @@ zokou(
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
             zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
         } else {
-            if (superUser) { 
+          
                 const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
                 const proConfig = {
                     connectionString: dbUrl,
@@ -49,9 +49,9 @@ zokou(
                 const { Pool } = require('pg');
                 const pool = new Pool(proConfig);
                 const client = await pool.connect();
-              
-                if (arg[0] === 'act') {
-                    let colonnesJoueur = {
+          
+              if (superUser) { 
+                let colonnesJoueur = {
                         pseudo: "e1",
                         division: "e2",
                         classe: "e3",
@@ -131,7 +131,6 @@ zokou(
                 } else {
                     repondre('Seul les Membres de la NS ont le droit de modifier cette fiche');
                 }
-            }
         }
     } catch (error) {
         console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
