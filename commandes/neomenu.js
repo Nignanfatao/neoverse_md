@@ -455,7 +455,7 @@ Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de 
 
 zokou(
     {
-        nomCom: '',
+        nomCom: 'tos⭐',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -463,7 +463,31 @@ zokou(
 
         if (!arg || arg.length === 0)  {
             const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
-            const msg = ``;
+            const msg = `. 
+                  ══════༺༻═══
+                        🌟𝗧𝗢𝗦: 𝐀𝐋𝐋 𝐒𝐓𝐀𝐑𝐒🌟
+                   ═════ ༺༻═══
+Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été dans la  *TOS* TEAM OF THE SEASON⭐,la team prestige 🎖️. 
+*⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+*⭐Lily KÏNGS⚜️🇨🇬*:             6⭐
+*⭐Damian  KÏNGS⚜️🇨🇬*:    6⭐
+*⭐Hajime NEXUS🇨🇲*:           1⭐
+*⭐Aether GENESIS🇬🇦*:        1⭐ 
+*⭐White KÏNGS⚜️🇨🇮*:         3⭐ 
+*⭐Atsushi KÏNGS⚜️🇨🇲*:     2⭐ 
+*⭐Adam GENESIS🇨🇮*:         1⭐ 
+*⭐Goldy Shogun🇹🇬*:            1⭐ 
+*⭐Kemael🇨🇮*:                        1⭐
+*⭐Grimm Tempest🇨🇲*:        1⭐ 
+*⭐Abdiel🇹🇬*:                          1⭐ 
+*⭐Thanatos Gold King🇧🇫*:  1⭐ 
+
+
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                   🔶𝗡Ξ𝗢☀️`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
