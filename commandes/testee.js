@@ -7,6 +7,7 @@ zokou(
   },
   async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, superUser } = commandeOptions;
+    let client ;
     try {
         const data = await getData('8');
         if (!arg || arg.length === 0) {
@@ -48,7 +49,7 @@ zokou(
 
                 const { Pool } = require('pg');
                 const pool = new Pool(proConfig);
-                const client = await pool.connect();
+               client = await pool.connect();
           
               if (superUser) { 
                 let colonnesJoueur = {
