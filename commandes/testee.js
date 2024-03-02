@@ -85,7 +85,11 @@ zokou(
 
                     if (signe === '+' || signe === '-') {
                         // Mise à jour de la valeur en ajoutant ou soustrayant
-                        newValue = `${data[colonneObjet]} ${signe} ${valeur}`;
+                      const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                            const result = await client.query(querySelect);
+                            const oldValue = result.rows[0][colonneObjet];
+                            
+                        newValue = `${oldValue} ${signe} ${valeur}`;
                     } else if (signe === '=' || signe === 'add' || signe === 'supp') {
                         // Mise à jour de la valeur en remplaçant ou supprimant
                         if (signe === 'add') {
@@ -102,7 +106,7 @@ zokou(
                 // Créer une expression régulière pour correspondre au texte avec des espaces autour
                 const regex = new RegExp(`\\b${texte}\\b`, 'g');
                 newValue = oldValue.replace(regex, '').trim(); 
-                        } else {
+                        } else if (singe === '=') {
                             // Remplacement de texte
                             newValue = texte;
                         }
