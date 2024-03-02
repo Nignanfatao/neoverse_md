@@ -125,13 +125,22 @@ zokou(
                     await client.query('BEGIN'); // Début de la transaction
 
                     for (const update of updates) {
-                      if (signe === ('=' || 'add' || 'supp')) {
+                      if (signe === ('add' || 'supp')) {
                         const queryUpdate = `UPDATE northdiv SET ${update.colonneObjet} = $1 WHERE id = 8`;
                         await client.query(queryUpdate, [update.newValue]);
-                        else (signe === ('+' || '-')) {
+                      }  else if (signe === ('+' || '-')) {
                          const query = `UPDATE northdiv SET ${update.colonneObjet} = ${update.oldValue} ${signe} ${valeur} WHERE id = 8`;
             await client.query(query);
-                    }
+                    } else ( signe === '=') {
+                        const query = `
+            UPDATE northdiv
+            SET ${update.colonneObjet} = $1
+            WHERE id = 8
+            `;
+
+            await client.query(query, [texte]);
+                      }
+                    }                   
 
                     await client.query('COMMIT'); // Fin de la transaction
 
