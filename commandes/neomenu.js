@@ -8,7 +8,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = 'Neo🔷')  {
+        if (arg[0] === 'Neo🔷')  {
             const lien = 'https://telegra.ph/file/fa6999ab2d76e26cac779.jpg';
             const msg = `.                        🔷𝗡Ξ𝗢 MENU
 ░░░░░░░░░░░░░░░░░░░
@@ -39,7 +39,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = 'Saison🔷')  {
+        if (arg[0] === 'Saison🔷')  {
             const lien = 'https://telegra.ph/file/349811ed350ef785b8150.mp4';
             const msg = `🔷░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -81,7 +81,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = '🎁')  {
+        if (arg[0] === '🎁')  {
             const lien = 'https://telegra.ph/file/6f93a87fef6949007038a.mp4';
             const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*:
 ░░░░░░░░░░░░░░░░░░░
@@ -131,7 +131,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = '🏆') {
+        if (arg[0] === '🏆') {
             const lien = 'https://telegra.ph/file/04f9dd52ba2cc2d96a9de.jpg';
             const msg = `🔷░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -173,7 +173,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] ='Golden' && arg[1] = 'awards 💫')  {
+        if (arg[0] ==='Golden' && arg[1] === 'awards 💫')  {
             const lien = 'https://telegra.ph/file/da23e9bad5a273dfafb21.mp4';
             const msg = `🔶𝗡Ξ𝗢💫𝗚𝗼𝗹𝗱𝗲𝗻 𝗔𝗪𝗔𝗥𝗗𝗦
 ░░░░░░░░░░░░░░░
@@ -226,7 +226,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = 'UF🥅')  {
+        if (arg[0] === 'UF🥅')  {
             const lien = 'https://telegra.ph/file/00ba3eadccf8f3f47617c.jpg';
             const msg = ` *𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 𝗨𝗙🥅*
 ░░░░░░░░░░░░░░░░░░░
@@ -265,7 +265,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = 'NBA🏀'); {
+        if (arg[0] === 'NBA🏀'); {
             const lien = 'https://telegra.ph/file/74b24368196d19f87e460.jpg';
             const msg = `*𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 NBA🏀*
 ░░░░░░░░░░░░░░░░░░░
@@ -304,7 +304,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] = 'Elysium💠')  {
+        if (arg[0] === 'Elysium💠')  {
             const lien = 'https://telegra.ph/file/bdd957fe4f3c12dfdeb66.jpg';
             const msg = `*💠Elysium Season PASS💠*
 ░░░░░░░░░░░░░░░░░░░
