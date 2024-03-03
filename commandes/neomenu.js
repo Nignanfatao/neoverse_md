@@ -57,12 +57,12 @@ Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même
 ⚠️  En cas de relégation vous perdez donc l'utilisation de certains Cards à cause de la classe. Si vous êtes off pendant une saison votre fiche sera gelée et si vous devez vous absenté il faut prévenir la ligue car les joueurs avec 0 activité la saison seront relégués en perdant 50% de tout ce qu'ils possèdent avec une amende de 500.000🧭. 
 ⚠️En quittant sans prévenir vous serez entièrement effacé des mémoires de la ligue comme si vous n'aviez jamais exister, Si vous perdez le contrôle et quitter sur un coût de tête vos chances de revenir un jour seront de 1% et aussi au cas où nous vous laissons revenir c'est sans fiche
 ═══════════
-👉🏻  #Recompenses🎁
-👉🏻  #Tournois🏆
-👉🏼  #NEO Golden Awards💫 
-👉🏼 #Saison UF🥅
-👉🏼 #Saison NBA🏀
-👉🏻 #Saison Elysium💠
+👉🏻 +Recompenses🎁
+👉🏻 +Tournois🏆
+👉🏼 +NEO Golden Awards💫 
+👉🏼 +Saison UF🥅
+👉🏼 +Saison NBA🏀
+👉🏻 +Saison Elysium💠
 
 ░░░░░░░░░░░░░░░
                                   
@@ -375,7 +375,7 @@ zokou(
             const msg = `. 
                     
                  ══════༺༻═══
-                         🏆`\`\`\𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒`\`\`\🏆
+                         🏆\`\`\`\𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒\`\`\`\🏆
                  ══════༺༻═══
                   
 Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO et GRAND SLAM. 
@@ -417,7 +417,7 @@ zokou(
             const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = `. 
                    ══════༺༻═══
-      💫 `\`\`\𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑`\`\`\ 💫
+      💫 \`\`\`\𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑\`\`\`\ 💫
                       ═════ ༺༻═══
 
 Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de la saison régulière, les TOP1🏆
@@ -506,7 +506,7 @@ zokou(
             const lien = 'https://telegra.ph/file/7d380c5771ac6388f5879.jpg';
             const msg = `. 
                    ══════༺༻═══
-                      💫 `\`\`\𝐆𝐎𝐋𝐃𝐄𝐍 𝐀𝐖𝐀𝐑𝐃𝐒`\`\`\ 💫
+                      💫 \`\`\`\𝐆𝐎𝐋𝐃𝐄𝐍 𝐀𝐖𝐀𝐑𝐃𝐒\`\`\`\ 💫
                       ═════ ༺༻═══
 Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS du Nouveau monde RP💫.Venez écrire votre nom dans le panthéon ultime du nouveau monde. 
 *⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
