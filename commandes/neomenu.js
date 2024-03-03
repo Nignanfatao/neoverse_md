@@ -332,7 +332,7 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'records🏆',
         categorie: 'NEOverse'
@@ -451,7 +451,7 @@ Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de 
    
         }
     }
-);
+);*/
 
 zokou(
     {
@@ -494,7 +494,7 @@ Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été d
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'awards💫',
         categorie: 'NEOverse'
@@ -539,7 +539,7 @@ Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS
    
         }
     }
-);
+);*/
 
 zokou(
     {
