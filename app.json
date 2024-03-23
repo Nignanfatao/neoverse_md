@@ -58,6 +58,10 @@
     "description": "inserez l'apikey de votre compte heroku",
      "required" :false
     },
+	"GPT": {
+    "description": "inserez l'apikey de chatgpt",
+     "required" :false
+    },  
   "HEROKU_APP_NAME": {
     "description": "inserez le nom que vous avez inserez(APP NAME) au tout debut de la page",
      "required" :false
