@@ -1,8 +1,8 @@
 const { zokou } = require('../framework/zokou');
 const traduire = require("../framework/traduction") ;
-const fs = require('fs-extra');
 const s = require('../set');
-const axios = require('axios');
+//const axios = require('axios');
+//const fetch = require('node-fetch');
 
 
 
@@ -108,7 +108,7 @@ zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, com
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${s.OPENAI_API_KEY}`,
+          Authorization: `Bearer ${s.GPT}`,
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
@@ -145,7 +145,7 @@ zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, c
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${s.OPENAI_API_KEY}`
+          'Authorization': `Bearer ${s.GPT}`
         },
         body: JSON.stringify({
           model: 'image-alpha-001',
