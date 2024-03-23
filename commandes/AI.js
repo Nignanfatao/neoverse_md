@@ -1,7 +1,7 @@
 const { zokou } = require('../framework/zokou');
 const traduire = require("../framework/traduction") ;
 const fs = require('fs-extra');
-const s = require('./set');
+const s = require('../set');
 const axios = require('axios');
 
 
