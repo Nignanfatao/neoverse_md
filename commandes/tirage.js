@@ -140,33 +140,37 @@ const sspultimate = [];
  // fin tirage 🥉
    
 
-function lien (lien) {
-    const indiceAleatoire = Math.floor(Math.random() * lien.length);
-    const lienAleatoire = lien[indiceAleatoire];
+function liens (lie) {
+    const indiceAleatoire = Math.floor(Math.random() * lie.length);
+    const lienAleatoire = lie[indiceAleatoire];
     return lienAleatoire;
 }
 
 
- const lien1 = lien(ss);
- const lien2 = lien(ssp);
- const lien3 = lien(sspsuper);
- const lien4 = lien(sspmega);
- const lien5 = lien(sspultra);
- const lien6 = lien(sspultimate);
- const lien8 = lien(ssm);
- const lien7 = lien(s1);
- const lien9 = lien(sp1);
- const lien10 = lien(spsuper1);
- const lien11 = lien(sm1);
- const lien12 = lien(s2);
- const lien13 = lien(sp2);
- const lien14 = lien(spsuper2);
- const lien15 = lien(sm2);
- const lien16 = lien(s3);
- const lien17 = lien(sp3);
- const lien18 = lien(spsuper3);
- const lien19 = lien(sm3);
- 
+ const lien1 = liens(ss);
+ const lien2 = liens(ssp);
+ const lien3 = liens(sspsuper);
+ const lien4 = liens(sspmega);
+ const lien5 = liens(sspultra);
+ const lien6 = liens(sspultimate);
+ const lien8 = liens(ssm);
+ const lien7 = liens(s1);
+ const lien9 = liens(sp1);
+ const lien10 = liens(spsuper1);
+ const lien11 = liens(sm1);
+ const lien12 = liens(s2);
+ const lien13 = liens(sp2);
+ const lien14 = liens(spsuper2);
+ const lien15 = liens(sm2);
+ const lien16 = liens(s3);
+ const lien17 = liens(sp3);
+ const lien18 = liens(spsuper3);
+ const lien19 = liens(sm3);
+
+ function lien() {
+const li = `${lien1}, ${lien2}, ${lien3}, ${lien4}, ${lien5}, ${lien6}, ${lien7}, ${lien8}, ${lien9}, ${lien10}, ${lien11}, ${lien12}, ${lien13}, ${lien14}, ${lien15}, ${lien16}, ${lien17}, ${lien18}, ${lien19}`;
+
+ };
 zokou(
   { 
     nomCom: "tirage", 
@@ -182,7 +186,7 @@ zokou(
         switch (niveau) {
             case "💎":
                 const ss_pourcentage = [5, 4, 3, 2, 1.5, 1, 0.5];
-                const p1 = tirerCarte(ss_pourcentage, 1.5);
+                const p1 = tirerCarte(ss_pourcentage, 0.5);
                 if (p1  === 4) {
                     zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
                   sleep(3000);
@@ -222,7 +226,7 @@ zokou(
                 break;
             case "🥇":
                 const le_pourcentage = [7, 5, 3, 2];
-                const p2 = tirerCarte(le_pourcentage, 1.5);figure 
+                const p2 = tirerCarte(le_pourcentage, 0.5);
                 if (p2 === 5) {
                     zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
                   sleep(3000);
@@ -247,7 +251,7 @@ zokou(
                 break;
             case "🥈":
                 const ul_pourcentage = [40, 30, 20, 10];
-          const p3 = tirerCarte(_pourcentage, 1.5);
+          const p3 = tirerCarte(_pourcentage, 0.5);
                 if (p3 === 30) {
                     zk.sendMessage(dest, { image: { url: lien12 } }, { quoted: ms });
               sleep(3000);
@@ -272,7 +276,7 @@ zokou(
                 break;
             case "🥉":
                 const sp_pourcentage = [90, 70, 60, 50];
-                const p4 = tirerCarte(sp_pourcentage, 1.5);
+                const p4 = tirerCarte(sp_pourcentage, 0.5);
                 if (p4 === 70) {
                     zk.sendMessage(dest, { image: { url: lien16 } }, { quoted: ms });
               sleep(3000);
@@ -311,7 +315,7 @@ function tirerCarte(listePourcentages, facteurAttenuation) {
     const sommePourcentages = listePourcentages.reduce((acc, pourcentage) => acc + pourcentage, 0);
     
     // Calculer le facteur d'atténuation inverse (pour inverser l'effet sur les pourcentages)
-    const inverseFacteurAttenuation = 0.2 / facteurAttenuation;
+    const inverseFacteurAttenuation = 2 / facteurAttenuation;
     
     // Générer un nombre aléatoire entre 0 et la somme des pourcentages
     const randomValue = Math.random() * sommePourcentages;
@@ -324,20 +328,13 @@ function tirerCarte(listePourcentages, facteurAttenuation) {
         
         cumulatif += probabiliteAjustee;
         if (randomValue <= cumulatif) {
-            return listePourcentages[i];
+            return listePourcentages[i]; // Retourner le pourcentage correspondant
         }
     }
     
     // Si aucune valeur n'est choisie (ce qui ne devrait pas arriver normalement), retourner la dernière valeur
     return listePourcentages[listePourcentages.length - 1];
 }
-
-/*// Exemple d'utilisation avec une liste de pourcentages et un facteur d'atténuation
-const listePourcentages = [10, 20, 30, 40]; // Plus élevé en premier, plus faible en dernier
-const facteurAttenuation = 2; // Ajustez ce facteur selon vos besoins
-const pourcentageChoisi = choisirPourcentageAjuste(listePourcentages, facteurAttenuation);
-console.log("Pourcentage choisi :", pourcentageChoisi);
-*/
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
