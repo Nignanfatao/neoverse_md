@@ -75,13 +75,13 @@ Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même
 
 zokou(
     {
-        nomCom: 'recompenses',
+        nomCom: 'recompenses🎁',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === '🎁')  {
+        if (!arg || arg.length === 0)  {
             const lien = 'https://telegra.ph/file/6f93a87fef6949007038a.mp4';
             const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*:
 ░░░░░░░░░░░░░░░░░░░
@@ -131,7 +131,7 @@ zokou(
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === '🏆') {
+        if (!arg || arg.length === 0) {
             const lien = 'https://telegra.ph/file/04f9dd52ba2cc2d96a9de.jpg';
             const msg = `🔷░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
