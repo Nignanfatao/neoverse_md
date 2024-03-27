@@ -58,7 +58,10 @@ const port = process.env.PORT;
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
-
+});
+app.listen(port, () => {
+  console.log(`Server listening at http://localhost:${port}`);
+}); 
 
     async function authentification() {
         try {
@@ -1072,10 +1075,7 @@ app.get('/', (req, res) => {
         main();
     }, 5000);
     
-     });
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
-}); 
+     
 
 
 
