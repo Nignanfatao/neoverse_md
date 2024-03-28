@@ -1,6 +1,6 @@
 {
-  "name": "zokou-2.0",
-  "version": "2.0.0",
+  "name": "zokou",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Zokou",
-    "whatsapp",
+    "Zk",
     "whatsapp-bot",
-    "Djalega++"
+    "whatsapp",
+    "Fatao"
   ],
-  "author": "Djalega++",
+  "author": "Fatao",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
