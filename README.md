@@ -30,9 +30,9 @@
 
 2. Obtenez une session du bot : <br>
   
-[Session](https://zokouscan.onrender.com)
-  
+[Session-1](https://zokouscan-xbym.onrender.com) ; <br>
 
+ 
 
 ## Déploiement
 - **déploiement sur heroku**
@@ -50,7 +50,9 @@ Les contributions à Zokou sont les bienvenues ! Si vous avez des idées pour de
 
 Nous remercions certaines personnes pour leur contribution :
 
-**Fatao** qui a ajouter des commandes editeurs de texte (Fancy)
+**Fatao** qui a ajouter des commandes  (Fancy , gpt , dalle ,apk) ; <br>
+
+**CrazyPrice** qui a heberger un second site web en pour les session_id ;
                 
 ## Licence
 
