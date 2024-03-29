@@ -186,118 +186,118 @@ zokou(
         switch (niveau) {
             case "💎":
                 const ss_pourcentage = [5, 4, 3, 2, 1.5, 1, 0.5];
-                const p1 = tirerCarte(ss_pourcentage, 0.5);
+                const p1 = tirerCarte(ss_pourcentage, 0.8);
                 if (p1  === 4) {
                     zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
                   sleep(3000);
-                 lien();
+                 lien(ss);
                    await zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
-               lien(); } else if (p1 === 3) {
+               lien(ss); } else if (p1 === 3) {
                     zk.sendMessage(dest, { image: { url: lien2 } }, { quoted: ms });
                     sleep(3000);
-                 lien();
+                 lien(ssp);
                     zk.sendMessage(dest, { image: { url: lien2 } }, { quoted: ms });
-             lien();   } else if (p1 === 2) {
+             lien(ssp);   } else if (p1 === 2) {
                     zk.sendMessage(dest, { image: { url: lien3 } }, { quoted: ms });
                   sleep(3000);
-                 lien();
+                 lien(sspsuper);
                       zk.sendMessage(dest, { image: { url: lien3 } }, { quoted: ms });
-               lien(); } else if (p1 === 1.5) {
+               lien(sspsuper); } else if (p1 === 1.5) {
                     zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
                    sleep(3000);
-                 lien();
+                 lien(sspmega);
                       zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
-              lien();  } else if (p1 === 1) {
+              lien(sspmega);  } else if (p1 === 1) {
                     zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
                sleep(3000);
-                 lien();
+                 lien(sspultra);
                          zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
-               lien(); } else if (p1 === 0.5) {
+               lien(sspultra); } else if (p1 === 0.5) {
                     zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
                    sleep(3000);
-                 lien();
+                 lien(sspultimate);
                      zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
-               lien(); } else {
+               lien(sspultimate); } else {
                     zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
                   sleep(3000);
-                 lien();
+                 lien(ssm);
                       zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
-            lien();    }
+            lien(ssm);    }
                 break;
             case "🥇":
                 const le_pourcentage = [7, 5, 3, 2];
-                const p2 = tirerCarte(le_pourcentage, 0.5);
+                const p2 = tirerCarte(le_pourcentage, 0.8);
                 if (p2 === 5) {
                     zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
                   sleep(3000);
-                 lien();
+                 lien(s1);
                        zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
-               lien(); } else if (p2 === 3) {
+               lien(s1); } else if (p2 === 3) {
                     zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
                   sleep(3000);
-                 lien();
+                 lien(sp1);
                        zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
-               lien(); } else if (p2 === 2) {
+               lien(sp1); } else if (p2 === 2) {
                     zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
                  sleep(3000);
-                 lien();
+                 lien(spsuper1);
                         zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
-              lien();  } else {
+              lien(spsuper1);  } else {
                     zk.sendMessage(dest, { image: { url: lien11 } }, { quoted: ms });
                sleep(3000);
-                 lien();
+                 lien(sm1);
                          zk.sendMessage(dest, { image: { url: lien11 } }, { quoted: ms });
-            lien();    }
+            lien(sm1);    }
                 break;
             case "🥈":
                 const ul_pourcentage = [40, 30, 20, 10];
-          const p3 = tirerCarte(_pourcentage, 0.5);
+          const p3 = tirerCarte(_pourcentage, 0.8);
                 if (p3 === 30) {
                     zk.sendMessage(dest, { image: { url: lien12 } }, { quoted: ms });
               sleep(3000);
-                 lien();
+                 lien(s2);
                           zk.sendMessage(dest, { image: { url: lien12 } }, { quoted: ms });
-             lien();   } else if (p3 === 20) {
+             lien(s2);   } else if (p3 === 20) {
                     zk.sendMessage(dest, { image: { url: lien13 } }, { quoted: ms });
                 sleep(3000);
-                 lien();
+                 lien(sp2);
                          zk.sendMessage(dest, { image: { url: lien13 } }, { quoted: ms });
-            lien();    } else if (p3 === 10) {
+            lien(sp2);    } else if (p3 === 10) {
                     zk.sendMessage(dest, { image: { url: lien14 } }, { quoted: ms });
                 sleep(3000);
-                 lien();
+                 lien(spsuper2);
                          zk.sendMessage(dest, { image: { url: lien14 } }, { quoted: ms });
-             lien();   } else {
+             lien(spsuper2);   } else {
                     zk.sendMessage(dest, { image: { url: lien15 } }, { quoted: ms });
            sleep(3000);
-                 lien();
+                 lien(sm2);
                              zk.sendMessage(dest, { image: { url: lien15 } }, { quoted: ms });
-              lien();  }
+              lien(sm2);  }
                 break;
             case "🥉":
                 const sp_pourcentage = [90, 70, 60, 50];
-                const p4 = tirerCarte(sp_pourcentage, 0.5);
+                const p4 = tirerCarte(sp_pourcentage, 0.8);
                 if (p4 === 70) {
                     zk.sendMessage(dest, { image: { url: lien16 } }, { quoted: ms });
               sleep(3000);
-                 lien();
+                 lien(s3);
                            zk.sendMessage(dest, { image: { url: lien16 } }, { quoted: ms });
-             lien();   } else if (p4 === 60) {
+             lien(s3);   } else if (p4 === 60) {
                     zk.sendMessage(dest, { image: { url: lien17 } }, { quoted: ms });
               sleep(3000);
-                 lien();
+                 lien(sp3);
                           zk.sendMessage(dest, { image: { url: lien17 } }, { quoted: ms });
-            lien();    } else if (p4 === 50) {
+            lien(sp3);    } else if (p4 === 50) {
                     zk.sendMessage(dest, { image: { url: lien18 } }, { quoted: ms });
            sleep(3000);
-                 lien();
+                 lien(spsuper3);
                              zk.sendMessage(dest, { image: { url: lien18 } }, { quoted: ms });
-               lien(); } else {
+               lien(spsuper3); } else {
                     zk.sendMessage(dest, { image: { url: lien19 } }, { quoted: ms });
            sleep(3000);
-                 lien();
+                 lien(sm3);
                              zk.sendMessage(dest, { image: { url: lien19 } }, { quoted: ms });
-          lien();      } 
+          lien(sm3);      } 
                 break;
             default:
                 console.error("Niveau invalide");
