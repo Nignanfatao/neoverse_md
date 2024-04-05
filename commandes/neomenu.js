@@ -253,19 +253,7 @@ Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueur
                                      *UF🥅🔝*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
-        }
-    }
-);
-
-zokou(
-    {
-        nomCom: 'saison',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (arg[0] === 'NBA🏀'); {
+        } else if (arg[0] === 'NBA🏀'); {
             const lien = 'https://telegra.ph/file/74b24368196d19f87e460.jpg';
             const msg = `*𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 NBA🏀*
 ░░░░░░░░░░░░░░░░░░░
@@ -292,19 +280,7 @@ Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueur
                                      *NBA2K🏀NE⭕*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
-        }
-    }
-);
-
-zokou(
-    {
-        nomCom: 'saison',
-        categorie: 'NEOverse'
-    },
-    async (dest, zk, commandeOptions) => {
-        const { repondre, arg, ms } = commandeOptions;
-
-        if (arg[0] === 'Elysium💠')  {
+    } else (arg[0] === 'Elysium💠')  {
             const lien = 'https://telegra.ph/file/bdd957fe4f3c12dfdeb66.jpg';
             const msg = `*💠Elysium Season PASS💠*
 ░░░░░░░░░░░░░░░░░░░
@@ -329,10 +305,10 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
-    }
-);
+    });
 
-/*zokou(
+
+zokou(
     {
         nomCom: 'records🏆',
         categorie: 'NEOverse'
@@ -344,7 +320,7 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
             const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = `. 
            ══════༺༻═══
-            ⚜️`\`\`\ 𝐋𝐈𝐕𝐑𝐄𝐒 𝐃'𝐇𝐈𝐒𝐓𝐎𝐈𝐑𝐄 `\`\`\⚜️
+            ⚜️ ''' 𝐋𝐈𝐕𝐑𝐄𝐒 𝐃'𝐇𝐈𝐒𝐓𝐎𝐈𝐑𝐄 '''⚜️
            ═════ ༺༻═══
 Voici les pantheons du Nouveau monde, le livre des performances mémorables et légendaires  du nouveau monde ! ceux qui ont écrit leurs noms dans parmi les Astres et les plus grands à tout jamais dans le nouveau monde. 
 
@@ -375,7 +351,7 @@ zokou(
             const msg = `. 
                     
                  ══════༺༻═══
-                         🏆\`\`\`\𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒\`\`\`\🏆
+                         🏆 ''' 𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒 ''' 🏆
                  ══════༺༻═══
                   
 Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO et GRAND SLAM. 
@@ -417,7 +393,7 @@ zokou(
             const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = `. 
                    ══════༺༻═══
-      💫 \`\`\`\𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑\`\`\`\ 💫
+      💫 ''' 𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑 ''' 💫
                       ═════ ༺༻═══
 
 Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de la saison régulière, les TOP1🏆
@@ -451,7 +427,7 @@ Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de 
    
         }
     }
-);*/
+);
 
 zokou(
     {
@@ -494,7 +470,7 @@ Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été d
     }
 );
 
-/*zokou(
+zokou(
     {
         nomCom: 'awards💫',
         categorie: 'NEOverse'
@@ -506,7 +482,7 @@ Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été d
             const lien = 'https://telegra.ph/file/7d380c5771ac6388f5879.jpg';
             const msg = `. 
                    ══════༺༻═══
-                      💫 \`\`\`\𝐆𝐎𝐋𝐃𝐄𝐍 𝐀𝐖𝐀𝐑𝐃𝐒\`\`\`\ 💫
+                      💫 ''' 𝐆𝐎𝐋𝐃𝐄𝐍 𝐀𝐖𝐀𝐑𝐃𝐒 ''' 💫
                       ═════ ༺༻═══
 Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS du Nouveau monde RP💫.Venez écrire votre nom dans le panthéon ultime du nouveau monde. 
 *⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
@@ -539,7 +515,7 @@ Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS
    
         }
     }
-);*/
+);
 
 zokou(
     {
