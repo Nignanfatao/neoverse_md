@@ -251,7 +251,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2d6e0cb68518359cd8
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });*/
+  });
 
 
 zokou(
@@ -380,7 +380,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/ba6008a4f780ee5b47
   });
  
 
-/*zokou(
+zokou(
   {
     nomCom: 'centraldark👤',
     categorie: 'NEOverse'
@@ -503,7 +503,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c80cc43c0819fbca13
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
  
 
 zokou(
@@ -629,7 +629,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/f56553ddcb5c189c2f
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });*/
+  });
 
 
 zokou(
@@ -760,7 +760,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a309e16d5354c71917
 
 zokou(
   {
-    nomCom: 'centralhazlay👤',
+    nomCom: 'centralhazlay 👤',
     categorie: 'NEOverse'
   },
   async (dest, zk, commandeOptions) => {
@@ -799,7 +799,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/bc697717deb94a4eb5273.jpg7' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/241484e0d902828e861d8.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
