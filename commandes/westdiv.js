@@ -671,7 +671,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/4f2b9048e73dbb8ad1cdb.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0700b64d584dc909ab7f7.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
