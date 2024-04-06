@@ -734,7 +734,7 @@ zokou(
 
 zokou(
     {
-        nomCom: 'menuOptions',
+        nomCom: 'menuoptions',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
