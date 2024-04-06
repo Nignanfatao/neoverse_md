@@ -241,7 +241,7 @@ Lors de la saison NBA, les équipes sont séparées en deux Conférences...la co
                                      *NBA2K🏀NE⭕*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
-    } else (arg[0] === 'Elysium💠')  {
+ /*  } else (arg[0] === 'Elysium💠')  {
             const lien = 'https://telegra.ph/file/bdd957fe4f3c12dfdeb66.jpg';
             const msg = `*💠Elysium Season PASS💠*
 ░░░░░░░░░░░░░░░░░░░
@@ -264,7 +264,7 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                                 *💠Processing...*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
+   */
         }
     });
 
