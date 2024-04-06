@@ -2,29 +2,15 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
     {
-        nomCom: 'menu_',
+        nomCom: 'menuneo🔷',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === 'Neo🔷')  {
-            const lien = 'https://telegra.ph/file/fa6999ab2d76e26cac779.jpg';
-            const msg = `.                        🔷𝗡Ξ𝗢 MENU
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Bienvenue dans le menu principal de NEOverse🔷,Pour tout savoir sur l'univers NEO🙂:
-
-👉🏻 +Guide Saison🔷
-👉🏻 +Records🏆
-👉🏻 +Calendrier🔷
-👉🏻 +Rankings🔷
-👉🏻 +Draft🔷
-👉🏻 +Évènements🎉
-
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                 *🔷NSL🏆*`;
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/4696c5412e6bb7a80166c.jpg';
+            const msg = '';
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -33,14 +19,14 @@ Bienvenue dans le menu principal de NEOverse🔷,Pour tout savoir sur l'univers 
 
 zokou(
     {
-        nomCom: 'guide',
+        nomCom: '+seasonpass🔷',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] === 'Saison🔷')  {
-            const lien = 'https://telegra.ph/file/349811ed350ef785b8150.mp4';
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/79474acac8fb14180f7d5.jpg';
             const msg = `🔷░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *🎮MATCH UP*: 
@@ -82,11 +68,10 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/6f93a87fef6949007038a.mp4';
+            const lien = 'https://telegra.ph/file/b93f4f67baa1e97e10557.jpg';
             const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*:
-░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🏆 Les Top 3 de chaques classes et le meilleur rookie seront les ALL STARS de la prestigieuse *TOS🌟* Team of the Season,minimum 5 victoires pour y figurer et percevoir les Récompenses. 
+🔷Les Top 3 de chaques classes seront les ALL STARS de la prestigieuse *TOS🌟* Team of the Season,minimum 5 victoires dans sa classe contre au moins 5 joueurs pour y figurer et percevoir les Récompenses et avec plus de 10 matchs la saison vous recevez  une Card gratuite S- de cette classe. 
 
 🥇LÉGENDS🏆:
 1️⃣🥇:1.000.000🧭+100🔷+🎁+100🎟️
@@ -101,22 +86,14 @@ zokou(
 🥉NOVICES🏆
 1️⃣🥇: 600.000🧭+20🔷+🎁+20🎟️
 2️⃣🥈: 400.000🧭+10🔷+10🎟️
-3️⃣🥉: 600.000🧭
-
-🏵️ROOKIES
-1️⃣🥇:200.000🧭+5🔷+5🎟️
+3️⃣🥉: 200.000🧭
 
 *🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗺𝗮𝗶𝗻𝗲🎁🎊*
-░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Weekly ranking, TOW💙, Team of the week:
-🔹 *Weekly Player*:100.000🧭+5🔷
-🔹 *TOW Top 3*: 50.000🧭
-⚠️Récompense 🔷 avec minimum 3 victoires la semaine. 
-
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                            *🔷NSL🏆🔝*`;
+Weekly, TOW💙, team of the week:
+🔹 *Weekly Player*:200.000🧭+5🔷NC
+🔹 *TOW Top 3*: 100.000🧭
+⚠️Récompense  avec minimum 3 matchs la semaine.`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -132,40 +109,30 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0) {
-            const lien = 'https://telegra.ph/file/04f9dd52ba2cc2d96a9de.jpg';
-            const msg = `🔷░░░░░░░░░░░░░░░░░░░
+            const lien = 'https://telegra.ph/file/996dd76bb9d55157c0fb3.jpg';
+            const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗧𝗼𝘂𝗿𝗻𝗼𝗶𝘀🏆🎁*
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Nous avons 3 tournois majeurs en NSL🏆en dehors de la saison régulière: *Le NEO TOUR EVO💠, LE GRAND SLAM💢 et L'inter divisions CUP🛡️*. 
+Les Récompenses sont alléchantes pendant les tournois sont alléchantes, nous avons deux tournois majeurs dans la saison NEO🏆,le *NEO TOUR EVO* et le *GRAND SLAM🏆*, 8 à 16 participants max. 
+🎖️ *WIN*: 1.000.000🧭+50🔷+🎁🥈+20🎟️
 
-*🏆NEO TOUR EVO💠*
-▔▔▔▔▔▔▔▔▔▔▔▔
-L'une des compétitions majeures de la NSL, regroupant 8 joueurs en éliminations directes sur un match. 
-🎖️ : 1.000.000🧭+50🔷+🎁🥈+30🎟️
-
-*🏆Le GRAND SLAM💢*
-▔▔▔▔▔▔▔▔▔▔▔▔
-La deuxième grande compétition de la NSL avec des matchs aller retour en 2 manches pour un score de *2-0* ce qui est un swipe. Les TOP 2 de toutes les classes sont les qualifiés pour le GS. 
-🎖️ : 1.000.000🧭+50🔷+🎁🥈+30🎟️
+*🏆Super Champions(SCC)CUP🏆*:
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+c'est une super finale entre le MNVP de la saison régulière et le champion du tournoi *NEO TOUR EVO💠*, *GRAND SLAM🏆*. 
+🎖️ *WIN*: 500.000🧭+30🔷+🎁🥈+20🎟️
 
 *🛡️𝗜𝗻𝘁𝗲𝗿𝗱𝗶𝘃𝗶𝘀𝗶𝗼𝗻𝘀 𝗖𝘂𝗽🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔
-Les divisions s'affrontent en alignant leurs joueurs pour représenter la Division. Seulement 2 joueurs max, les combats se font en 1 vs 1 pour un total de 2 victoires, si une division gagne déjà 2-0 c'est un *Swipe* qualifiée pour le tour suivant mais si 1-1, un 3e match.
-🎖️ *WIN*: 1.000.000🧭+100🛡️ 
-
-*⚠️Règlement des tournois*
-▔▔▔▔▔▔▔▔▔▔▔▔
-Après avoir été inscrit ne pas se présenter le jour du match sera considéré comme un forfait et une amende de 500 à 1.000.000🧭 et aussi la moitié des NC🔷 et privé de la prochaine édition. Le Bonus de participation au tournoi après un match est de 10🎟️ et à chaque victoire en tournoi vous gagner +5🎟️. 
-
-░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                *🔷NSL🏆🔝*`;
+Les divisions s'affrontent en alignant leurs joueurs pour représenter la Division. Seulement 3 joueurs max, les combats se font en 1 vs 1 pour un total de 2 victoires, si une division gagne déjà 2-0 c'est un *Swipe* qualifiée pour le tour suivant mais si 1-1, un 3e match.
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+ ⚠️Selon le règlement des tournois s'inscrire à un tournoi puis ne pas se présenter équivaut à une amende de -500.000🧭 -25🔷 et -20🎟️`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'neo',
         categorie: 'NEOverse'
@@ -217,7 +184,7 @@ Statuettes de Prix récompensant les meilleurs NEO players selon les critères d
         }
     }
 );
-
+*/
 zokou(
     {
         nomCom: 'saison',
@@ -227,15 +194,13 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (arg[0] === 'UF🥅')  {
-            const lien = 'https://telegra.ph/file/00ba3eadccf8f3f47617c.jpg';
-            const msg = ` *𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 𝗨𝗙🥅*
+            const lien = 'https://telegra.ph/file/2c25e13956f7d292b8a0f.jpg';
+            const msg = `*𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 𝗨𝗙🥅*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 Lors de la saison UF, les équipes sont séparées en deux ligues...la Divisions Stars et la division Novices, nous viserons 3 ligues si y'a plus de joueurs. Les 6 premiers de la division ONE vont se qualifier pour la ligue des champions et les 2 premiers de la Division SECOND aussi. 
 
 *𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗠𝗔𝗧𝗖𝗛𝗦🥅*
-Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueurs ont 10 matchs maximum la saison mais vous devez affronter tous les joueurs de votre division et vous ne pouvez pas affronter le même adversaire plus de 2 fois la partie de la saison et la ligue organisera des matchs pour certains joueurs en forme. 
-
 ⚽Pour 5 matchs:  5.000.000 €
 ⚽Pour 5 victoires: 25.000.000 € + 10 UFC🪙
 ⚽Pour 10 matchs: 10.000.000 € + 5 UFC🪙
@@ -254,24 +219,21 @@ Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueur
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         } else if (arg[0] === 'NBA🏀'); {
-            const lien = 'https://telegra.ph/file/74b24368196d19f87e460.jpg';
+            const lien = 'https://telegra.ph/file/c70106c58248322fac390.jpg';
             const msg = `*𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝘂𝗲 𝗱𝗮𝗻𝘀 𝗹𝗮 𝘀𝗮𝗶𝘀𝗼𝗻 NBA🏀*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 Lors de la saison NBA, les équipes sont séparées en deux Conférences...la conférence WEST🔴 et la conférence EAST🔵 . Les 8 premiers de chaques conferences joueront les PLAYOFFS mais dans un debut nous allons faire un championnat combiné 🔴WEST/EAST🔵 et les 8 premiers seront aux playoffs les. 
 
-*𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗠𝗔𝗧𝗖𝗛𝗦🏀*
-Nous avons opter pour une saison à quota de matchs par joueurs. Tous les joueurs ont 10 matchs maximum la saison mais vous devez affronter tous les joueurs de votre division et vous ne pouvez pas affronter le même adversaire plus de 2 fois la partie de la saison et la ligue organisera des matchs pour certains joueurs en forme. 
+🏀Pour 5 matchs:  5.000.000 $
+🏀Pour 5 victoires: 25.000.000 $ + 10 NBC⭕
+🏀Pour 10 matchs: 10.000.000 $ + 5 NBC⭕
+🏀Pour 10 victoires: 50.000.000 $ + 50 NBC⭕
 
-⚽Pour 5 matchs:  5.000.000 $
-⚽Pour 5 victoires: 25.000.000 $ + 10 NBC⭕
-⚽Pour 10 matchs: 10.000.000 $ + 5 NBC⭕
-⚽Pour 10 victoires: 50.000.000 $ + 50 NBC⭕
-
-*𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝗦𝗮𝗶𝘀𝗼𝗻🏀🎁*
+*𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗱𝗲 𝗦𝗮𝗶𝘀𝗼𝗻🏀🎁*
 🎖️Top 1: +100M$ + 70 NBC⭕+100🔷+50🎟️
 🥈 Top 3: 50M$ + 30 NBC⭕+50🔷+20🎟️
-🥉 Top 6: 20M$ + 10 NBC⭕+20🔷+10🎟️
+🥉 Top 6: 20M$ + 10 NBC⭕
 🏆Finals: 100M$ + 90 NBC⭕+100🔷+50🎟️
 
 *⚠️Récompenses avec minimum 5 matchs*
@@ -310,19 +272,19 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
 
 zokou(
     {
-        nomCom: 'records🏆',
+        nomCom: 'records🔷️',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
+            const lien = 'https://telegra.ph/file/2a2abe4cba6749fb70877.jpg';
             const msg = `. 
            ══════༺༻═══
-            ⚜️ ''' 𝐋𝐈𝐕𝐑𝐄𝐒 𝐃'𝐇𝐈𝐒𝐓𝐎𝐈𝐑𝐄 '''⚜️
+            ⚜️\`\`\` 𝐋𝐈𝐕𝐑𝐄𝐒 𝐃'𝐇𝐈𝐒𝐓𝐎𝐈𝐑𝐄 \`\`\`⚜️
            ═════ ༺༻═══
-Voici les pantheons du Nouveau monde, le livre des performances mémorables et légendaires  du nouveau monde ! ceux qui ont écrit leurs noms dans parmi les Astres et les plus grands à tout jamais dans le nouveau monde. 
+Voici les pantheons du Nouveau monde, le livre des performances mémorables et légendaires  du nouveau monde ! ceux qui ont écrit leurs noms parmi les Astres et les plus grands à tout jamais dans le nouveau monde. 
 
 *🔸+Champions 🏆*
 *🔸+MNVP🌟*
@@ -331,7 +293,9 @@ Voici les pantheons du Nouveau monde, le livre des performances mémorables et l
  ══════༺༻═══
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                  *🔶𝗡Ξ𝗢💫*`;
+                                  *🔶𝗡Ξ𝗢💫*
+
+.`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -347,33 +311,27 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
-            const msg = `. 
-                    
-                 ══════༺༻═══
-                         🏆 ''' 𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒 ''' 🏆
+            const lien = 'https://telegra.ph/file/856864a64984161a8f1a8.jpg';
+            const msg = `══════༺༻═══
+                         🏆\`\`\`𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒\`\`\`🏆
                  ══════༺༻═══
                   
-Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO et GRAND SLAM. 
+Voici le panthéon des Champions du Nouveau monde✨🏆ceux qui ont un déjà rempoter un tournoi à NEOverse ! NEO TOUR EVO💠, GRAND SLAM🏆et SUPER CHAMPIONS CUP🏆(SCC) . 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-
 🔸🔴NEO KÏNGS⚜️🇨🇬:       🏆 
 🔸🔵ABA L. KÏNGS⚜️🇸🇳:   🏆
-🔸🟠Gentleman🇸🇳:              🏆
-🔸🔴Tecraso Marc🇨🇲:         🏆
 🔸🔴Lily KÏNGS⚜️🇨🇬:         🏆🏆🏆
-🔸🔴Damian KÏNGS⚜️🇨🇬 : 🏆🏆
+🔸🔴Damian KÏNGS⚜️🇨🇬 : 🏆🏆🏆
 🔸🔵Vanitas KÏNGS⚜️🇸🇳:  🏆
-
+🔸🟢Adam GENESIS🇨🇮:  🏆
 
 
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 De nouveaux Guerriers viendront chercher le titre de "CHAMPION" afin graver leurs noms à tout jamais parmi les immortels dans la légende du nouveau monde RP. Are you the NEXT KING? 👑
-                    ══════༺༻═══
-                          
+                    ══════༺༻═══                  
                                 🔶𝗡Ξ𝗢💫`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
@@ -383,7 +341,7 @@ De nouveaux Guerriers viendront chercher le titre de "CHAMPION" afin graver leur
 
 zokou(
     {
-        nomCom: 'mnvp🌟',
+        nomCom: 'mnvp⭐',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -393,32 +351,26 @@ zokou(
             const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
             const msg = `. 
                    ══════༺༻═══
-      💫 ''' 𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑 ''' 💫
+      💫 \`\`\`𝐌𝐎𝐒𝐓 𝐍𝐄𝐎 𝐕𝐀𝐋𝐔𝐀𝐁𝐋𝐄 𝐏𝐋𝐀𝐘𝐄𝐑\`\`\` 💫
                       ═════ ༺༻═══
 
-Récompense prestigieuse *TOS*⭐ désignant les MNVP, les meilleurs joueurs de la saison régulière, les TOP1🏆
-*⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
+Livre  prestigieux de ceux qui ont inscrit leurs noms dans l'histoire en finissant *MNVP de leurs classes🎖️* , les meilleurs joueurs de la saison régulière par classe les TOP1🏆. 
+🥇 *Niveau LEGENDS*: ⭐⭐⭐(Extreme) 
+🥈 *Niveau ÉLITES*: ⭐⭐(Moyen) 
+🥉 *Niveau NOVICES*:⭐(Facile) 
+
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🏆 *LEGENDS🥇*: ⭐⭐⭐ (Niveau Extrême) 
-🔸Lily KÏNGS⚜️🇨🇬:                  2🌟
-🔸Damian KÏNGS⚜️🇨🇬:          4🌟
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🏆 *ELITES🥈*: ⭐⭐ (Niveau moyen) 
-🔸Adam GENESIS🇨🇮:              1🌟
-🔸Vanitas KÏNGS⚜️🇸🇳:          1🌟
-🔸Grimm Tempest🇨🇲:             1🌟
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🏆 *NOVICES🥉*: ⭐(Niveau facile) 
-🔸Hajime NEXUS🇨🇲:                1🌟
-🔸Kemael🇨🇮:                             1🌟
-🔸White KÏNGS⚜️🇨🇮:              1🌟 
-🔸Abdiel🇹🇬:                               1🌟
-
-
-
+🥇Damian KÏNGS⚜️🇨🇬: 🎖️🎖️🎖️🎖️🎖️🎖️ 
+🥇Lily KÏNGS⚜️🇨🇬:         🎖️🎖️🎖️🎖️
+🥈Vanitas G KÏNGS⚜️🇸🇳:  🎖️
+🥈Adam GENESIS🇨🇮:  🎖️
+🥈Grimm TEMPEST🇨🇲:  🎖️
+🥈Vyrozz🇹🇬:  🎖️
+🥈Zephyr🇨🇮: 🎖️
+🥉Kemael🇨🇮:  🎖️
+🥉White KÏNGS⚜️🇨🇮:  🎖️
+🥉Hazlay🇸🇳: 🎖️
         
 
                                 🔶𝗡Ξ𝗢🌟
@@ -438,28 +390,33 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/8370fd4da3413d1e629f8.jpg';
+            const lien = 'https://telegra.ph/file/bd61428816cc5e36abcad.jpg';
             const msg = `. 
                   ══════༺༻═══
                         🌟𝗧𝗢𝗦: 𝐀𝐋𝐋 𝐒𝐓𝐀𝐑𝐒🌟
                    ═════ ༺༻═══
-Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été dans la  *TOS* TEAM OF THE SEASON⭐,la team prestige 🎖️. 
+Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été dans la  *TOS* TEAM OF THE SEASON⭐,la team prestige 🎖️,equivalent aux TOTY⭐. 
 *⚠️Notez que vous pouvez prendre votre retraite de NEOverse avec les Honneurs donc une décoration ! Mais si vous quittez en fantôme où entacher votre image vis à vis de la ligue vous perdez votre nom dans le Panthéon d'honneur.* 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+*⭐Damian  KÏNGS⚜️🇨🇬*:    7⭐
 *⭐Lily KÏNGS⚜️🇨🇬*:             6⭐
-*⭐Damian  KÏNGS⚜️🇨🇬*:    6⭐
-*⭐Hajime NEXUS🇨🇲*:           1⭐
-*⭐Aether GENESIS🇬🇦*:        1⭐ 
 *⭐White KÏNGS⚜️🇨🇮*:         3⭐ 
-*⭐Atsushi KÏNGS⚜️🇨🇲*:     2⭐ 
-*⭐Adam GENESIS🇨🇮*:         1⭐ 
-*⭐Goldy Shogun🇹🇬*:            1⭐ 
-*⭐Kemael🇨🇮*:                        1⭐
+*⭐Vanitas Gold KÏNGS⚜️🇸🇳*: 2⭐
+*⭐Aether GENESIS🇬🇦*:         2⭐ 
+*⭐Adam GENESIS🇨🇮*:         2⭐ 
+*⭐Goldy Shogun🇹🇬*:            2⭐ 
+*⭐Atsushi KÏNGS⚜️🇨🇲*:     2⭐
+*⭐Kemael🇨🇮*:                        2⭐
+*⭐Zephyr🇨🇮*:                          2⭐ 
+*⭐Hajime NEXUS🇨🇲*:           1⭐
 *⭐Grimm Tempest🇨🇲*:        1⭐ 
-*⭐Abdiel🇹🇬*:                          1⭐ 
-*⭐Thanatos Gold King🇧🇫*:  1⭐ 
-
+*⭐SoloMoe A. KÏNGS⚜️🇸🇳*: 1⭐
+*⭐Thanatos Gold KÏNGS⚜️🇧🇫*:  1⭐ 
+*⭐The LOA KÏNGS⚜️🇹🇬*:    1⭐
+*⭐Adorieru KAMADO🇷🇴*:    1⭐
+*⭐Kanzen Gold KING🇨🇮*:    1⭐
+*⭐Serena Gold WHITE🇨🇮*:  1⭐
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -470,7 +427,7 @@ Voici la catégorie des SUPERSTARS du nouveau monde, ceux qui ont déjà été d
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'awards💫',
         categorie: 'NEOverse'
@@ -516,21 +473,21 @@ Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS
         }
     }
 );
-
+*/
 zokou(
     {
-        nomCom: 'calendrier🔷',
+        nomCom: 'calendar🔷️',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/b72688931621648efe227.jpg';
+            const lien = 'https://telegra.ph/file/ea19c9f1fe0a7ae1b73fb.jpg';
             const msg = `*🔷CALENDRIER📅*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷Nous évoluons avec des saisons altérées mixtes ! Donc si c'est la saison NBA nous aurons une semaine de matchs NBA plus une semaine de combats ALL STARS. C'est donc un mixte entre le mois NBA et le Mois UF,Elysium et ALL STARS ne bougeront pas ce qui fait que nous auront 2 semaines pour chaques jeux... Si c'est la semaine UF pas de ALL STARS et NBA cette semaine. 
+🔷Nous évoluons avec des saisons altérées mixtes ! Donc si c'est la saison UF nous aurons que des matchs UF ect... Et si il y'a tournois, pas de Élysium le week-end. 
 
 
 🔹 *Lundi*: versus🆚⚽🏀/🎙️
@@ -553,7 +510,7 @@ zokou(
 *🎉NEOversary Friday*: Jours de festival 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                    *🔷NSL🏆🔝*`;
+                    🔷𝗡Ξ𝗢🔝`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -569,44 +526,42 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/bfd52371074158ab34a18.jpg';
-            const msg = `*𝗥𝗔𝗡𝗞𝗜𝗡𝗚S🔰 𝗡𝗘𝗢🏆*
+            const lien = 'https://telegra.ph/file/276dc43753f6a641363ff.jpg';
+            const msg = `*𝗥𝗔𝗡𝗞𝗜𝗡𝗚🔰 𝗡𝗘𝗢🔷➕*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🥇 *HOF 🌠* : Special Grade S+ ⭐⭐⭐
+🔹 *Awards*: 5💫
+🔹 *TOS🌟*: 5🏆
+🔹 *Trophées*: 5🏆
+🔹 *Nombre de victoires*: 100✅
+🔹 *Récompenses*: 2.000.000🧭+🎁+50🔷
+🥇 *HOF 🌠* :  GRADE S+ ⭐⭐⭐⭐⭐
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *TOS🌟*: 6🏆
-🔹 *Trophées*: 3🏆
-🔹 *Nombre de victoires*: +100✅
-🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
-
-
-🥈 *LEGENDE✨* : Grade S ⭐⭐
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔹 *Awards*: 3💫
 🔹 *TOS🌟*: 3🏆
-🔹 *Trophées*: 1🏆
-🔹 *Nombre de victoires*: 100✅ 
-🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
-
-🥈 *SUPERSTAR💫* : Grade A ⭐
+🔹 *Trophées*: 3🏆
+🔹 *Nombre de victoires*: 80✅ 
+🔹 *Récompenses*: 1.000.000🧭+🎁+40🔷
+🥇 *LEGENDE✨* : GRADE S ⭐⭐⭐⭐
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *TOS🌟*: 1🏆
-🔹 *Nombre de victoires*: 70✅ 
-🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
-
-
-🥈 *RISING STAR🌟* : Grade B 
+🔹 *Nombre de victoires*: 60✅ 
+🔹 *Récompenses*: 600.000🧭+🎁+30🔷
+🥈 *SUPERSTAR💫* : GRADE A ⭐⭐⭐
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🔹 *Nombre de victoires*: 40✅
-🎁🎉 : +1M🧭+50🔷+50🎟️+50🔸+🎁🥈🎫
-
+🔹 *Récompenses*: 400.000🧭+20🔷
+🥈 *RISING STAR🌟* : GRADE B ⭐⭐
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                          *🔷NSL🏆🔝*`;
+🔹 *Nombre de victoires*: 20✅
+🔹 *Récompenses*: 200.000🧭+10🔷
+🥉 *STAR⭐* : GRADE C
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                          🔷𝗡Ξ𝗢🔝`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -615,38 +570,34 @@ zokou(
 
 zokou(
     {
-        nomCom: 'draft🔷',
+        nomCom: 'trade🔷',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/bfd52371074158ab34a18.jpg';
-            const msg = `*🎓𝗗𝗲𝗿𝗼𝘂𝗹𝗲𝗺𝗲𝗻𝘁 𝗱𝗲 𝗹𝗮 𝗱𝗿𝗮𝗳𝘁*
-🔷Lors de la Draft les meilleures divisions ont les meilleurs  privilèges de Draft selon leurs classement sur le divisions Ranking. Donc une division qui a le choix paye la moitié 50%. 
+            const lien = 'https://telegra.ph/file/d6d7030691955d1641107.jpg';
+            const msg = `░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔷Afin de maintenir l'équilibre entre le nombre de joueurs dans les Divisions, désormais il n'y aura plus de transferts mais uniquement des TRADES. Donc maintenant si vous voulez acheter un joueur d'une autre division vous devez faire un échange équivalent selon ce que l'autre division accepte comme Conditions. 
 
-💎 Best choix: 800.000🧭 (1st Division choix) 
-🥇 Bon choix: 500.000🧭(2nd Division choix)  
-🥈 Moyen choix: 250.000🧭  
-🥉 Pire choix: 100.000🧭 
-
-*🔷NB:* ⚠️Si une division veut drafter un joueur qui n'est pas de leurs positions au classement, ils doivent payer aussi le choix de la division qui est censée avoir le joueur de 50% si il n'ya pas de *bras de fer⚖️*
-Au cas où deux où plusieurs Divisions sont intéressées par un même joueur c'est *le bras de fer* où *Les enchères⚖️* la division qui propose plus gagne ! Mais pour se positionner aux enchères vous devez d'abord placer la moitié de la somme du choix et les prix proposés partent de 20.000🧭, donc de 20 en 20.
-*⚠️Si une division décide de faire un transfert en fin de saison, donc pas de Draft sur ce tour.*
-
-*+Extra Draft🔷* (👈🏼) 
-*+Welcome💙* (👈🏼 Rookies) 
+Donc si vous échanger un joueur vous devez payer aussi des indemnités à la division en question:
+*Joueur TOS🌟*: 2.000.000🧭
+*Joueur Legends🥇*: 1.000.000🧭
+*Joueur Élites🥈*: 500.000🧭 
+*Joueur Novices🥉*: 250.000🧭
+⚠️Vous pouvez échanger jusqu'à 2 joueurs pour faire une balance équivalente. 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                *🔷NSL🏆🔝*`;
+                                      🔷𝗡Ξ𝗢🔝`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'extra',
         categorie: 'NEOverse'
@@ -674,18 +625,18 @@ Les divisions peuvent faire des transferts de joueurs en fin de saison. Cela se 
    
         }
     }
-);
+);*/
 
 zokou(
     {
-        nomCom: 'evenements🎉',
+        nomCom: 'events🎊',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/c138f52648b66df87e951.jpg';
+            const lien = 'https://telegra.ph/file/de20465fc86e1cc9c4341.jpg';
             const msg = `*🥳ÉVÉNEMENTS NEO🎊🪄🎁*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
@@ -696,13 +647,13 @@ C'est le festival de l'anniversaire de NEOverse avec pour jour iconique le *NEO 
 
 😄🎊: Pendant le NEOversary:
  🔷🛒Tous les articles à la boutique sont en promotion de -30%🥳 de réduction sur le prix pour les joueurs à 5 matchs minimum. 
-🔷Les joueurs à 5 matchs+ minimum reçoivent une box🎁 de 500.000🧭+20NC🔷. 
+🔷Les joueurs à 5 matchs+ minimum reçoivent une box🎁 Gratuite. 
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 L'autre événement majeur c'est les NEO GOLDEN AWARDS💫, chaques 26-28 du mois, mais il y'a aussi le QUIZZ FESTIVAL❓🥳. Un mini tournois de 8 participants qui s'affrontent en éliminations directes sur deux manches le premier à 2-0 passe au tour suivant. La récompense finale est de 500.000🧭 et +30 NC🔷. 
 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                                
-                                *🔷NSL🏆🔝*`;
+                                *🔷NEO🔝*`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
