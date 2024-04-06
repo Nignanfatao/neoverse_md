@@ -12,7 +12,6 @@ zokou(
             const lien = 'https://telegra.ph/file/4696c5412e6bb7a80166c.jpg';
             const msg = '';
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
         }
     }
 );
@@ -733,6 +732,35 @@ zokou(
     }
 );
 
+zokou(
+    {
+        nomCom: 'menuOptions',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+           const msg = `+menuNeo🔷
++Rankings🔷
++calendar🔷
++trade🔷
++Recompenses🎁
++SeasonPass🔷
++tournois🏆
++Events🎊
++Records🔷
++champions🏆
++MNVP⭐
++saison UF🥅
++saison NBA🏀
++Tos⭐
++Duel
++Pave`;
+            repondre(msg);
+        }
+    }
+);
 
 /*zokou(
     {
