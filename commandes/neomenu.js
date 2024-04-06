@@ -660,6 +660,80 @@ L'autre événement majeur c'est les NEO GOLDEN AWARDS💫, chaques 26-28 du moi
     }
 );
 
+
+zokou(
+    {
+        nomCom: 'duel',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+           // const lien = '';
+            const msg = `*🆚𝗩𝗘𝗥𝗦𝗨𝗦 𝗔𝗥𝗘𝗡𝗔 𝗕𝗔𝗧𝗧𝗟𝗘🏆🎮*       
+░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🔷   *Joueur 1*: 🫀:100%  🌀:100% ❤️:100%            
+                                   ~  *🆚*  ~
+🔷  *Joueur 2*: 🫀:100%  🌀:100% ❤️:100%:.                            
+ ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+ *🌍𝐀𝐫𝐞̀𝐧𝐞*: 
+ *🚫𝐇𝐚𝐧𝐝𝐢𝐜𝐚𝐩𝐞*: Boost 1 fois chaques 2 tours! 
+ *⚖️𝐒𝐭𝐚𝐭𝐬*: 
+ *🏞️ 𝐀𝐢𝐫 𝐝𝐞 𝐜𝐨𝐦𝐛𝐚𝐭*: 50m max
+ *🦶🏼𝐃𝐢𝐬𝐭𝐚𝐧𝐜𝐞 𝐢𝐧𝐢𝐭𝐢𝐚𝐥𝐞*📌: 5m
+ *⌚𝐋𝐚𝐭𝐞𝐧𝐜𝐞*: 6mins+ 1⚠️
+ *⭕𝐏𝐨𝐫𝐭𝐞́𝐞*:  10m
+ *🌍𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐧𝐞𝐦𝐞𝐧𝐭*: 
+ ░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+🆚 *CONDITIONS DE VICTOIRES*:
+▪Easy,Negs diff✅: 2️⃣-0️⃣, +70%🫀,100%❤️
+▪ Mid Diff✅: 1️⃣-0️⃣, 50%🫀, - 100%❤️
+▪High Extreme Diff✅: 2️⃣-1️⃣, - 60%❤️
+✅ *Bon pavé*: immersion, dialogue, jeu de rôle 
+*⚠️Les Boost et déplacements offensifs  ne sont pas pris en compte, seulement les esquives et les déplacements défensifs*
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+  *⚠️Vous avez 8️⃣ tours max pour finir votre Adversaire! Sinon la victoire sera donnée par décision selon celui qui a dominer le combat où qui a été le plus à l'offensive !*`;
+    // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   repondre(msg);
+        }
+    }
+);
+
+
+zokou(
+    {
+        nomCom: 'pave',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+           // const lien = '';
+            const msg = ` .                     *🔷𝗧𝗘𝗫𝗧𝖦𝖠𝖬𝖨𝖭𝖦🎮*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                         *🌍Distance*: 5m
+          
+
+💬🎧𝗖𝗵𝗮𝘁:
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+> 🔷
+   
+
+░░░░░░░░░░░░░░░░░░░░
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                           *🔷𝗡Ξ𝗢🔝*`;
+           // zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   repondre(msg);
+        }
+    }
+);
+
+
 /*zokou(
     {
         nomCom: '',
