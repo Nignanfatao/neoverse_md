@@ -20,7 +20,7 @@ zokou(
     {
         nomCom: 'seasonpass🔷',
         categorie: 'NEOverse'
-    },2w
+    },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
