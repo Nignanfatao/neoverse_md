@@ -18,9 +18,9 @@ zokou(
 
 zokou(
     {
-        nomCom: '+seasonpass🔷',
+        nomCom: 'seasonpass🔷',
         categorie: 'NEOverse'
-    },
+    },2w
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
@@ -271,7 +271,7 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
 
 zokou(
     {
-        nomCom: 'records🔷️',
+        nomCom: 'records🔷',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
