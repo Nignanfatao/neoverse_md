@@ -140,38 +140,149 @@ const sspultimate = [];
  // fin tirage 🥉
    
 
-function liens (lie) {
-    const indiceAleatoire = Math.floor(Math.random() * lie.length);
-    const lienAleatoire = lie[indiceAleatoire];
+function lien1 () {
+    const indiceAleatoire = Math.floor(Math.random() * ss.length);
+    const lienAleatoire = ss[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien2 () {
+    const indiceAleatoire = Math.floor(Math.random() * ssp.length);
+    const lienAleatoire = ssp[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien3 () {
+    const indiceAleatoire = Math.floor(Math.random() * sspsuper.length);
+    const lienAleatoire = sspsuper[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien4 () {
+    const indiceAleatoire = Math.floor(Math.random() * sspmega.length);
+    const lienAleatoire = sspmega[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien5 () {
+    const indiceAleatoire = Math.floor(Math.random() * sspultra.length);
+    const lienAleatoire = sspultra[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien6 () {
+    const indiceAleatoire = Math.floor(Math.random() * sspultimate.length);
+    const lienAleatoire = sspultimate[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien7 () {
+    const indiceAleatoire = Math.floor(Math.random() * ssm.length);
+    const lienAleatoire = ssm[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien8 () {
+    const indiceAleatoire = Math.floor(Math.random() * s1.length);
+    const lienAleatoire = s1[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien9 () {
+    const indiceAleatoire = Math.floor(Math.random() * sp1.length);
+    const lienAleatoire = sp1[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien10 () {
+    const indiceAleatoire = Math.floor(Math.random() * spsuper1.length);
+    const lienAleatoire = spsuper1[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien11 () {
+    const indiceAleatoire = Math.floor(Math.random() * sm1.length);
+    const lienAleatoire = sm1[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien12 () {
+    const indiceAleatoire = Math.floor(Math.random() * s2.length);
+    const lienAleatoire = s2[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien13 () {
+    const indiceAleatoire = Math.floor(Math.random() * sp2.length);
+    const lienAleatoire = sp2[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien14 () {
+    const indiceAleatoire = Math.floor(Math.random() * spsuper2.length);
+    const lienAleatoire = spsuper2[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien15 () {
+    const indiceAleatoire = Math.floor(Math.random() * sm2.length);
+    const lienAleatoire = sm2[indiceAleatoire];
+    return lienAleatoire;
+}
+
+function lien16 () {
+    const indiceAleatoire = Math.floor(Math.random() * s3.length);
+    const lienAleatoire = s3[indiceAleatoire];
     return lienAleatoire;
 }
 
 
- const lien1 = liens(ss);
- const lien2 = liens(ssp);
- const lien3 = liens(sspsuper);
- const lien4 = liens(sspmega);
- const lien5 = liens(sspultra);
- const lien6 = liens(sspultimate);
- const lien8 = liens(ssm);
- const lien7 = liens(s1);
- const lien9 = liens(sp1);
- const lien10 = liens(spsuper1);
- const lien11 = liens(sm1);
- const lien12 = liens(s2);
- const lien13 = liens(sp2);
- const lien14 = liens(spsuper2);
- const lien15 = liens(sm2);
- const lien16 = liens(s3);
- const lien17 = liens(sp3);
- const lien18 = liens(spsuper3);
- const lien19 = liens(sm3);
+function lien17 () {
+    const indiceAleatoire = Math.floor(Math.random() * sp3.length);
+    const lienAleatoire = sp3[indiceAleatoire];
+    return lienAleatoire;
+}
 
- function lien() {
-const li = `${lien1}, ${lien2}, ${lien3}, ${lien4}, ${lien5}, ${lien6}, ${lien7}, ${lien8}, ${lien9}, ${lien10}, ${lien11}, ${lien12}, ${lien13}, ${lien14}, ${lien15}, ${lien16}, ${lien17}, ${lien18}, ${lien19}`;
+function lien18 () {
+    const indiceAleatoire = Math.floor(Math.random() * spsuper3.length);
+    const lienAleatoire = spsuper3[indiceAleatoire];
+    return lienAleatoire;
+}
 
- };
-zokou(
+function lien19 () {
+    const indiceAleatoire = Math.floor(Math.random() * sm3.length);
+    const lienAleatoire = sm3[indiceAleatoire];
+    return lienAleatoire;
+}
+
+/*function liens (lie) {
+    const indiceAleatoire = Math.floor(Math.random() * lie.length);
+    const lienAleatoire = lie[indiceAleatoire];
+    return lienAleatoire;
+}
+*/
+
+ const lien1 = lien1();
+ const lien2 = lien2();
+ const lien3 = lien3();
+ const lien4 = lien4();
+ const lien5 = lien5();
+ const lien6 = lien6();
+ const lien8 = lien7();
+ const lien7 = lien8();
+ const lien9 = lien9();
+ const lien10 = lien10();
+ const lien11 = lien11();
+ const lien12 = lien12();
+ const lien13 = lien13();
+ const lien14 = lien14();
+ const lien15 = lien15();
+ const lien16 = lien16();
+ const lien17 = lien17();
+ const lien18 = lien18();
+ const lien19 = lien19();
+
+ zokou(
   { 
     nomCom: "tirage", 
     reaction: "🎰", 
@@ -186,23 +297,26 @@ zokou(
         switch (niveau) {
             case "💎":
                 const ss_pourcentage = [5, 4, 3, 2, 1.5, 1, 0.5];
-                const p1 = tirerCarte(ss_pourcentage, 0.8);
+                const p1 = tirerCarte(ss_pourcentage, 1.2);
                 if (p1  === 4) {
                     zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
+                 lien1();
                   sleep(3000);
-                 lien(ss);
-                   await zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
-               lien(ss); } else if (p1 === 3) {
+                 const l1 = lien1();
+                   await zk.sendMessage(dest, { image: { url: l1 } }, { quoted: ms });
+               lien1(); } else if (p1 === 3) {
                     zk.sendMessage(dest, { image: { url: lien2 } }, { quoted: ms });
-                    sleep(3000);
-                 lien(ssp);
-                    zk.sendMessage(dest, { image: { url: lien2 } }, { quoted: ms });
-             lien(ssp);   } else if (p1 === 2) {
+                   lien2();
+                 sleep(3000);
+                 const l2 = lien2();
+                    zk.sendMessage(dest, { image: { url: l2 } }, { quoted: ms });
+             lien2();   } else if (p1 === 2) {
                     zk.sendMessage(dest, { image: { url: lien3 } }, { quoted: ms });
-                  sleep(3000);
-                 lien(sspsuper);
-                      zk.sendMessage(dest, { image: { url: lien3 } }, { quoted: ms });
-               lien(sspsuper); } else if (p1 === 1.5) {
+                 lien3();
+                 sleep(3000);
+                 const l3 = lien3();
+                      zk.sendMessage(dest, { image: { url: l3 } }, { quoted: ms });
+               lien3(); } else if (p1 === 1.5) {
                     zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
                    sleep(3000);
                  lien(sspmega);
@@ -226,7 +340,7 @@ zokou(
                 break;
             case "🥇":
                 const le_pourcentage = [7, 5, 3, 2];
-                const p2 = tirerCarte(le_pourcentage, 0.8);
+                const p2 = tirerCarte(le_pourcentage, 1.2);
                 if (p2 === 5) {
                     zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
                   sleep(3000);
@@ -251,7 +365,7 @@ zokou(
                 break;
             case "🥈":
                 const ul_pourcentage = [40, 30, 20, 10];
-          const p3 = tirerCarte(_pourcentage, 0.8);
+          const p3 = tirerCarte(_pourcentage, 1.2);
                 if (p3 === 30) {
                     zk.sendMessage(dest, { image: { url: lien12 } }, { quoted: ms });
               sleep(3000);
@@ -276,7 +390,7 @@ zokou(
                 break;
             case "🥉":
                 const sp_pourcentage = [90, 70, 60, 50];
-                const p4 = tirerCarte(sp_pourcentage, 0.8);
+                const p4 = tirerCarte(sp_pourcentage, 1.2);
                 if (p4 === 70) {
                     zk.sendMessage(dest, { image: { url: lien16 } }, { quoted: ms });
               sleep(3000);
