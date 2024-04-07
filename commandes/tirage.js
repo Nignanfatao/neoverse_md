@@ -268,8 +268,8 @@ function lien19 () {
  const lien4 = lien4();
  const lien5 = lien5();
  const lien6 = lien6();
- const lien8 = lien7();
- const lien7 = lien8();
+ const lien7 = lien7();
+ const lien8 = lien8();
  const lien9 = lien9();
  const lien10 = lien10();
  const lien11 = lien11();
@@ -318,45 +318,52 @@ function lien19 () {
                       zk.sendMessage(dest, { image: { url: l3 } }, { quoted: ms });
                lien3(); } else if (p1 === 1.5) {
                     zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
-                   sleep(3000);
-                 lien(sspmega);
-                      zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
-              lien(sspmega);  } else if (p1 === 1) {
-                    zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
-               sleep(3000);
-                 lien(sspultra);
-                         zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
-               lien(sspultra); } else if (p1 === 0.5) {
-                    zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
-                   sleep(3000);
-                 lien(sspultimate);
-                     zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
-               lien(sspultimate); } else {
-                    zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
+                  lien4();
                   sleep(3000);
-                 lien(ssm);
-                      zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
-            lien(ssm);    }
+                 const l4 = lien4()
+                      zk.sendMessage(dest, { image: { url: l4 } }, { quoted: ms });
+              lien4();  } else if (p1 === 1) {
+                    zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
+           lien5();
+                 sleep(3000);
+                 const l5 = lien5();
+                         zk.sendMessage(dest, { image: { url: l5 } }, { quoted: ms });
+               lien5(); } else if (p1 === 0.5) {
+                    zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
+                   lien6();
+                 sleep(3000);
+                 const l6 = lien6();
+                     zk.sendMessage(dest, { image: { url: l6 } }, { quoted: ms });
+               lien6(); } else {
+                    zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
+                lien7();
+                 sleep(3000);
+                 const l7 = lien7();
+                      zk.sendMessage(dest, { image: { url: l7 } }, { quoted: ms });
+            lien7();    }
                 break;
             case "🥇":
                 const le_pourcentage = [7, 5, 3, 2];
                 const p2 = tirerCarte(le_pourcentage, 1.2);
                 if (p2 === 5) {
                     zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
-                  sleep(3000);
-                 lien(s1);
-                       zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
-               lien(s1); } else if (p2 === 3) {
-                    zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
-                  sleep(3000);
-                 lien(sp1);
-                       zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
-               lien(sp1); } else if (p2 === 2) {
-                    zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
+                lien8();
                  sleep(3000);
-                 lien(spsuper1);
-                        zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
-              lien(spsuper1);  } else {
+              const l8 = lien8();
+                       zk.sendMessage(dest, { image: { url: l8 } }, { quoted: ms });
+               lien8(); } else if (p2 === 3) {
+                    zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
+                  lien9();
+                 sleep(3000);
+                const l9 = lien9();
+                       zk.sendMessage(dest, { image: { url: l9 } }, { quoted: ms });
+               lien9(); } else if (p2 === 2) {
+                    zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
+                 lien10();
+                 sleep(3000);
+                const l10 = lien10();
+                        zk.sendMessage(dest, { image: { url: l10 } }, { quoted: ms });
+              lien10();  } else {
                     zk.sendMessage(dest, { image: { url: lien11 } }, { quoted: ms });
                sleep(3000);
                  lien(sm1);
