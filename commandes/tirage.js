@@ -262,25 +262,25 @@ function lien19 () {
 }
 */
 
- const lien1 = lien1();
- const lien2 = lien2();
- const lien3 = lien3();
- const lien4 = lien4();
- const lien5 = lien5();
- const lien6 = lien6();
- const lien7 = lien7();
- const lien8 = lien8();
- const lien9 = lien9();
- const lien10 = lien10();
- const lien11 = lien11();
- const lien12 = lien12();
- const lien13 = lien13();
- const lien14 = lien14();
- const lien15 = lien15();
- const lien16 = lien16();
- const lien17 = lien17();
- const lien18 = lien18();
- const lien19 = lien19();
+ const liens1 = lien1();
+ const liens2 = lien2();
+ const liens3 = lien3();
+ const liens4 = lien4();
+ const liens5 = lien5();
+ const liens6 = lien6();
+ const liens7 = lien7();
+ const liens8 = lien8();
+ const liens9 = lien9();
+ const liens10 = lien10();
+ const liens11 = lien11();
+ const liens12 = lien12();
+ const liens13 = lien13();
+ const liens14 = lien14();
+ const liens15 = lien15();
+ const liens16 = lien16();
+ const liens17 = lien17();
+ const liens18 = lien18();
+ const liens19 = lien19();
 
  zokou(
   { 
@@ -299,43 +299,43 @@ function lien19 () {
                 const ss_pourcentage = [5, 4, 3, 2, 1.5, 1, 0.5];
                 const p1 = tirerCarte(ss_pourcentage, 1.2);
                 if (p1  === 4) {
-                    zk.sendMessage(dest, { image: { url: lien1 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens1 } }, { quoted: ms });
                  lien1();
                   sleep(3000);
                  const l1 = lien1();
                    await zk.sendMessage(dest, { image: { url: l1 } }, { quoted: ms });
                lien1(); } else if (p1 === 3) {
-                    zk.sendMessage(dest, { image: { url: lien2 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens2 } }, { quoted: ms });
                    lien2();
                  sleep(3000);
                  const l2 = lien2();
                     zk.sendMessage(dest, { image: { url: l2 } }, { quoted: ms });
              lien2();   } else if (p1 === 2) {
-                    zk.sendMessage(dest, { image: { url: lien3 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens3 } }, { quoted: ms });
                  lien3();
                  sleep(3000);
                  const l3 = lien3();
                       zk.sendMessage(dest, { image: { url: l3 } }, { quoted: ms });
                lien3(); } else if (p1 === 1.5) {
-                    zk.sendMessage(dest, { image: { url: lien4 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens4 } }, { quoted: ms });
                   lien4();
                   sleep(3000);
                  const l4 = lien4()
                       zk.sendMessage(dest, { image: { url: l4 } }, { quoted: ms });
               lien4();  } else if (p1 === 1) {
-                    zk.sendMessage(dest, { image: { url: lien5 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens5 } }, { quoted: ms });
            lien5();
                  sleep(3000);
                  const l5 = lien5();
                          zk.sendMessage(dest, { image: { url: l5 } }, { quoted: ms });
                lien5(); } else if (p1 === 0.5) {
-                    zk.sendMessage(dest, { image: { url: lien6 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens6 } }, { quoted: ms });
                    lien6();
                  sleep(3000);
                  const l6 = lien6();
                      zk.sendMessage(dest, { image: { url: l6 } }, { quoted: ms });
                lien6(); } else {
-                    zk.sendMessage(dest, { image: { url: lien7 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens7 } }, { quoted: ms });
                 lien7();
                  sleep(3000);
                  const l7 = lien7();
@@ -346,25 +346,25 @@ function lien19 () {
                 const le_pourcentage = [7, 5, 3, 2];
                 const p2 = tirerCarte(le_pourcentage, 1.2);
                 if (p2 === 5) {
-                    zk.sendMessage(dest, { image: { url: lien8 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens8 } }, { quoted: ms });
                 lien8();
                  sleep(3000);
               const l8 = lien8();
                        zk.sendMessage(dest, { image: { url: l8 } }, { quoted: ms });
                lien8(); } else if (p2 === 3) {
-                    zk.sendMessage(dest, { image: { url: lien9 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens9 } }, { quoted: ms });
                   lien9();
                  sleep(3000);
                 const l9 = lien9();
                        zk.sendMessage(dest, { image: { url: l9 } }, { quoted: ms });
                lien9(); } else if (p2 === 2) {
-                    zk.sendMessage(dest, { image: { url: lien10 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens10 } }, { quoted: ms });
                  lien10();
                  sleep(3000);
                 const l10 = lien10();
                         zk.sendMessage(dest, { image: { url: l10 } }, { quoted: ms });
               lien10();  } else {
-                    zk.sendMessage(dest, { image: { url: lien11 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens11 } }, { quoted: ms });
              lien11();
                  sleep(3000);
               const l11 = lien11();
@@ -375,25 +375,25 @@ function lien19 () {
                 const ul_pourcentage = [40, 30, 20, 10];
           const p3 = tirerCarte(_pourcentage, 1.2);
                 if (p3 === 30) {
-                    zk.sendMessage(dest, { image: { url: lien12 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens12 } }, { quoted: ms });
             lien12();
                  sleep(3000);
                const l12 = lien12();
                           zk.sendMessage(dest, { image: { url: l12 } }, { quoted: ms });
              lien12();   } else if (p3 === 20) {
-                    zk.sendMessage(dest, { image: { url: lien13 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens13 } }, { quoted: ms });
              lien13();
                  sleep(3000);
                const l13 = lien13();
                          zk.sendMessage(dest, { image: { url: l13 } }, { quoted: ms });
             lien13();    } else if (p3 === 10) {
-                    zk.sendMessage(dest, { image: { url: lien14 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens14 } }, { quoted: ms });
               lien14();
                  sleep(3000);
                  const l14 = lien14();
                          zk.sendMessage(dest, { image: { url: l14 } }, { quoted: ms });
              lien14();   } else {
-                    zk.sendMessage(dest, { image: { url: lien15 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens15 } }, { quoted: ms });
          lien15();
                  sleep(3000);
                 const l15 = lien15();
@@ -404,25 +404,25 @@ function lien19 () {
                 const sp_pourcentage = [90, 70, 60, 50];
                 const p4 = tirerCarte(sp_pourcentage, 1.2);
                 if (p4 === 70) {
-                    zk.sendMessage(dest, { image: { url: lien16 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens16 } }, { quoted: ms });
            lien16();
                  sleep(3000);
                 const l16 = lien16();
                            zk.sendMessage(dest, { image: { url: l16 } }, { quoted: ms });
              lien16();   } else if (p4 === 60) {
-                    zk.sendMessage(dest, { image: { url: lien17 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens17 } }, { quoted: ms });
             lien17();
                  sleep(3000);
                const l17 = lien17();
                           zk.sendMessage(dest, { image: { url: l17 } }, { quoted: ms });
             lien17();    } else if (p4 === 50) {
-                    zk.sendMessage(dest, { image: { url: lien18 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens18 } }, { quoted: ms });
         lien18();
                  sleep(3000);
               const l18 = lien18();
                              zk.sendMessage(dest, { image: { url: l18 } }, { quoted: ms });
                lien18(); } else {
-                    zk.sendMessage(dest, { image: { url: lien19 } }, { quoted: ms });
+                    zk.sendMessage(dest, { image: { url: liens19 } }, { quoted: ms });
          lien19();
                  sleep(3000);
                 const l19 = lien19();
