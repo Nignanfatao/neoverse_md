@@ -262,7 +262,7 @@ function lien19 () {
 }
 */
 
- const liens1 = lien1();
+ /*const liens1 = lien1();
  const liens2 = lien2();
  const liens3 = lien3();
  const liens4 = lien4();
@@ -280,7 +280,7 @@ function lien19 () {
  const liens16 = lien16();
  const liens17 = lien17();
  const liens18 = lien18();
- const liens19 = lien19();
+ const liens19 = lien19();*/
 
  zokou(
   { 
