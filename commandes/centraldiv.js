@@ -1,5 +1,8 @@
 const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/centraldiv');
+const s = require("../set");
+
+const dbUrl = s.DB;
 
 
 zokou(
@@ -46,7 +49,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/adcc175fdbbb640b47bdc.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -172,7 +175,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/adcc175fdbbb640b47
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2d6e0cb68518359cd81e7.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -298,7 +301,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/ba6008a4f780ee5b470bd.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -424,7 +427,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c80cc43c0819fbca13971.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -550,7 +553,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/f56553ddcb5c189c2f730.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -676,7 +679,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a309e16d5354c71917a89.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -802,7 +805,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/241484e0d902828e861d8.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
