@@ -1,5 +1,5 @@
 {
-  "name": "zokou",
+  "name": "zokou_o",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,10 @@
     "c": "tsc"
   },
   "keywords": [
-    "bot",
-    "Baileys",
-    "Zk",
-    "whatsapp-bot",
+    "bot1",
+    "Bailey_s",
+    "ovl",
+    "whatsapp_bot",
     "whatsapp",
     "Fatao"
   ],
