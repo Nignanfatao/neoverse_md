@@ -1,5 +1,8 @@
 const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/fichetest');
+const s = require("../set");
+
+const dbUrl = s.DB;
 
 
 zokou(
@@ -46,7 +49,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/5c45243eab76575302242.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+        //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
