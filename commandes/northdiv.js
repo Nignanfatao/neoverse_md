@@ -1,5 +1,8 @@
 const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/northdiv');
+const s = require("../set");
+
+const dbUrl = s.DB;
 
 
 zokou(
@@ -46,7 +49,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0e2cf90849b52ddcbb28b.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -171,7 +174,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0e2cf90849b52ddcbb
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/6983ae39fdaecabba62ad.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -296,7 +299,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b531a7e8a9337c087012e.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+       // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -421,7 +424,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/93d387eace41c6dd8ffc8.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+        //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -546,7 +549,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2def8a9f460c620e0dafa.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+        //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -671,7 +674,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/d7b251629aa05c5aff8f0.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -796,7 +799,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/928d263729a916dcbf20a.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -921,7 +924,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -1042,7 +1045,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
             zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
         } else {
             if (superUser) { 
-                const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+               // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
                 const proConfig = {
                     connectionString: dbUrl,
                     ssl: {
@@ -1196,7 +1199,7 @@ zokou(
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285d5f.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+      //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
@@ -1321,7 +1324,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285
 zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a802b8f755e5d4e61f2f5.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
-        const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+     //   const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
         const proConfig = {
           connectionString: dbUrl,
           ssl: {
