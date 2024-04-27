@@ -110,6 +110,6 @@ createFicheTestTable();
 module.exports = {
   createFicheTestTable,
  // insertData1,
- // insertData,
+ insertData,
   getData
 };
