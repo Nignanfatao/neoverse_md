@@ -110,6 +110,6 @@ createNorthDivTable();
 module.exports = {
   createNorthDivTable,
  // insertData1,
- // insertData,
+  insertData,
   getData
 };
