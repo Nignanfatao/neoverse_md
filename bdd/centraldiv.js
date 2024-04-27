@@ -109,6 +109,6 @@ createCentralDivTable();
 module.exports = {
   createCentralDivTable,
  // insertData1,
- // insertData,
+  insertData,
   getData
 };
