@@ -110,6 +110,6 @@ createEastDivTable();
 module.exports = {
   createEastDivTable,
  // insertData1,
- // insertData,
+  insertData,
   getData
 };
