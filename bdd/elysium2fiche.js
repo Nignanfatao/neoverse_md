@@ -107,6 +107,6 @@ createElysium2FicheTable();
 module.exports = {
   createElysium2FicheTable,
  // insertData1,
- // insertData,
+  insertData,
   getData
 };
