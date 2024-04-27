@@ -1,6 +1,7 @@
 const { Pool } = require("pg");
+const s = require("../set");
 
-var dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
+var dbUrl = s.BD;
 const proConfig = {
   connectionString: dbUrl,
   ssl: {
