@@ -133,6 +133,6 @@ createUfFicheTable();
 module.exports = {
   createUfFicheTable,
  // insertData1,
-  //insertData,
+  insertData,
   getData
 };
