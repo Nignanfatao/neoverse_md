@@ -110,6 +110,6 @@ insertData();
 module.exports = {
   createWestDivTable,
  // insertData1,
- // insertData,
+ insertData,
   getData
 };
