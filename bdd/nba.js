@@ -133,6 +133,6 @@ createNbaTable();
 module.exports = {
   createNbaTable,
  // insertData1,
- // insertData,
+  insertData,
   getData
 };
