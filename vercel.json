@@ -1,11 +1,6 @@
 {
   "version": 2,
   "builds": [
-    { "src": "Dockerfile", "use": "@vercel/docker" }
-  ],
-  "build": {
-    "env": {
-      "CI": "true"
-    }
-  }
+    { "src": "Dockerfile", "use": "@now/static-build" }
+  ]
 }
