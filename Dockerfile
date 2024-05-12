@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/djalega8000/Zokou-2.0  /root/Zokou_BOt
-WORKDIR /root/Zokou_Bot/
+RUN git clone https://github.com/Nignanfatao/Zokou  /root/Zokou_f
+WORKDIR /root/Zokou_f/
 
 
 COPY package.json .
@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run", "zokou"]
+CMD ["npm", "run", "zokou_n"]
