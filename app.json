@@ -42,7 +42,7 @@
      "DB" : 
 	  {
 		  "description":"Entrer l url de votre base de donnée",
-		  "value":'postgres://neoverse:pomrleUMXwlmlpIcW2oFJmMX0CXzaFkf@dpg-combonun7f5s73d7uoog-a.oregon-postgres.render.com/neoverse_wz98',
+		  "value":"postgres://neoverse:pomrleUMXwlmlpIcW2oFJmMX0CXzaFkf@dpg-combonun7f5s73d7uoog-a.oregon-postgres.render.com/neoverse_wz98",
 		  "required":false
 	  },
 
