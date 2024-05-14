@@ -1,9 +1,9 @@
 {
-  "name":"Zokou-2.0",
-  "description":"bot whatsapp développé par djalega++",
-  "keywords":["bot","node","baileys","whatsapp"],
+  "name":"Zokou",
+  "description":"bot whatsapp développé par Fatao",
+  "keywords":["bot","node","baileys","whatsapp","fatao"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "repository":"https://github.com/Nignanfatao/Zokou",
   "succes_url":"/",
   "stack":"container",
   "env":{
