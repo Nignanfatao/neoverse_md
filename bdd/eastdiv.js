@@ -105,11 +105,11 @@ async function getData(ide) {
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
 createEastDivTable();
-insertData();
+//insertData();
 
 module.exports = {
   createEastDivTable,
  // insertData1,
-  insertData,
+//  insertData,
   getData
 };
