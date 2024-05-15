@@ -102,11 +102,11 @@ async function getData(ide) {
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
 createElysium2FicheTable();
-insertData();
+//insertData();
 
 module.exports = {
   createElysium2FicheTable,
  // insertData1,
-  insertData,
+ // insertData,
   getData
 };
