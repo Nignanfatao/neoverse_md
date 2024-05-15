@@ -128,11 +128,11 @@ async function getData(ide) {
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
 createNbaTable();
-insertData();
+//insertData();
 
 module.exports = {
   createNbaTable,
  // insertData1,
-  insertData,
+ // insertData,
   getData
 };
