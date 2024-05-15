@@ -128,11 +128,11 @@ async function getData(ide) {
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
 createUfFicheTable();
-insertData();
+//insertData();
 
 module.exports = {
   createUfFicheTable,
  // insertData1,
-  insertData,
+ // insertData,
   getData
 };
