@@ -64,5 +64,6 @@ Profitez des fonctionnalités variées du Bot WhatsApp Zokou pour améliorer vos
 ## Developpeur :
  
   [**Djalega++**](https://github.com/djalega8000/Zokou-MD/)  <br>
-  [**᚛M๏𝓷keℽ D Lบffy᚜**](https://github.com/Faouz995)
+  [**᚛M๏𝓷keℽ D Lบffy᚜**](https://github.com/Faouz995) <br>
+ [**Fatao**](https://github.com/Nignanfatao)
  
