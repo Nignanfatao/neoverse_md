@@ -38,7 +38,8 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Neo Awards*: ${data.e16}   *🎖️Globes*: 
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: 
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
@@ -75,13 +76,16 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0e2cf90849b52ddcbb
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
       };
         break;
           default:
