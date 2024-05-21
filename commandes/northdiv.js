@@ -30,7 +30,7 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
  **🧠Talent Qi: ${data.e10}⭐* 
 *✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
@@ -39,13 +39,13 @@ zokou(
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
 *🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
-*💫Neo Awards*: ${data.e16}   *🎖️Globes*: 
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/948010596542a9c9c33e9.jpg }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a269f7d590f0e1611f193.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
       //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -86,6 +86,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/948010596542a9c9c3
         Mauvais_pa: "e19",
         Close_combat: "e20",
         Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -149,10 +150,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/948010596542a9c9c3
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -160,20 +158,22 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/948010596542a9c9c3
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/6983ae39fdaecabba62ad.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/d48f1975b8076ba215a92.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
        // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -204,13 +204,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/6983ae39fdaecabba6
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -274,10 +278,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -285,20 +286,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b531a7e8a9337c087012e.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/33d75752a2f4d645f836a.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
        // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -329,13 +332,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b531a7e8a9337c0870
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -399,10 +406,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -410,20 +414,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/93d387eace41c6dd8ffc8.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b15ca6adb54a20eba25f6.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -454,13 +460,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/93d387eace41c6dd8f
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -524,10 +534,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -535,20 +542,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2def8a9f460c620e0dafa.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/473bd0c7659ce1b082383.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -579,13 +588,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2def8a9f460c620e0d
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -632,7 +645,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2def8a9f460c620e0d
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'northlord👤',
     categorie: 'NEOverse'
@@ -649,10 +662,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -660,16 +670,18 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
@@ -704,13 +716,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/d7b251629aa05c5aff
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -756,7 +772,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/d7b251629aa05c5aff
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
   });
-
+*/
 zokou(
   {
     nomCom: 'northkanzen👤',
@@ -774,10 +790,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -785,20 +798,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/928d263729a916dcbf20a.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/e521acd5939414d8d12c5.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
       //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -829,13 +844,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/928d263729a916dcbf
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -899,10 +918,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -910,20 +926,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/1d119ca4b803209e84fa4.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
       //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -954,13 +972,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -1020,10 +1042,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
 
         if (!arg || arg.length === 0) {
             // Affichage des données de l'utilisateur
-            const mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+            const mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -1031,20 +1050,22 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-            zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8e88.jpg' }, caption: mesg }, { quoted: ms });
+            zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/1d119ca4b803209e84fa4.jpg' }, caption: mesg }, { quoted: ms });
         } else {
             if (superUser) { 
                // const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -1065,22 +1086,26 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c9a177ecb800fe17c8
                         case "Ainz":
                             colonnesJoueur = {
                                 pseudo: "e1",
-                                division: "e2",
-                                classe: "e3",
-                                rang_exp: "e4",
-                                golds: "e5",
-                                neocoins: "e6",
-                                gift_box: "e7",
-                                coupons: "e8",
-                                neopass: "e9",
-                                talent: "e10",
-                                note: "e11",
-                                victoires: "e12",
-                                defaites: "e13",
-                                trophees: "e14",
-                                tos: "e15",
-                                awards: "e16",
-                                cards: "e17",
+        division: "e2",
+        classe: "e3",
+        rang_exp: "e4",
+        golds: "e5",
+        neocoins: "e6",
+        gift_box: "e7",
+        coupons: "e8",
+        neopass: "e9",
+        talent: "e10",
+        victoires: "e12",
+        defaites: "e13",
+        trophees: "e14",
+        tos: "e15",
+        awards: "e16",
+        cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
                             };
                             break;
                         default:
@@ -1174,10 +1199,7 @@ zokou(
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -1185,20 +1207,22 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285d5f.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a26f37961d465fd41f06f.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
       //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -1229,13 +1253,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
@@ -1299,10 +1327,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285
       let texte = arg.slice(5).join(' ');
 
       if (!arg || arg.length === 0) {
-        let mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+        let mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -1310,16 +1335,18 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/c6727dd81e7cbf0285
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
@@ -1354,13 +1381,17 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a802b8f755e5d4e61f
         coupons: "e8",
         neopass: "e9",
         talent: "e10",
-        note: "e11",
         victoires: "e12",
         defaites: "e13",
         trophees: "e14",
         tos: "e15",
         awards: "e16",
         cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
       };
         break;
           default:
