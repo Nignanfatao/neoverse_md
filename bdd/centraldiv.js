@@ -51,7 +51,7 @@ async function createCentralDivTable() {
   }
 }
 
-/*async function insertData1() {
+async function insertData1() {
   const client = await pool.connect();
 
   try {
@@ -71,7 +71,8 @@ async function createCentralDivTable() {
   } finally {
     client.release();
   }
-}*/
+}
+insertData1()
 // Fonction pour insérer des données
 async function insertData() {
   const client = await pool.connect();
