@@ -52,7 +52,7 @@ async function createEastDivTable() {
   }
 }
 
-async function insertData1() {
+/*async function insertData1() {
   const client = await pool.connect();
 
   try {
@@ -72,7 +72,7 @@ async function insertData1() {
   } finally {
     client.release();
   }
-}
+}*/
 // Fonction pour insérer des données
 async function insertData() {
   const client = await pool.connect();
@@ -119,7 +119,7 @@ createEastDivTable();
 
 module.exports = {
   createEastDivTable,
- insertData1,
+ //insertData1,
 //  insertData,
   getData
 };
