@@ -52,7 +52,7 @@ async function createEastDivTable() {
   }
 }
 
-/*async function insertData1() {
+async function insertData1() {
   const client = await pool.connect();
 
   try {
@@ -72,7 +72,8 @@ async function createEastDivTable() {
   } finally {
     client.release();
   }
-}*/
+}
+insertData1()
 // Fonction pour insérer des données
 async function insertData() {
   const client = await pool.connect();
