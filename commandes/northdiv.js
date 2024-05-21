@@ -1310,9 +1310,9 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a26f37961d465fd41f
     }
   });
 
-/* zokou(
+zokou(
   {
-    nomCom: 'northaïna👤',
+    nomCom: 'northrukia👤',
     categorie: 'NEOverse'
   },
   async (dest, zk, commandeOptions) => {
@@ -1350,7 +1350,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a26f37961d465fd41f
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a802b8f755e5d4e61f2f5.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/1979a11043529f6ce2bc5.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
      //   const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -1369,7 +1369,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a802b8f755e5d4e61f
           let colonnesJoueur;
           
           switch (joueur) {
-    case "Aïna":
+    case "Rukia":
       colonnesJoueur = {
         pseudo: "e1",
         division: "e2",
@@ -1437,4 +1437,3 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a802b8f755e5d4e61f
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
   });
-*/
