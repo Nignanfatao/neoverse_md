@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
   });  
   
-/*zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
@@ -55,14 +55,14 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
     // Regrouper les arguments en une seule chaîne séparée par "-"
     const image = arg.join(' ');
-    const response = await axios.get(`https://vihangayt.me/tools/photoleap?q=${image}`);
+    const response = await axios.get(`https://api.maher-zubair.tech/ai/photoleap?q=${image}`);
     
     const data = response.data;
     let caption = '*Propulsé par ZOKOU-MD*';
     
-    if (data.status && data.owner && data.data) {
+    if (data.status && data.result) {
       // Utiliser les données retournées par le service
-      const imageUrl = data.data;
+      const imageUrl = data.result;
       zk.sendMessage(dest, { image: { url: imageUrl }, caption: caption }, { quoted: ms });
     } else {
       repondre("Erreur lors de la génération de l'image");
@@ -83,11 +83,11 @@ zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, com
 
     // Regrouper les arguments en une seule chaîne séparée par "-"
     const question = arg.join(' ');
-    const response = await axios.get(`https://vihangayt.me/tools/chatgpt4?q=${question}`);
+    const response = await axios.get(`https://api.maher-zubair.tech/ai/chatgpt4?q=${question}`);
     
     const data = response.data;
     if (data) {
-      repondre(data.data);
+      repondre(data.result);
     } else {
       repondre("Erreur lors de la génération de la reponse");
     }
@@ -95,9 +95,9 @@ zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, com
     console.error('Erreur:', error.message || 'Une erreur s\'est produite');
     repondre("Oups, une erreur est survenue lors du traitement de votre demande.");
   }
-});*/
+});
 
-zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+/*zokou({ nomCom: "gpt", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
   try {
     if (!arg || arg.length === 0) {
@@ -168,3 +168,4 @@ zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, c
     repondre("Oups, une erreur est survenue lors du traitement de votre demande.");
   }
 });
+*/
