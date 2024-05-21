@@ -78,16 +78,14 @@ zokou({ nomCom: "tiktok", categorie: "Téléchargement", reaction: "🎵" }, asy
 
  let data = await axios.get('https://api.maher-zubair.tech/download/tiktok2?url='+ videoUrl) ;
 
-  let tik = data.data.data
+  let tik = data.data
+  if (tik) {
 
-      // Envoi du message avec le thumbnail de la vidéo
-      const caption = `
-Auteur: ${tik.author}
-Description: ${tik.desc}
-      `;
+  const caption = `Propulsé par ZOKOU-Md`;
 
          
-      zk.sendMessage(dest, { video: { url: tik.links[0].a} , caption : caption },{quoted : ms});    
+      zk.sendMessage(dest, { video: { url: tik.video} , caption : caption },{quoted : ms});
+  } else { repondre('impossible de télécharger cette vidéo')}
       
     });
 
