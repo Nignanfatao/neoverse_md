@@ -76,7 +76,7 @@ zokou({ nomCom: "tiktok", categorie: "Téléchargement", reaction: "🎵" }, asy
 
   const videoUrl = arg.join(" ");
 
- let data = await axios.get('https://vihangayt.me/download/tiktok?url='+ videoUrl) ;
+ let data = await axios.get('https://api.maher-zubair.tech/download/tiktok2?url='+ videoUrl) ;
 
   let tik = data.data.data
 
