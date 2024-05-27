@@ -2,7 +2,7 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
     {
-        nomCom: 'menuneo🔷',
+        nomCom: 'menuneo',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -18,7 +18,7 @@ zokou(
 
 zokou(
     {
-        nomCom: 'seasonpass🔷',
+        nomCom: 'seasonpass',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -26,28 +26,28 @@ zokou(
 
         if (!arg || arg.length === 0)  {
             const lien = 'https://telegra.ph/file/79474acac8fb14180f7d5.jpg';
-            const msg = `🔷░░░░░░░░░░░░░░░░░░░
+            const msg = `▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                  *🏆𝗠𝗔𝗧𝗖𝗛 𝗨𝗣🏆*
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎮MATCH UP*: 
 Désormais la ligue organise des matchs up  entre des joueurs par affinités(classement, rivalité, défi...). Les matchs up seront programmés pour les prochaines 48h, un joueur peut lancer un défi à un autre joueur et pour refuser un défi vous pouvez utiliser 10🔷, sinon vous êtes obligé de faire ce match avant de faire une autre activité sinon amende et sanction. Celui qui a proposé peut continuer ses activités en attendant. En évitant le défi c'est un Forfait et ne pas se présenter est une amende de 500.000🧭.
 
-*🎖️RANKING MATCH*
-Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même nombre de pts que lui en cas de victoire, mais cela coûte 10🔷Vous pouvez donc facilement passer devant un joueur pour prendre sa place dans la saison. *⚠️Uniquement pour les joueurs avec 5 matchs minimum la saison*. 
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+              *🏆𝗥𝗔𝗡𝗞𝗜𝗡𝗚 𝗠𝗔𝗧𝗖𝗛𝗦🏆*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même nombre de pts que lui en cas de victoire, mais cela coûte 10🔷Vous pouvez donc facilement passer devant un joueur pour prendre sa place dans la saison. *⚠️Uniquement pour les joueurs avec 12 pts minimum la saison*. 
 
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                  ⬆️ *𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 ⬇*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+À la fin de la saison les TOP 3🏆 avec minimum 5 Victoires sont promus en classe supérieure et les 2 derniers sont relégués. 
 
-📊 *PROMO/RELEGATION⬆️⬇️🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-À la fin de la saison les TOP 3🏆 avec minimum 5 combats sont promus en classe supérieure et les 3 derniers sont relégués. 
-
-⚠️  En cas de relégation vous perdez donc l'utilisation de certains Cards à cause de la classe. Si vous êtes off pendant une saison votre fiche sera gelée et si vous devez vous absenté il faut prévenir la ligue car les joueurs avec 0 activité la saison seront relégués en perdant 50% de tout ce qu'ils possèdent avec une amende de 500.000🧭. 
-⚠️En quittant sans prévenir vous serez entièrement effacé des mémoires de la ligue comme si vous n'aviez jamais exister, Si vous perdez le contrôle et quitter sur un coût de tête vos chances de revenir un jour seront de 1% et aussi au cas où nous vous laissons revenir c'est sans fiche
+⚠️En quittant sans prévenir vous serez entièrement effacé des mémoires de la ligue comme si vous n'aviez jamais exister, Si vous perdez le contrôle et quitter sur un coût de tête pour revenir à NEOverse vous allez devoir être déchu au rang de Rookie donc perdre tout ce que vous avez déjà eu, avec 2 mois minimum avant de revenir. Si vous prenez votre retraite nous allons annoncer et il ne sera plus possible de continuer à NEOverse, si vous êtes indisponible vous pouvez figer votre fiche sur 5 mois max. 
 ═══════════
 👉🏻 +Recompenses🎁
 👉🏻 +Tournois🏆
-👉🏼 +NEO Golden Awards💫 
-👉🏼 +Saison UF🥅
-👉🏼 +Saison NBA🏀
-👉🏻 +Saison Elysium💠
+👉🏻 +Menu UF⚽
+👉🏼 +Menu NBA🏀
+👉🏻 +Menu Elysium💠
 
 ░░░░░░░░░░░░░░░
                                   
@@ -60,39 +60,39 @@ Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même
 
 zokou(
     {
-        nomCom: 'recompenses🎁',
+        nomCom: 'recompenses',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/b93f4f67baa1e97e10557.jpg';
-            const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*:
+            const lien = 'https://telegra.ph/file/a9bbf6fac3cc23d66f1a2.jpg';
+            const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷Les Top 3 de chaques classes seront les ALL STARS de la prestigieuse *TOS🌟* Team of the Season,minimum 5 victoires dans sa classe contre au moins 5 joueurs pour y figurer et percevoir les Récompenses et avec plus de 10 matchs la saison vous recevez  une Card gratuite S- de cette classe. 
+🔷Les Top 3 de chaques classes seront les ALL STARS de la prestigieuse *TOS⭐*, *Team of the Season⭐*. Pour être membre de la TOS Vous devez finir Top 3 de votre classe avec minimum *12 pts*, 10 matchs et affronter tous les joueurs actifs de votre classe. 
 
-🥇LÉGENDS🏆:
+*🥇LÉGENDS🏆:*
 1️⃣🥇:1.000.000🧭+100🔷+🎁+100🎟️
 2️⃣🥈: 800.000🧭+50🔷+🎁+50🎟️
 3️⃣🥉: 600.000🧭+20🔷+🎁+20🎟️
 
-🥈ELITES🏆
+*🥈ELITES🏆*
 1️⃣🥇: 800.000🧭+50🔷+🎁+50🎟️
 2️⃣🥈: 600.000🧭+25🔷+🎁+20🎟️
 3️⃣🥉: 400.000🧭+10🔷+10🎟️
 
-🥉NOVICES🏆
+*🥉NOVICES🏆*
 1️⃣🥇: 600.000🧭+20🔷+🎁+20🎟️
 2️⃣🥈: 400.000🧭+10🔷+10🎟️
 3️⃣🥉: 200.000🧭
 
 *🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗺𝗮𝗶𝗻𝗲🎁🎊*
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Weekly, TOW💙, team of the week:
-🔹 *Weekly Player*:200.000🧭+5🔷NC
-🔹 *TOW Top 3*: 100.000🧭
-⚠️Récompense  avec minimum 3 matchs la semaine.`;
+Weekly, TOW💙, #Team of the week:
+🔹 *Week player*: 200.000🧭+5🔷+2🎟️
+🔹 *TOP 3*: 100.000🧭 +2🔷+1🎟️
+⚠️Pour y figurer vous devez avoir minimum 3 victoires la semaine et 5 matchs.`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -271,7 +271,7 @@ Le but de Élysium est d'abord le free play donc Explorer un monde Gigantesque e
 
 zokou(
     {
-        nomCom: 'records🔷',
+        nomCom: 'records',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -475,7 +475,7 @@ Voici les gagnants des prestigieux prix Awards et Récompenses aux GOLDEN AWARDS
 */
 zokou(
     {
-        nomCom: 'calendar🔷️',
+        nomCom: 'calendar',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -518,7 +518,7 @@ zokou(
 
 zokou(
     {
-        nomCom: 'rankings🔷',
+        nomCom: 'rankings',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -569,15 +569,16 @@ zokou(
 
 zokou(
     {
-        nomCom: 'trade🔷',
+        nomCom: 'trade',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/d6d7030691955d1641107.jpg';
-            const msg = `░░░░░░░░░░░░░░░░░░░
+            const lien = 'https://telegra.ph/file/81b96c35da78c1ebe8b9e.jpg';
+            const msg = `▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                  *🔴🟠𝗧𝗥𝗔𝗗𝗘🔵🟢*
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 🔷Afin de maintenir l'équilibre entre le nombre de joueurs dans les Divisions, désormais il n'y aura plus de transferts mais uniquement des TRADES. Donc maintenant si vous voulez acheter un joueur d'une autre division vous devez faire un échange équivalent selon ce que l'autre division accepte comme Conditions. 
 
@@ -587,6 +588,21 @@ Donc si vous échanger un joueur vous devez payer aussi des indemnités à la di
 *Joueur Élites🥈*: 500.000🧭 
 *Joueur Novices🥉*: 250.000🧭
 ⚠️Vous pouvez échanger jusqu'à 2 joueurs pour faire une balance équivalente. 
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+               *🔴🟠𝗧𝗢𝗣 𝗗𝗜𝗩𝗜𝗦𝗜𝗢𝗡𝗦🔵🟢*
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+Il n'est plus possible pour un joueur d'utiliser ses ressources pour contribuer dans les finances d'une division. Les vont désormais recevoir des l'argent de la ligue NSL. Les divisions gagnent des points pour les le TOP DIVISIONS RANKING:
+*🏆Joueur TOW:* +10pts⬆️ + 50.000 G🧭
+*🏆Jouer  TOS*: +30 pts⬆️ + 100.000 G🧭
+*🏆Trophée joueur*: + 50 pts⬆️ + 300.000 G🧭
+🏆 *interdivisions*: +100 pts⬆️ + 500.000 G🧭. 
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+*🥇1st:* + 2.000.000 G🧭
+*🥈2nd:*+ 1.000.000 G🧭
+*🥉3rd:*+ 500.000 G🧭
+*🏵️4th:*+ 250.000 G🧭
+Les fonds G🧭 peuvent être utilisés pour renforcer les joueurs de la division avec des Cards de combat pour ALL STARS uniquement. 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
                                       🔷𝗡Ξ𝗢🔝`;
@@ -628,7 +644,7 @@ Les divisions peuvent faire des transferts de joueurs en fin de saison. Cela se 
 
 zokou(
     {
-        nomCom: 'events🎊',
+        nomCom: 'events',
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
@@ -732,7 +748,7 @@ zokou(
     }
 );
 
-zokou(
+/*zokou(
     {
         nomCom: 'menuoptions',
         categorie: 'NEOverse'
@@ -762,7 +778,7 @@ zokou(
     }
 );
 
-/*zokou(
+zokou(
     {
         nomCom: '',
         categorie: 'NEOverse'
