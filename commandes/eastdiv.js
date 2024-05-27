@@ -1160,7 +1160,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/09063568b0971eb6e4
 
 zokou(
   {
-    nomCom: 'eastharhnells👤',
+    nomCom: 'eastjuuzou👤',
     categorie: 'NEOverse'
   },
   async (dest, zk, commandeOptions) => {
@@ -1217,7 +1217,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/463867f222bd0dcdbf
           let colonnesJoueur;
           
           switch (joueur) {
-    case "Arhnells":
+    case "Juuzou":
       colonnesJoueur = {
         pseudo: "e1",
         division: "e2",
