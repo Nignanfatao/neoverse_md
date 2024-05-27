@@ -521,7 +521,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/d92858ee6d5b4a9136
 
 zokou(
   {
-    nomCom: 'centralhazuji👤',
+    nomCom: 'centralhakuji👤',
     categorie: 'NEOverse'
   },
   async (dest, zk, commandeOptions) => {
