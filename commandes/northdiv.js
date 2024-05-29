@@ -901,7 +901,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/e521acd5939414d8d1
     }
   });
 
-zokou(
+/*zokou(
   {
     nomCom: 'northainz👤',
     categorie: 'NEOverse'
@@ -1027,7 +1027,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/1d119ca4b803209e84
     } catch (error) {
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
-  });
+  });*/
 
     /* zokou(
   {
