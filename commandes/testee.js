@@ -16,10 +16,7 @@ zokou(
         const data = await getData('8');
         if (!arg || arg.length === 0) {
             // Affichage des données de l'utilisateur
-            const mesg = `*🔷𝗡Ξ𝗢 𝗔𝗟𝗟 𝗦𝗧𝗔𝗥𝗦🌟*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-◇ *Pseudo👤*: ${data.e1}
+            const mesg = `◇ *Pseudo👤*: ${data.e1}
 ◇ *Division🛡️*: ${data.e2}
 ◇ *Classe🏆*: ${data.e3}
 ◇ *Rang XP🔰*: ${data.e4}
@@ -27,16 +24,18 @@ zokou(
 ◇ *NΞOcoins🔹*: ${data.e6}🔷
 ◇ *Gift Box🎁*: ${data.e7}🎁
 ◇ *Coupons🎟*: ${data.e8}🎟
-◇ *NΞO PASS🔸*: ${data.e9}🔸
+◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- *🧠Talent RP(𝗤𝗶): ${data.e10}⛦*                       
- *📊Note Saison passée: ${data.e11}⏫*
+ **🧠Talent Qi: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
+*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
-*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  *💫Awards*: ${data.e16}
+*🏆Trophées*: ${data.e14}  *🌟 TOS*: ${data.e15}  
+*💫Neo Awards*: ${data.e16}   *🎖️Globes*: ${data.e22}
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🎴Cards(20 max)*: ${data.e17} 
+*🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
@@ -57,22 +56,26 @@ zokou(
             if (superUser) { 
                 let colonnesJoueur = {
                         pseudo: "e1",
-                        division: "e2",
-                        classe: "e3",
-                        rang_exp: "e4",
-                        golds: "e5",
-                        neocoins: "e6",
-                        gift_box: "e7",
-                        coupons: "e8",
-                        neopass: "e9",
-                        talent: "e10",
-                        note: "e11",
-                        victoires: "e12",
-                        defaites: "e13",
-                        trophees: "e14",
-                        tos: "e15",
-                        awards: "e16",
-                        cards: "e17",
+        division: "e2",
+        classe: "e3",
+        rang_exp: "e4",
+        golds: "e5",
+        neocoins: "e6",
+        gift_box: "e7",
+        coupons: "e8",
+        neopass: "e9",
+        talent: "e10",
+        victoires: "e12",
+        defaites: "e13",
+        trophees: "e14",
+        tos: "e15",
+        awards: "e16",
+        cards: "e17",
+        Clean_games: "e18",
+        Mauvais_pa: "e19",
+        Close_combat: "e20",
+        Attaques: "e21",
+        globes: "e22"
                     };
 
                 let updates = []; // Tableau pour stocker les mises à jour à effectuer
@@ -89,26 +92,26 @@ zokou(
 
                     if (signe === '+' || signe === '-') {
                         // Mise à jour de la valeur en ajoutant ou soustrayant
-                      const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                      const querySelect = SELECT ;$;{colonneObjet} <From></From> ,northdiv ,WHERE ,id = 8;
                             const result = await client.query(querySelect);
                             oldValue = result.rows[0][colonneObjet];
                             
-                        newValue = `${oldValue} ${signe} ${valeur}`;
+                        newValue = $,{oldValue} ;{signe} {valeur};
                     } else if (signe === '=' || signe === 'add' || signe === 'supp') {
                         // Mise à jour de la valeur en remplaçant ou supprimant
                         if (signe === 'add') {
                             // Ajout de texte
-                            const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                            const querySelect = SELECT ;$;{colonneObjet} FROM, northdiv, WHERE, id = 8;
                             const result = await client.query(querySelect);
                             const oldValue = result.rows[0][colonneObjet];
-                            newValue = `${oldValue} ${texte}`;
+                            newValue = $,{oldValue} ;{texte};
                         } else if (signe === 'supp') {
                 // Suppression de texte
-                const querySelect = `SELECT ${colonneObjet} FROM northdiv WHERE id = 8`;
+                const querySelect = SELECT ,$,{colonneObjet} ,FROM ,northdiv ,WHERE ,id = 8;
                 const result = await client.query(querySelect);
                 const oldValue = result.rows[0][colonneObjet];
                 // Créer une expression régulière pour correspondre au texte avec des espaces autour
-                const regex = new RegExp(`\\b${texte}\\b`, 'g');
+                const regex = new RegExp(b$,{texte},b, 'g');
                 newValue = oldValue.replace(regex, '').trim(); 
                         } else if (signe === '=') {
                             // Remplacement de texte
@@ -116,7 +119,7 @@ zokou(
                         }
                     } else {
                         console.log("Signe invalide.");
-                        repondre(`Une erreur est survenue. Veuillez entrer correctement les données.`);
+                        repondre(Une ,erreur ,est ,survenue. Veuillez ,entrer ,correctement ,les ,données);
                         return;
                     }
 
@@ -129,12 +132,12 @@ zokou(
 
                     for (const update of updates) {
                       if (signe === ('add' || 'supp')) {
-                        const queryUpdate = `UPDATE northdiv SET ${update.colonneObjet} = $1 WHERE id = 8`;
+                        const queryUpdate = UPDATE ,northdiv ,SET ,{updatecolonneObjet} = $1 ,WHERE ,id = 8;
                         await client.query(queryUpdate, [update.newValue]);
                       }  else if (signe === ('+' || '-')) {
-                         const query = `UPDATE northdiv SET ${update.colonneObjet} = ${update.oldValue} ${signe} ${valeur} WHERE id = 8`;
+                         const query = UPDATE ,northdiv ,SET ,{updatecolonneObjet} = {updateoldValue} ,{signe} ,{valeur} ,WHERE ,id = 8;
             await client.query(query);
-                    } else ( signe === '=') {
+                    } else ( signe === '=') ;{
                         const query = `
             UPDATE northdiv
             SET ${update.colonneObjet} = $1
@@ -147,13 +150,13 @@ zokou(
 
                     await client.query('COMMIT'); // Fin de la transaction
 
-                    console.log(`Données du joueur mises à jour`);
-                    const messages = updates.map(update => `⚙ OBJECT: ${update.colonneObjet}\n💵 VALEUR: ${update.newValue}`).join('\n');
-                    await repondre(`Données du joueur mises à jour pour:\n${messages}`);
+                    console.log(Données ,du ,joueur ,mises ,à ,jour);
+                    const messages = updates.map(update => ⚙ OBJECT, {updatecolonneObjet}\n💵 VALEUR, {updatenewValue}).join('\n');
+                    await repondre(Données ,du ,joueur ,mises ,à ,jour ,pour,n$,{messages});
                 } catch (error) {
                     await client.query('ROLLBACK'); // Annulation de la transaction en cas d'erreur
                     console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
-                    repondre(`Une erreur est survenue lors de la mise à jour des données. Veuillez réessayer.`);
+                    repondre(Une ,erreur ,est ,survenue ,lors ,de ,la ,mise ,à ,jour ,des ,données. Veuillez ,réessayer);
                 } finally {
                     client.release(); // Libération des ressources
                 }
@@ -163,7 +166,7 @@ zokou(
         }
     } catch (error) {
         console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
-        repondre(`Une erreur est survenue. Veuillez réessayer.`);
+        repondre(Une ,erreur ,est ,survenue. Veuillez ,réessayer);
     } finally {
         if (client) {
             client.release(); // Libération des ressources en cas d'erreur
