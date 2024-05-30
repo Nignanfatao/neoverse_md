@@ -10,18 +10,18 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":"+",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
     {
       "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
@@ -42,7 +42,7 @@
      "DB" : 
 	  {
 		  "description":"Entrer l url de votre base de donnée",
-		  "value":"postgres://neoverse:pomrleUMXwlmlpIcW2oFJmMX0CXzaFkf@dpg-combonun7f5s73d7uoog-a.oregon-postgres.render.com/neoverse_wz98",
+		  "value":"postgres://neo:8xZ0v3ePu5pOvgNsakscUQNbHDdupRuE@dpg-cp20l2q1hbls7398ioj0-a.oregon-postgres.render.com/neoverse_db",
 		  "required":false
 	  },
 
@@ -90,14 +90,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "Fatao"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "22651463203"
   },
     
 
@@ -105,13 +105,13 @@
   {
     "description": "il s'agit de nombre d'avertissement limite",
     "required": false,
-    "value": "3"
+    "value": "5"
   },
   "STARTING_BOT_MESSAGE":
   {
     "description": "Mettez oui si vous voulez avoir le message du bot qu'il vous envoie en pv ou non si vous en voulez pas",
     "required": true,
-    "value": "oui"
+    "value": "non"
   },
   "ANTI_DELETE_MESSAGE":
   {
