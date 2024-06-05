@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Nignanfatao/neoverse_md  /root/neoverse_f
-WORKDIR /root/neoverse_f/
+RUN git clone https://github.com/Nignanfatao/neoverse_md  /root/neobot
+WORKDIR /root/neobot/
 
 
 COPY package.json .
