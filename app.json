@@ -3,7 +3,7 @@
   "description":"bot whatsapp développé par Fatao",
   "keywords":["bot","node","baileys","whatsapp","fatao"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/Nignanfatao/Zokou",
+  "repository":"https://github.com/Nignanfatao/neoverse_md",
   "succes_url":"/",
   "stack":"container",
   "env":{
