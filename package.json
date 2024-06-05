@@ -1,12 +1,12 @@
 {
-  "name": "neoverse_f",
+  "name": "neoverse",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node index.js",
-    "neoverse_n": "pm2 start index.js --attach --max-memory-restart 490M",
+    "neoverse": "pm2 start index.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
