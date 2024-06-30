@@ -26,7 +26,7 @@ RUN npm install pm2 -g
 COPY . .
 
 # Exposer le port utilisé par l'application
-EXPOSE 5000
+EXPOSE 8000
 
 # Démarrer l'application avec PM2
-CMD ["pm2-runtime", "start", "index.js", "--attach", "--max-memory-restart", "490M"]
+CMD ["npm","run","neoverse"]
