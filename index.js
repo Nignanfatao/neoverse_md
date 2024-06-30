@@ -53,18 +53,18 @@
     var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
     const prefixe = conf.PREFIXE;
 
-/*const express = require('express');
+const express = require('express');
 const app = express();
 const port = process.env.PORT;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Salut bienvenj chez Zokou');
 });
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
-});*/
-    
-    async function authentification() {
+});
+
+ async function authentification() {
         try {
             
             //console.log("le data "+data)
