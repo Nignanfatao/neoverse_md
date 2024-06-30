@@ -9,7 +9,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/4696c5412e6bb7a80166c.jpg';
+            const lien = 'https://telegra.ph/file/201aa2dc22b1fb47ba885.jpg';
             const msg = '';
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
         }
@@ -25,40 +25,14 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/79474acac8fb14180f7d5.jpg';
-            const msg = `▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                  *🏆𝗠𝗔𝗧𝗖𝗛 𝗨𝗣🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Désormais la ligue organise des matchs up  entre des joueurs par affinités(classement, rivalité, défi...). Les matchs up seront programmés pour les prochaines 48h, un joueur peut lancer un défi à un autre joueur et pour refuser un défi vous pouvez utiliser 10🔷, sinon vous êtes obligé de faire ce match avant de faire une autre activité sinon amende et sanction. Celui qui a proposé peut continuer ses activités en attendant. En évitant le défi c'est un Forfait et ne pas se présenter est une amende de 500.000🧭.
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-              *🏆𝗥𝗔𝗡𝗞𝗜𝗡𝗚 𝗠𝗔𝗧𝗖𝗛𝗦🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Vous pouvez defier un joueur haut placé pour un Rang ainsi vous gagnez le même nombre de pts que lui en cas de victoire, mais cela coûte 10🔷Vous pouvez donc facilement passer devant un joueur pour prendre sa place dans la saison. *⚠️Uniquement pour les joueurs avec 12 pts minimum la saison*. 
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                  ⬆️ *𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 ⬇*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-À la fin de la saison les TOP 3🏆 avec minimum 5 Victoires sont promus en classe supérieure et les 2 derniers sont relégués. 
-
-⚠️En quittant sans prévenir vous serez entièrement effacé des mémoires de la ligue comme si vous n'aviez jamais exister, Si vous perdez le contrôle et quitter sur un coût de tête pour revenir à NEOverse vous allez devoir être déchu au rang de Rookie donc perdre tout ce que vous avez déjà eu, avec 2 mois minimum avant de revenir. Si vous prenez votre retraite nous allons annoncer et il ne sera plus possible de continuer à NEOverse, si vous êtes indisponible vous pouvez figer votre fiche sur 5 mois max. 
-═══════════
-👉🏻 +Recompenses🎁
-👉🏻 +Tournois🏆
-👉🏻 +Menu UF⚽
-👉🏼 +Menu NBA🏀
-👉🏻 +Menu Elysium💠
-
-░░░░░░░░░░░░░░░
-                                  
-                                    *🔷NSL🏆🔝*`;
+            const lien = 'https://telegra.ph/file/b2ec0bd5bdda41e5e59ac.jpg';
+            const msg = '';
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
         }
     }
 );
 
-zokou(
+    zokou(
     {
         nomCom: 'recompenses',
         categorie: 'NEOverse'
@@ -67,34 +41,9 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/a9bbf6fac3cc23d66f1a2.jpg';
-            const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗳𝗶𝗻 𝗱𝗲 𝘀𝗮𝗶𝘀𝗼𝗻🎁🎊*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷Les Top 3 de chaques classes seront les ALL STARS de la prestigieuse *TOS⭐*, *Team of the Season⭐*. Pour être membre de la TOS Vous devez finir Top 3 de votre classe avec minimum *12 pts*, 10 matchs et affronter tous les joueurs actifs de votre classe. 
-
-*🥇LÉGENDS🏆:*
-1️⃣🥇:1.000.000🧭+100🔷+🎁+100🎟️
-2️⃣🥈: 800.000🧭+50🔷+🎁+50🎟️
-3️⃣🥉: 600.000🧭+20🔷+🎁+20🎟️
-
-*🥈ELITES🏆*
-1️⃣🥇: 800.000🧭+50🔷+🎁+50🎟️
-2️⃣🥈: 600.000🧭+25🔷+🎁+20🎟️
-3️⃣🥉: 400.000🧭+10🔷+10🎟️
-
-*🥉NOVICES🏆*
-1️⃣🥇: 600.000🧭+20🔷+🎁+20🎟️
-2️⃣🥈: 400.000🧭+10🔷+10🎟️
-3️⃣🥉: 200.000🧭
-
-*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗺𝗮𝗶𝗻𝗲🎁🎊*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Weekly, TOW💙, #Team of the week:
-🔹 *Week player*: 200.000🧭+5🔷+2🎟️
-🔹 *TOP 3*: 100.000🧭 +2🔷+1🎟️
-⚠️Pour y figurer vous devez avoir minimum 3 victoires la semaine et 5 matchs.`;
+            const lien = 'https://telegra.ph/file/dc6eac838589d174cad0e.jpg';
+            const msg = '';
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
-   
         }
     }
 );
@@ -108,82 +57,31 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0) {
-            const lien = 'https://telegra.ph/file/996dd76bb9d55157c0fb3.jpg';
-            const msg = `*🔷𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗲𝘀 𝗧𝗼𝘂𝗿𝗻𝗼𝗶𝘀🏆🎁*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Les Récompenses sont alléchantes pendant les tournois sont alléchantes, nous avons deux tournois majeurs dans la saison NEO🏆,le *NEO TOUR EVO* et le *GRAND SLAM🏆*, 8 à 16 participants max. 
-🎖️ *WIN*: 1.000.000🧭+50🔷+🎁🥈+20🎟️
-
-*🏆Super Champions(SCC)CUP🏆*:
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-c'est une super finale entre le MNVP de la saison régulière et le champion du tournoi *NEO TOUR EVO💠*, *GRAND SLAM🏆*. 
-🎖️ *WIN*: 500.000🧭+30🔷+🎁🥈+20🎟️
-
-*🛡️𝗜𝗻𝘁𝗲𝗿𝗱𝗶𝘃𝗶𝘀𝗶𝗼𝗻𝘀 𝗖𝘂𝗽🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Les divisions s'affrontent en alignant leurs joueurs pour représenter la Division. Seulement 3 joueurs max, les combats se font en 1 vs 1 pour un total de 2 victoires, si une division gagne déjà 2-0 c'est un *Swipe* qualifiée pour le tour suivant mais si 1-1, un 3e match.
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
- ⚠️Selon le règlement des tournois s'inscrire à un tournoi puis ne pas se présenter équivaut à une amende de -500.000🧭 -25🔷 et -20🎟️`;
+            const lien = 'https://telegra.ph/file/48b4a8a540d5086d912ba.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
     }
 );
 
-/*zokou(
+zokou(
     {
-        nomCom: 'neo',
+        nomCom: 'neorpgoldenawards',   
         categorie: 'NEOverse'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
 
-        if (arg[0] ==='Golden' && arg[1] === 'awards 💫')  {
-            const lien = 'https://telegra.ph/file/da23e9bad5a273dfafb21.mp4';
-            const msg = `🔶𝗡Ξ𝗢💫𝗚𝗼𝗹𝗱𝗲𝗻 𝗔𝗪𝗔𝗥𝗗𝗦
-░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Les Awards de NEO se reposent à 80% sur les performances des joueurs que sur l'opinion de la communauté pour éviter les fraudes, car NEO a remarqué que il y'avait énormément de triches dans les Récompenses des communautés avec des joueurs qui allaient démander à leurs amis de Spamer les votes pour eux ce qui a fait gagner beaucoup de personnes Incompétentes des Prix au détriment des personnes réellement talentueuses c'est pas le cas de Neo qui révolutionne cela. *⚠️Vous pouvez donc oublier les prix par Relations où affinités, les Awards de NEOverse sont basés sur des faits observés et justifiés au cours de la saison et la logique.*
-
-💫 *𝗧𝗵𝗲 𝗕𝗘𝗦𝗧🏆*
-▔▔▔▔▔▔▔▔▔▔
-Le Prix récompensant le meilleur joueur NEO sur la saison parmis les 3 MNVP:
-🔸Critère pour gagner:
-*⭐Être le meilleur des 3 MNVP*
-
-💫 *𝗟𝗲 𝗟𝗮𝘂𝗿𝗲𝗮𝘁 𝗱𝘂 𝗦𝗜𝗚𝗠𝗔🗿*
-▔▔▔▔▔▔▔▔▔▔▔▔
-Prix d'honneur, le lauréat du joueur le plus marquant, inspirant, le model de la saison avec un système de sandage avec vote justifié, 9 joueurs Nominés parmis les *TOS🌟* et 10 votants désignés:
-⭐ Votes de la NSL: *90%*
-⭐ Performances de la saison: *10%*
-
-💫 *𝗣𝗿𝗶𝘅 𝗡Ξ𝗢🏆*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Statuettes de Prix récompensant les meilleurs NEO players selon les critères de sélection de l'institution par comparaison:
-
-*💠Elysium ONE* (Meilleur joueur MA Elysium) 
-*🏆Sports Gamer*: (Meilleur joueur UF et NBA) 
-*⭐Potentiel* (Saison du meilleur Rookie en Pro) 
-*🔥Hyper actif* (Joueur le plus actif NEOverse) 
-*🫱🏽‍🫲🏻Fair-play* (joueur le plus fair-play) 
-*🍿Spectacle* (joueur avec les plus beaux combats) 
-*⚠️Beauté des pavés, Combats, immersion.* 
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🏆The BEST*: 1M🧭+20🎟️+50🔹+🎁🥈
-*🗿Sigma*: 1M🧭+20🎟️+50🔹+🎁🥈
-*🏆Prix 𝗡Ξ𝗢*: 300k🧭+10🎟️+10🔷+🎁🥉
-*⚠️Pas de récompense si vous participez pas aux votes et à l'événement*
-
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-               🔶𝗡Ξ𝗢💫GOLDEN AWARDS`;
+        if (!arg || arg.length === 0) {
+            const lien = 'https://telegra.ph/file/d2eba04f75778d8066179.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
     }
 );
-*/
+
 zokou(
     {
         nomCom: 'saison',
@@ -525,42 +423,8 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/276dc43753f6a641363ff.jpg';
-            const msg = `*𝗥𝗔𝗡𝗞𝗜𝗡𝗚🔰 𝗡𝗘𝗢🔷➕*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *Awards*: 5💫
-🔹 *TOS🌟*: 5🏆
-🔹 *Trophées*: 5🏆
-🔹 *Nombre de victoires*: 100✅
-🔹 *Récompenses*: 2.000.000🧭+🎁+50🔷
-🥇 *HOF 🌠* :  GRADE S+ ⭐⭐⭐⭐⭐
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *Awards*: 3💫
-🔹 *TOS🌟*: 3🏆
-🔹 *Trophées*: 3🏆
-🔹 *Nombre de victoires*: 80✅ 
-🔹 *Récompenses*: 1.000.000🧭+🎁+40🔷
-🥇 *LEGENDE✨* : GRADE S ⭐⭐⭐⭐
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *Nombre de victoires*: 60✅ 
-🔹 *Récompenses*: 600.000🧭+🎁+30🔷
-🥈 *SUPERSTAR💫* : GRADE A ⭐⭐⭐
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *Nombre de victoires*: 40✅
-🔹 *Récompenses*: 400.000🧭+20🔷
-🥈 *RISING STAR🌟* : GRADE B ⭐⭐
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔹 *Nombre de victoires*: 20✅
-🔹 *Récompenses*: 200.000🧭+10🔷
-🥉 *STAR⭐* : GRADE C
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                          🔷𝗡Ξ𝗢🔝`;
+            const lien = 'https://telegra.ph/file/513f3e586c6c78da11fff.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -576,36 +440,8 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/81b96c35da78c1ebe8b9e.jpg';
-            const msg = `▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                  *🔴🟠𝗧𝗥𝗔𝗗𝗘🔵🟢*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷Afin de maintenir l'équilibre entre le nombre de joueurs dans les Divisions, désormais il n'y aura plus de transferts mais uniquement des TRADES. Donc maintenant si vous voulez acheter un joueur d'une autre division vous devez faire un échange équivalent selon ce que l'autre division accepte comme Conditions. 
-
-Donc si vous échanger un joueur vous devez payer aussi des indemnités à la division en question:
-*Joueur TOS🌟*: 2.000.000🧭
-*Joueur Legends🥇*: 1.000.000🧭
-*Joueur Élites🥈*: 500.000🧭 
-*Joueur Novices🥉*: 250.000🧭
-⚠️Vous pouvez échanger jusqu'à 2 joueurs pour faire une balance équivalente. 
-
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-               *🔴🟠𝗧𝗢𝗣 𝗗𝗜𝗩𝗜𝗦𝗜𝗢𝗡𝗦🔵🟢*
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-Il n'est plus possible pour un joueur d'utiliser ses ressources pour contribuer dans les finances d'une division. Les vont désormais recevoir des l'argent de la ligue NSL. Les divisions gagnent des points pour les le TOP DIVISIONS RANKING:
-*🏆Joueur TOW:* +10pts⬆️ + 50.000 G🧭
-*🏆Jouer  TOS*: +30 pts⬆️ + 100.000 G🧭
-*🏆Trophée joueur*: + 50 pts⬆️ + 300.000 G🧭
-🏆 *interdivisions*: +100 pts⬆️ + 500.000 G🧭. 
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-*🥇1st:* + 2.000.000 G🧭
-*🥈2nd:*+ 1.000.000 G🧭
-*🥉3rd:*+ 500.000 G🧭
-*🏵️4th:*+ 250.000 G🧭
-Les fonds G🧭 peuvent être utilisés pour renforcer les joueurs de la division avec des Cards de combat pour ALL STARS uniquement. 
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                                      🔷𝗡Ξ𝗢🔝`;
+            const lien = 'https://telegra.ph/file/b079839567a940a4fa7d1.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -651,24 +487,8 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/de20465fc86e1cc9c4341.jpg';
-            const msg = `*🥳ÉVÉNEMENTS NEO🎊🪄🎁*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-NEOverse a au total 2 Événements où festivals notables que nous célébrons... C'est le moment parfait pour obtenir des récompenses spéciales🎉😄. 
-
-*🌟💙NEOVersary🎉🎆🎊*
-C'est le festival de l'anniversaire de NEOverse avec pour jour iconique le *NEO FRIDAY* car le vendredi est un jour spécial pour NEOverse vu que la communauté est née un vendredi. 🎊Ce Festival debute deux fois la saison et dure du Vendredi à Dimanche lorsque nous atteignons *5️⃣0️⃣* et *1️⃣0️⃣0️⃣* matchs classés la saison. 
-
-😄🎊: Pendant le NEOversary:
- 🔷🛒Tous les articles à la boutique sont en promotion de -30%🥳 de réduction sur le prix pour les joueurs à 5 matchs minimum. 
-🔷Les joueurs à 5 matchs+ minimum reçoivent une box🎁 Gratuite. 
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-L'autre événement majeur c'est les NEO GOLDEN AWARDS💫, chaques 26-28 du mois, mais il y'a aussi le QUIZZ FESTIVAL❓🥳. Un mini tournois de 8 participants qui s'affrontent en éliminations directes sur deux manches le premier à 2-0 passe au tour suivant. La récompense finale est de 500.000🧭 et +30 NC🔷. 
-
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                                
-                                *🔷NEO🔝*`;
+            const lien = 'https://telegra.ph/file/532190fb0d8410903a80d.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -689,10 +509,10 @@ zokou(
             const msg = `*🆚𝗩𝗘𝗥𝗦𝗨𝗦 𝗔𝗥𝗘𝗡𝗔 𝗕𝗔𝗧𝗧𝗟𝗘🏆🎮*       
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷   *Joueur 1*:hakuji
+🔷   *Joueur 1*:
  🫀:100%  🌀:100% ❤️:100%            
                                    ~  *🆚*  ~
-🔷  *Joueur 2*: Aether 🫀:100%  🌀:100% ❤️:100%:.                            
+🔷  *Joueur 2*:  🫀:100%  🌀:100% ❤️:100%:.                            
  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
  *🌍𝐀𝐫𝐞̀𝐧𝐞*: 
  *🚫𝐇𝐚𝐧𝐝𝐢𝐜𝐚𝐩𝐞*: Boost 1 fois chaques 2 tours! 
