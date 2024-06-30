@@ -26,7 +26,7 @@ RUN npm install pm2 -g
 COPY . .
 
 # Exposer le port utilisé par l'application
-EXPOSE 8000
+EXPOSE 8080
 
 # Démarrer l'application avec PM2
 CMD ["npm","run","neoverse"]
