@@ -20,7 +20,7 @@ WORKDIR /root/neobot
 COPY package.json . 
 RUN npm install -g npm@10.2.4
 RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
+#RUN npm install --legacy-peer-deps
 
 # Copier le reste des fichiers de l'application
 COPY . .
