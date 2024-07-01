@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm","neoverse"]
+CMD ["npm","run","neoverse"]
