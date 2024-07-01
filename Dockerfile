@@ -19,7 +19,6 @@ WORKDIR /root/neobot
 
 # Copier les fichiers package.json et package-lock.json
 COPY package.json .
-COPY package-lock.json .
 
 # Installer la version spécifiée de npm et les dépendances du projet
 RUN npm install -g npm@10.2.4
