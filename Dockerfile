@@ -22,7 +22,7 @@ COPY package.json .
 
 # Installer la version spécifiée de npm et les dépendances du projet
 RUN npm install -g npm@10.2.4
-RUN npm install --legacy-peer-deps
+#RUN npm install --legacy-peer-deps
 
 # Copier le reste des fichiers du projet
 COPY . .
