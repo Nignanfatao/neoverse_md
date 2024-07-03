@@ -1,14 +1,13 @@
 {
   "name": "neoverse_md",
   "version": "3.0.0",
-  "description": "A WhatsApp bot built with Baileys",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node index.js",
-    "neoverse": "pm2 start index.js --attach --max-memory-restart 490M",
-    "c": "tsc",
-    "start": "node index.js"  // Ajoutez ce script pour démarrer l'application en production
+    "start": "pm2 start index.js --attach --max-memory-restart 490M",
+    "c": "tsc"
   },
   "keywords": [
     "bot1",
@@ -46,7 +45,7 @@
     "google-tts-api": "latest",
     "heroku-client": "^3.1.0",
     "human-readable": "^0.2.1",
-    "jimp": "^0.16.13",  // Mise à jour pour éviter le conflit de dépendances
+    "jimp": "^0.22.10",
     "latest": "^0.2.0",
     "link-preview-js": "^3.0.4",
     "moment-timezone": "^0.5.43",
@@ -68,8 +67,5 @@
     "youtubedl-core": "^4.11.7",
     "yt-search": "^2.10.4",
     "ytdl-core": "^4.10.0"
-  },
-  "engines": {
-    "node": "20.x"  // Spécifiez la version de Node.js requise
   }
 }
