@@ -380,34 +380,8 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            const lien = 'https://telegra.ph/file/ea19c9f1fe0a7ae1b73fb.jpg';
-            const msg = `*🔷CALENDRIER📅*
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🔷Nous évoluons avec des saisons altérées mixtes ! Donc si c'est la saison UF nous aurons que des matchs UF ect... Et si il y'a tournois, pas de Élysium le week-end. 
-
-
-🔹 *Lundi*: versus🆚⚽🏀/🎙️
-🔹 *Mardi*: versus🆚⚽🏀/Élysium💠
-🔹 *Mercredi*: Versus🆚/⚽🏀
-🔹 *Jeudi*: versus🆚⚽🏀/Élysium💠/🎙️
-░░░░░░░░░░░░░░░░░░░
-
-🔹 *Vendredi*: Versus🆚/⚽🏀/🏆/🎉
-🔹 *Samedi*: Versus🆚⚽🏀/Élysium💠/🏆
-🔹 *Dimanche*: versus🆚⚽🏀/Élysium💠/🏆
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-🆚 *Versus All stars*: Duels 
-🚫 *🎙️Media Day*: Événements Communauté
-💠 *Episode D'elysium* : de 19h UTC+1 à 22h max
-⚽ *UF Match Day*: journée de Matchs, UEFA 
-🏀 *NBA Matchs*: journée de saison NBA
-🏆 *Tournois*: Jours des tournois
-*🎉NEOversary Friday*: Jours de festival 
-░░░░░░░░░░░░░░░░░░░
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-                    🔷𝗡Ξ𝗢🔝`;
+            const lien = 'https://telegra.ph/file/d565291e5dd411e2bec15.jpg';
+            const msg = ``;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
@@ -430,6 +404,63 @@ zokou(
         }
     }
 );
+
+
+zokou(
+    {
+        nomCom: 'gamepass',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/04aa2cc80308f7ea976ca.jpg';
+            const msg = ``;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'guides',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const liena = 'https://telegra.ph/file/21afcaa63ab4ef27d4aaa.jpg';
+            const lienb = 'https://telegra.ph/file/7125a5c72b63f22b35bdd.jpg';
+            const lienc = 'https://telegra.ph/file/0207f9309e3d708b2d0d7.jpg';
+            const msg = ``;
+            zk.sendMessage(dest, { image: { url: liena }, caption: msg }, { quoted: ms });
+            zk.sendMessage(dest, { image: { url: lienb }, caption: msg }, { quoted: ms });
+            zk.sendMessage(dest, { image: { url: lienc }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+zokou(
+    {
+        nomCom: 'allstars',
+        categorie: 'NEOverse'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/ff6043eb05b582bac93fb.jpg';
+            const msg = ``;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
 
 zokou(
     {
