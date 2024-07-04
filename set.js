@@ -22,7 +22,7 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
     GPT : process.env.GPT,
-    DP : process.env.STARTING_BOT_MESSAGE || 'oui',
+    DP : process.env.STARTING_BOT_MESSAGE || 'non',
     ATD : process.env.ANTI_DELETE_MESSAGE || 'non',            
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
