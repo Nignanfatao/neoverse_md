@@ -87,7 +87,7 @@ async function insertData1() {
     client.release();
   }
 }
-  insertData1()
+  //insertData1()
 async function recupevents(jid, row) {
      const client = await pool.connect()
     try {
