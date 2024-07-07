@@ -1160,7 +1160,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/63ccec4a92ecc2839f
     }
   });
 
-
+/*
 zokou(
   {
     nomCom: 'centralyuki👤',
@@ -1288,7 +1288,7 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/2272e17d85e096f136
       console.error("Erreur lors de la mise à jour des données de l'utilisateur:", error);
     }
   });
-
+*/
 
 zokou(
   {
