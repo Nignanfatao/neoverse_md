@@ -73,12 +73,12 @@ async function insertData1() {
     client.release();
   }
 }
-insertData1()
+//insertData1()
 // Fonction pour insérer des données
 async function insertData() {
   const client = await pool.connect();
   try {
-    for (let i = 1; i <= 12; i++) {
+    for (let i = 1; i <= 50; i++) {
       const query = `
         INSERT INTO northdiv(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22)
@@ -116,7 +116,7 @@ async function getData(ide) {
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
 createNorthDivTable();
-//insertData();
+insertData();
 
 module.exports = {
   createNorthDivTable,
