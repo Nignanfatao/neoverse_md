@@ -1831,7 +1831,7 @@ zokou(
     const { ms, repondre, arg, superUser } = commandeOptions;
 
     try {
-      const data = await getData('10');
+      const data = await getData('14');
       let joueur = arg[1];
       let object = arg[3];
       let signe = arg[4];
