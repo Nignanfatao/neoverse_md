@@ -44,7 +44,7 @@ zokou(
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
     *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a269f7d590f0e1611f193.jpg' }, caption: mesg }, { quoted: ms });
+zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/de9d7717ef9ef7c62a846.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
       //  const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
