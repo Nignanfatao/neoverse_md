@@ -32,9 +32,8 @@ const dbUrl = s.DB;
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -160,9 +159,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -288,9 +286,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -416,9 +413,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -544,9 +540,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -672,9 +667,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -800,9 +794,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -928,9 +921,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1056,9 +1048,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1185,9 +1176,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1313,9 +1303,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
