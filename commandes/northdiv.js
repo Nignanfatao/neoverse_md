@@ -32,9 +32,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -160,9 +159,8 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a269f7d590f0e1611f
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -288,9 +286,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -416,9 +413,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -428,8 +424,8 @@ zokou(
 *🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-    *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`;
-zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/56f8a1ed8a2390a5debf6.jpg' }, caption: mesg }, { quoted: ms });
+    *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`: 
+    zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/56f8a1ed8a2390a5debf6.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
         //const dbUrl = "postgres://fatao:Kuz6KQRpz3S1swoTQTv1WOG8SPfSCppB@dpg-cmnlnkol5elc738lrj2g-a.oregon-postgres.render.com/cy";
@@ -544,9 +540,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -672,9 +667,8 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/473bd0c7659ce1b082
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -800,9 +794,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -928,9 +921,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1052,9 +1044,8 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/1d119ca4b803209e84
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1209,9 +1200,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1337,9 +1327,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1465,9 +1454,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1593,9 +1581,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1721,9 +1708,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
@@ -1849,9 +1835,8 @@ zokou(
 ◇ *Coupons🎟*: ${data.e8}🎟
 ◇ *NΞO PASS🔸*: ${data.e9}🔸 
 *❯❯▓▓▓▓▓▓▓▓▓▓▓▓▓▓*
- **🧠Talent Qi: ${data.e10}⭐* 
-*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                             
-*👊🏻Close combat*: ${data.e20}     *🌀Attaques*: ${data.e21}
+ *Points de talent: ${data.e10}⭐* 
+*✅Clean games*:  ${data.e18}  *❌Mauvais PA:* ${data.e19}                        
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 *✭Records*: ${data.e12} Victoires✅/ ${data.e13} Défaites❌
