@@ -424,7 +424,7 @@ zokou(
 *🎴Cards*: ${data.e17} 
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-    *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`: 
+    *🔷𝗡Ξ𝗢 SUPERLEAGUE🏆🔝*`; 
     zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/56f8a1ed8a2390a5debf6.jpg' }, caption: mesg }, { quoted: ms });
        } else {
         if (superUser) { 
