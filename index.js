@@ -53,17 +53,6 @@
     var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
     const prefixe = conf.PREFIXE;
 
-const express = require('express');
-const app = express();
-const port = process.env.PORT;
-
-app.get('/', (req, res) => {
-  res.send('Salut bienvenue chez Zokou');
-});
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
-});
-
  async function authentification() {
         try {
             
@@ -1075,6 +1064,52 @@ app.listen(port, () => {
         });
         main();
     }, 5000);
+
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000; // Assurez-vous d'ajouter cette ligne pour définir le port
+
+app.get('/', (req, res) => {
+  res.send(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thanks for using Zokou</title>
+        <style>
+            /* Styles pour centrer le texte */
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+            .content {
+                text-align: center;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Merci d'avoir choisi Zokou</h1>
+        </div>
+    </body>
+    </html>
+  `);
+});
+
+app.listen(port, () => {
+  console.log("Listening on port: " + port);
+});
+
       
 
 
