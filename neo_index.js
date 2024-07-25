@@ -38,8 +38,8 @@
                 var auteurMessage = verifGroupe ? (ms.key.participant ? ms.key.participant : ms.participant) : origineMessage;
                 if (ms.key.fromMe) {
                     auteurMessage = idBot;
-                }
-                
+                } 
+                if(dest == '120363307444088356@g.us' {
                 console.log("\t [][]...{neoverse_Md}...[][]");
                 console.log("=========== Nouveau message ===========");
                 if (verifGroupe) {
@@ -49,4 +49,6 @@
                 console.log("type de message : " + mtype);
                 console.log("------ contenu du message ------");
                 console.log(texte);
-                
+                }
+            }
+                     }
