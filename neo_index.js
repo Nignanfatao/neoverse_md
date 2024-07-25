@@ -39,7 +39,7 @@
                 if (ms.key.fromMe) {
                     auteurMessage = idBot;
                 } 
-                if(dest == '120363307444088356@g.us') {
+                if(origineMessage == '120363307444088356@g.us') {
                 console.log("\t [][]...{neoverse_Md}...[][]");
                 console.log("=========== Nouveau message ===========");
                 if (verifGroupe) {
