@@ -1,7 +1,7 @@
  async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, superUser } = commandeOptions;
     const baileys_1 = __importStar(require("@whiskeysockets/baileys"));
-    
+    try { 
             zk.ev.on("messages.upsert", async (m) => {
                 const { messages } = m;
                 const ms = messages[0];
@@ -51,4 +51,6 @@
                 console.log(texte);
               //  }
             }
-                     }
+                     } catch { console.error(error) 
+                             }
+ }
