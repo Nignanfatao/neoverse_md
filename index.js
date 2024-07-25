@@ -129,11 +129,11 @@
                         return jid;
                 };
                 var mtype = (0, baileys_1.getContentType)(ms.message);
-                var texte = mtype == "conversation" ? ms.message.conversation : mtype == "imageMessage" ? ms.message.imageMessage?.caption : mtype == "videoMessage" ? ms.message.videoMessage?.caption : mtype == "extendedTextMessage" ? ms.message?.extendedTextMessage?.text : mtype == "buttonsResponseMessage" ?
+                const texte = mtype == "conversation" ? ms.message.conversation : mtype == "imageMessage" ? ms.message.imageMessage?.caption : mtype == "videoMessage" ? ms.message.videoMessage?.caption : mtype == "extendedTextMessage" ? ms.message?.extendedTextMessage?.text : mtype == "buttonsResponseMessage" ?
                     ms?.message?.buttonsResponseMessage?.selectedButtonId : mtype == "listResponseMessage" ?
                     ms.message?.listResponseMessage?.singleSelectReply?.selectedRowId : mtype == "messageContextInfo" ?
                     (ms?.message?.buttonsResponseMessage?.selectedButtonId || ms.message?.listResponseMessage?.singleSelectReply?.selectedRowId || ms.text) : "";
-                var origineMessage = ms.key.remoteJid;
+                const origineMessage = ms.key.remoteJid;
                 var idBot = decodeJid(zk.user.id);
                 var servBot = idBot.split('@')[0];
                 /* const dj='22559763447';
