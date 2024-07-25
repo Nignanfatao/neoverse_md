@@ -52,7 +52,7 @@ async (dest, zk, commandeOptions) => {
             }
 
             // Vérifiez si le message provient du groupe spécifique
-            if (origineMessage === '120363307444088356@g.us') {
+           // if (origineMessage === '120363307444088356@g.us') {
                 console.log("\t [][]...{neoverse_Md}...[][]");
                 console.log("=========== Nouveau message ===========");
                 if (verifGroupe) {
@@ -62,7 +62,7 @@ async (dest, zk, commandeOptions) => {
                 console.log("Type de message : " + mtype);
                 console.log("------ Contenu du message ------");
                 console.log(texte);
-            }
+            
         });
     } catch (error) {
         console.error("Une erreur est survenue :", error);
