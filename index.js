@@ -212,7 +212,7 @@
                 const arg = texte ? texte.trim().split(/ +/).slice(1) : null;
                 const verifCom = texte ? texte.startsWith(prefixe) : false;
                 const com = verifCom ? texte.slice(1).trim().split(/ +/).shift().toLowerCase() : false;
-               
+               const tes = 'salut';
                const liens = conf.URL.split(',');
     
     function mybotpic() {
@@ -245,6 +245,7 @@
                     auteurMsgRepondu,
                     ms,
                     texte, 
+                    tes, 
                     origineMessage, 
                     mybotpic
                 
