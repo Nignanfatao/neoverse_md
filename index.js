@@ -245,6 +245,7 @@
                     auteurMsgRepondu,
                     ms,
                     texte, 
+                    origineMessage, 
                     mybotpic
                 
                 };
