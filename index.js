@@ -170,7 +170,7 @@
                 
                 var dev = [dj, dj2,dj3,dj4,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
                 function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-                console.log("\t [][]...{Zokou-Md}...[][]");
+             /* console.log("\t [][]...{Zokou-Md}...[][]");
                 console.log("=========== Nouveau message ===========");
                 if (verifGroupe) {
                     console.log("message provenant du groupe : " + nomGroupe);
@@ -178,7 +178,7 @@
                 console.log("message envoyé par : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
                 console.log("type de message : " + mtype);
                 console.log("------ contenu du message ------");
-                console.log(texte);
+                console.log(texte);*/
                 /**  */
                 function groupeAdmin(membreGroupe) {
                     let admin = [];
