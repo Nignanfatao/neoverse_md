@@ -244,8 +244,7 @@
                     msgRepondu,
                     auteurMsgRepondu,
                     ms,
-                    texte, 
-                    tes, 
+                    texte,
                     origineMessage, 
                     mybotpic
                 
@@ -1115,8 +1114,10 @@ app.listen(port, () => {
 
       
 
-
-
+module.exports = { dest,
+                 zk,
+                 commandeOptions
+                 };
 
 
    
