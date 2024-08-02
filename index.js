@@ -1114,7 +1114,7 @@ app.listen(port, () => {
 
       
 
-module.exports = { dest,
+module.exports = { origineMessage,
                  zk,
                  commandeOptions
                  };
