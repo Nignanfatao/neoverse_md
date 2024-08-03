@@ -27,6 +27,7 @@
     };
     Object.defineProperty(exports, "__esModule", { value: true });
     const baileys_1 = __importStar(require("@whiskeysockets/baileys"));
+    const makeCacheableSignalKeyStore = require("@whiskeysockets/baileys");
     const logger_1 = __importDefault(require("@whiskeysockets/baileys/lib/Utils/logger"));
     const logger = logger_1.default.child({});
     logger.level = 'silent';
@@ -95,10 +96,10 @@
                 markOnlineOnConnect: false,
                 keepAliveIntervalMs: 30_000,
                 /* auth: state*/ auth: {
-                    creds: state.creds,
-                    /** caching makes the store faster to send/recv messages */
-                    keys: (0, baileys_1.makeCacheableSignalKeyStore)(state.keys, logger),
-                },
+                    
+                creds: state.creds,
+            keys: makeCacheableSignalKeyStore(state.keys, pino({ level: 'silent' })),
+        },
                 //////////
                 getMessage: async (key) => {
                     if (store) {
