@@ -1,4 +1,4 @@
-const { origineMessage, zk, commandeOptions } = require('/index');
+const { origineMessage, zk, commandeOptions } = require('./index');
 
 const { repondre, ms, arg, texte } = commandeOptions;
 
