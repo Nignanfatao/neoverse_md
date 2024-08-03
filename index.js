@@ -52,9 +52,9 @@
     let { reagir } = require(__dirname + "/framework/app");
     var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
     const prefixe = conf.PREFIXE;
-    const zk;
-    const commandeOptions;
-    const origineMessage;
+    let zk;
+    let commandeOptions;
+    let origineMessage;
 
  async function authentification() {
         try {
