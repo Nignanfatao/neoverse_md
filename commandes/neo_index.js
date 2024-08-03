@@ -1,4 +1,5 @@
-const { origineMessage, zk, commandeOptions } = require('./index');
+const path = require('path');
+const { origineMessage, zk, commandeOptions } = require(path.join(__dirname, 'index'));
 
 const { repondre, ms, arg, texte } = commandeOptions;
 
