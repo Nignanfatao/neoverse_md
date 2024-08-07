@@ -52,9 +52,6 @@
     let { reagir } = require(__dirname + "/framework/app");
     var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
     const prefixe = conf.PREFIXE;
-    let zk;
-    let commandeOptions;
-    let origineMessage;
 
  async function authentification() {
         try {
@@ -111,7 +108,7 @@
                 }
                 ///////
             };
-             zk = (0, baileys_1.default)(sockOptions);
+            let zk = (0, baileys_1.default)(sockOptions);
             store.bind(zk.ev);
             setInterval(() => { store.writeToFile(__dirname + "/store.json");  }, 3000);
            
@@ -136,7 +133,7 @@
                     ms?.message?.buttonsResponseMessage?.selectedButtonId : mtype == "listResponseMessage" ?
                     ms.message?.listResponseMessage?.singleSelectReply?.selectedRowId : mtype == "messageContextInfo" ?
                     (ms?.message?.buttonsResponseMessage?.selectedButtonId || ms.message?.listResponseMessage?.singleSelectReply?.selectedRowId || ms.text) : "";
-                origineMessage = ms.key.remoteJid;
+                var origineMessage = ms.key.remoteJid;
                 var idBot = decodeJid(zk.user.id);
                 var servBot = idBot.split('@')[0];
                 /* const dj='22559763447';
@@ -227,9 +224,9 @@
     }
                
                 
-                commandeOptions = {
+               var commandeOptions = {
                     superUser, dev,
-                    verifGroupe,
+                   verifGroupe,
                     mbre,
                     membreGroupe,
                     verifAdmin,
